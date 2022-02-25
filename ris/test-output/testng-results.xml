@@ -1,0 +1,2268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="26" total="72" passed="46">
+  <reporter-output>
+    <line>
+      <![CDATA[Test started: openRis]]>
+    </line>
+    <line>
+      <![CDATA[Passed: openRis]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchWithDateNegativeTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: searchWithDateNegativeTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchWithServiceCategoryServiceDateTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: searchWithServiceCategoryServiceDateTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchResultsTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: searchResultsTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: itemsPerPageTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: itemsPerPageTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchOnTableTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: searchOnTableTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: inputRoomScheduledateTime]]>
+    </line>
+    <line>
+      <![CDATA[Passed: inputRoomScheduledateTime]]>
+    </line>
+    <line>
+      <![CDATA[Test started: scheduleButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: scheduleButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: openMainMenuTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: openMainMenuTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: openImageCaptureAndConfirmationTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: openImageCaptureAndConfirmationTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchWithDateTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: searchWithDateTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchWithServiceCategoryServiceAndDateTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: searchWithServiceCategoryServiceAndDateTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: itemsPerPageTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: itemsPerPageTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: SearchOnTableAndConfirmationTableDataTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: SearchOnTableAndConfirmationTableDataTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: inputStudyNumberTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: inputStudyNumberTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: confirmButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: confirmButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: openReportCreationTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: openReportCreationTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: showLastThreeDaysDataDefaultDateSearchTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: showLastThreeDaysDataDefaultDateSearchTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchWithServiceCategoryServiceStudyNumberRegIdDateTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: searchWithServiceCategoryServiceStudyNumberRegIdDateTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchOnCreateReportTableAndDataTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: searchOnCreateReportTableAndDataTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: createButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: createButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: reportCreationPageDataTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: reportCreationPageDataTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: reportCreationPageNegativeTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: reportCreationPageNegativeTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: reportCreationPageSelectTemplateTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: reportCreationPageSelectTemplateTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: reportCreationPageCreatedByTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: reportCreationPageCreatedByTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: reportCreationPageSaveButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: reportCreationPageSaveButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: clickUpdateReportButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: clickUpdateReportButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: defaultViewTableDataTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: defaultViewTableDataTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: itemsPerPageTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: itemsPerPageTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchWithServiceCategoryServiceStudyNumberRegIdDateTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: searchWithServiceCategoryServiceStudyNumberRegIdDateTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: updateButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: updateButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: updateReportAndUpdatebuttonTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: updateReportAndUpdatebuttonTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: openReportVerificationFromMenuTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: openReportVerificationFromMenuTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: defaultviewDateSearchTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: defaultviewDateSearchTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchOnVerifyReportTableTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: searchOnVerifyReportTableTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchWithServiceCategoryServiceStudyNumberRegIdTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: searchWithServiceCategoryServiceStudyNumberRegIdTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: verifyButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: verifyButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: reportVerificationPageDataTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: reportVerificationPageDataTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: verifiedByTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: verifiedByTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: verifyReportButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: verifyReportButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: openRis]]>
+    </line>
+    <line>
+      <![CDATA[Passed: openRis]]>
+    </line>
+    <line>
+      <![CDATA[Test started: openReportPrintTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: openReportPrintTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: defaultViewDateSearchTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: defaultViewDateSearchTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchWithServiceCategoryServiceStudyNumberRegIdTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: searchWithServiceCategoryServiceStudyNumberRegIdTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchOnPrintReportTableTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: searchOnPrintReportTableTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: viewReportButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: viewReportButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: printReportPageDataValidationTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: printReportPageDataValidationTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: printButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: printButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: openImagingMISTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: openImagingMISTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: defaultViewDateSearchTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: defaultViewDateSearchTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchWithServiceCategoryServiceServiceStatusRoomDateTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: searchWithServiceCategoryServiceServiceStatusRoomDateTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchOnMISTableTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: searchOnMISTableTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: validateMisReportDataTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: validateMisReportDataTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: printMISReportButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: printMISReportButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: openServiceRoomMappingTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: openServiceRoomMappingTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: defaultViewTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: defaultViewTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: addNewRoomButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: addNewRoomButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: addNewRoomTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: addNewRoomTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchRoomMappingTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: searchRoomMappingTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchOnServiceRoomMappingTableTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: searchOnServiceRoomMappingTableTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: validateMappingTableDataTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: validateMappingTableDataTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: updateButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: updateButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: updateMappingTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: updateMappingTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: validateUpdatedMappingTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: validateUpdatedMappingTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: openManageTemplateTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: openManageTemplateTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: defaultViewDataTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: defaultViewDataTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: AddReportTemplateButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: AddReportTemplateButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: AddReportTemplateTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: AddReportTemplateTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchTemplateTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: searchTemplateTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchOnAvailableTemplateTableTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: searchOnAvailableTemplateTableTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: uniqueTemplateNameTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: uniqueTemplateNameTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: updateTemplateTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: updateTemplateTest]]>
+    </line>
+  </reporter-output>
+  <suite name="RIS Functional suite" duration-ms="271919" started-at="2022-02-24T06:27:04Z" finished-at="2022-02-24T06:31:36Z">
+    <groups>
+    </groups>
+    <test name="RIS Application Tests" duration-ms="271919" started-at="2022-02-24T06:27:04Z" finished-at="2022-02-24T06:31:36Z">
+      <class name="risTestScripts.ReportCreationTests">
+        <test-method status="PASS" signature="openReportCreationTest()[pri:16, instance:risTestScripts.ReportCreationTests@47db50c5]" name="openReportCreationTest" duration-ms="1210" started-at="2022-02-24T11:58:31Z" finished-at="2022-02-24T11:58:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: openReportCreationTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openReportCreationTest -->
+        <test-method status="PASS" signature="showLastThreeDaysDataDefaultDateSearchTest()[pri:17, instance:risTestScripts.ReportCreationTests@47db50c5]" name="showLastThreeDaysDataDefaultDateSearchTest" duration-ms="4114" started-at="2022-02-24T11:58:32Z" finished-at="2022-02-24T11:58:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: showLastThreeDaysDataDefaultDateSearchTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- showLastThreeDaysDataDefaultDateSearchTest -->
+        <test-method status="PASS" signature="searchWithServiceCategoryServiceStudyNumberRegIdDateTest()[pri:18, instance:risTestScripts.ReportCreationTests@47db50c5]" name="searchWithServiceCategoryServiceStudyNumberRegIdDateTest" duration-ms="6139" started-at="2022-02-24T11:58:36Z" finished-at="2022-02-24T11:58:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: searchWithServiceCategoryServiceStudyNumberRegIdDateTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchWithServiceCategoryServiceStudyNumberRegIdDateTest -->
+        <test-method status="PASS" signature="searchOnCreateReportTableAndDataTest()[pri:19, instance:risTestScripts.ReportCreationTests@47db50c5]" name="searchOnCreateReportTableAndDataTest" duration-ms="6462" started-at="2022-02-24T11:58:42Z" finished-at="2022-02-24T11:58:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: searchOnCreateReportTableAndDataTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchOnCreateReportTableAndDataTest -->
+        <test-method status="PASS" signature="createButtonTest()[pri:20, instance:risTestScripts.ReportCreationTests@47db50c5]" name="createButtonTest" duration-ms="1382" started-at="2022-02-24T11:58:48Z" finished-at="2022-02-24T11:58:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: createButtonTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createButtonTest -->
+        <test-method status="PASS" signature="reportCreationPageDataTest()[pri:21, instance:risTestScripts.ReportCreationTests@47db50c5]" name="reportCreationPageDataTest" duration-ms="3364" started-at="2022-02-24T11:58:50Z" finished-at="2022-02-24T11:58:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: reportCreationPageDataTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reportCreationPageDataTest -->
+        <test-method status="PASS" signature="reportCreationPageNegativeTest()[pri:22, instance:risTestScripts.ReportCreationTests@47db50c5]" name="reportCreationPageNegativeTest" duration-ms="1087" started-at="2022-02-24T11:58:53Z" finished-at="2022-02-24T11:58:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: reportCreationPageNegativeTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reportCreationPageNegativeTest -->
+        <test-method status="PASS" signature="reportCreationPageSelectTemplateTest()[pri:23, instance:risTestScripts.ReportCreationTests@47db50c5]" name="reportCreationPageSelectTemplateTest" duration-ms="1296" started-at="2022-02-24T11:58:54Z" finished-at="2022-02-24T11:58:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: reportCreationPageSelectTemplateTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reportCreationPageSelectTemplateTest -->
+        <test-method status="PASS" signature="reportCreationPageCreatedByTest()[pri:24, instance:risTestScripts.ReportCreationTests@47db50c5]" name="reportCreationPageCreatedByTest" duration-ms="1376" started-at="2022-02-24T11:58:56Z" finished-at="2022-02-24T11:58:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: reportCreationPageCreatedByTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reportCreationPageCreatedByTest -->
+        <test-method status="PASS" signature="reportCreationPageSaveButtonTest()[pri:25, instance:risTestScripts.ReportCreationTests@47db50c5]" name="reportCreationPageSaveButtonTest" duration-ms="2239" started-at="2022-02-24T11:58:57Z" finished-at="2022-02-24T11:58:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: reportCreationPageSaveButtonTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reportCreationPageSaveButtonTest -->
+      </class> <!-- risTestScripts.ReportCreationTests -->
+      <class name="risTestScripts.ManageTemplateTests">
+        <test-method status="FAIL" signature="openManageTemplateTest()[pri:62, instance:risTestScripts.ManageTemplateTests@646007f4]" name="openManageTemplateTest" duration-ms="20" started-at="2022-02-24T12:01:27Z" finished-at="2022-02-24T12:01:27Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ManageTemplateTests.openManageTemplateTest(ManageTemplateTests.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: openManageTemplateTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openManageTemplateTest -->
+        <test-method status="FAIL" signature="defaultViewDataTest()[pri:63, instance:risTestScripts.ManageTemplateTests@646007f4]" name="defaultViewDataTest" duration-ms="2012" started-at="2022-02-24T12:01:27Z" finished-at="2022-02-24T12:01:29Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ManageTemplateTests.defaultViewDataTest(ManageTemplateTests.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: defaultViewDataTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- defaultViewDataTest -->
+        <test-method status="FAIL" signature="AddReportTemplateButtonTest()[pri:64, instance:risTestScripts.ManageTemplateTests@646007f4]" name="AddReportTemplateButtonTest" duration-ms="2" started-at="2022-02-24T12:01:29Z" finished-at="2022-02-24T12:01:29Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ManageTemplateTests.AddReportTemplateButtonTest(ManageTemplateTests.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: AddReportTemplateButtonTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddReportTemplateButtonTest -->
+        <test-method status="FAIL" signature="AddReportTemplateTest()[pri:65, instance:risTestScripts.ManageTemplateTests@646007f4]" name="AddReportTemplateTest" duration-ms="2016" started-at="2022-02-24T12:01:29Z" finished-at="2022-02-24T12:01:31Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ManageTemplateTests.AddReportTemplateTest(ManageTemplateTests.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: AddReportTemplateTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddReportTemplateTest -->
+        <test-method status="FAIL" signature="searchTemplateTest()[pri:66, instance:risTestScripts.ManageTemplateTests@646007f4]" name="searchTemplateTest" duration-ms="2017" started-at="2022-02-24T12:01:31Z" finished-at="2022-02-24T12:01:33Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ManageTemplateTests.searchTemplateTest(ManageTemplateTests.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: searchTemplateTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchTemplateTest -->
+        <test-method status="FAIL" signature="searchOnAvailableTemplateTableTest()[pri:67, instance:risTestScripts.ManageTemplateTests@646007f4]" name="searchOnAvailableTemplateTableTest" duration-ms="2016" started-at="2022-02-24T12:01:33Z" finished-at="2022-02-24T12:01:35Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ManageTemplateTests.searchOnAvailableTemplateTableTest(ManageTemplateTests.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: searchOnAvailableTemplateTableTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchOnAvailableTemplateTableTest -->
+        <test-method status="FAIL" signature="uniqueTemplateNameTest()[pri:68, instance:risTestScripts.ManageTemplateTests@646007f4]" name="uniqueTemplateNameTest" duration-ms="1017" started-at="2022-02-24T12:01:35Z" finished-at="2022-02-24T12:01:36Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ManageTemplateTests.uniqueTemplateNameTest(ManageTemplateTests.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: uniqueTemplateNameTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- uniqueTemplateNameTest -->
+        <test-method status="FAIL" signature="updateTemplateTest()[pri:69, instance:risTestScripts.ManageTemplateTests@646007f4]" name="updateTemplateTest" duration-ms="5" started-at="2022-02-24T12:01:36Z" finished-at="2022-02-24T12:01:36Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ManageTemplateTests.updateTemplateTest(ManageTemplateTests.java:160)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: updateTemplateTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- updateTemplateTest -->
+      </class> <!-- risTestScripts.ManageTemplateTests -->
+      <class name="risTestScripts.ScheduleTests">
+        <test-method status="PASS" signature="openRis()[pri:0, instance:risTestScripts.ScheduleTests@706a04ae]" name="openRis" duration-ms="37708" started-at="2022-02-24T11:57:04Z" finished-at="2022-02-24T11:57:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: openRis]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openRis -->
+        <test-method status="PASS" signature="searchWithDateNegativeTest()[pri:1, instance:risTestScripts.ScheduleTests@706a04ae]" name="searchWithDateNegativeTest" duration-ms="5243" started-at="2022-02-24T11:57:42Z" finished-at="2022-02-24T11:57:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: searchWithDateNegativeTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchWithDateNegativeTest -->
+        <test-method status="PASS" signature="searchWithServiceCategoryServiceDateTest()[pri:2, instance:risTestScripts.ScheduleTests@706a04ae]" name="searchWithServiceCategoryServiceDateTest" duration-ms="5710" started-at="2022-02-24T11:57:47Z" finished-at="2022-02-24T11:57:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: searchWithServiceCategoryServiceDateTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchWithServiceCategoryServiceDateTest -->
+        <test-method status="PASS" signature="searchResultsTest()[pri:3, instance:risTestScripts.ScheduleTests@706a04ae]" name="searchResultsTest" duration-ms="3104" started-at="2022-02-24T11:57:53Z" finished-at="2022-02-24T11:57:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: searchResultsTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchResultsTest -->
+        <test-method status="PASS" signature="itemsPerPageTest()[pri:4, instance:risTestScripts.ScheduleTests@706a04ae]" name="itemsPerPageTest" duration-ms="1109" started-at="2022-02-24T11:57:56Z" finished-at="2022-02-24T11:57:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: itemsPerPageTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- itemsPerPageTest -->
+        <test-method status="PASS" signature="searchOnTableTest()[pri:5, instance:risTestScripts.ScheduleTests@706a04ae]" name="searchOnTableTest" duration-ms="4526" started-at="2022-02-24T11:57:57Z" finished-at="2022-02-24T11:58:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: searchOnTableTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchOnTableTest -->
+        <test-method status="PASS" signature="inputRoomScheduledateTime()[pri:6, instance:risTestScripts.ScheduleTests@706a04ae]" name="inputRoomScheduledateTime" duration-ms="6634" started-at="2022-02-24T11:58:02Z" finished-at="2022-02-24T11:58:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: inputRoomScheduledateTime]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- inputRoomScheduledateTime -->
+        <test-method status="PASS" signature="scheduleButtonTest()[pri:7, instance:risTestScripts.ScheduleTests@706a04ae]" name="scheduleButtonTest" duration-ms="2310" started-at="2022-02-24T11:58:08Z" finished-at="2022-02-24T11:58:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: scheduleButtonTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scheduleButtonTest -->
+      </class> <!-- risTestScripts.ScheduleTests -->
+      <class name="risTestScripts.ConfirmationTests">
+        <test-method status="PASS" signature="openMainMenuTest()[pri:8, instance:risTestScripts.ConfirmationTests@67b467e9]" name="openMainMenuTest" duration-ms="4193" started-at="2022-02-24T11:58:10Z" finished-at="2022-02-24T11:58:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: openMainMenuTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openMainMenuTest -->
+        <test-method status="PASS" signature="openImageCaptureAndConfirmationTest()[pri:9, instance:risTestScripts.ConfirmationTests@67b467e9]" name="openImageCaptureAndConfirmationTest" duration-ms="2233" started-at="2022-02-24T11:58:15Z" finished-at="2022-02-24T11:58:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: openImageCaptureAndConfirmationTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openImageCaptureAndConfirmationTest -->
+        <test-method status="PASS" signature="searchWithDateTest()[pri:10, instance:risTestScripts.ConfirmationTests@67b467e9]" name="searchWithDateTest" duration-ms="4089" started-at="2022-02-24T11:58:17Z" finished-at="2022-02-24T11:58:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: searchWithDateTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchWithDateTest -->
+        <test-method status="FAIL" signature="searchWithServiceCategoryServiceAndDateTest()[pri:11, instance:risTestScripts.ConfirmationTests@67b467e9]" name="searchWithServiceCategoryServiceAndDateTest" duration-ms="256" started-at="2022-02-24T11:58:21Z" finished-at="2022-02-24T11:58:21Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with value: 8
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with value: 8
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at risTestScripts.ConfirmationTests.searchWithServiceCategoryServiceAndDateTest(ConfirmationTests.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: searchWithServiceCategoryServiceAndDateTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchWithServiceCategoryServiceAndDateTest -->
+        <test-method status="PASS" signature="itemsPerPageTest()[pri:12, instance:risTestScripts.ConfirmationTests@67b467e9]" name="itemsPerPageTest" duration-ms="2103" started-at="2022-02-24T11:58:21Z" finished-at="2022-02-24T11:58:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: itemsPerPageTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- itemsPerPageTest -->
+        <test-method status="PASS" signature="SearchOnTableAndConfirmationTableDataTest()[pri:13, instance:risTestScripts.ConfirmationTests@67b467e9]" name="SearchOnTableAndConfirmationTableDataTest" duration-ms="4607" started-at="2022-02-24T11:58:23Z" finished-at="2022-02-24T11:58:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: SearchOnTableAndConfirmationTableDataTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchOnTableAndConfirmationTableDataTest -->
+        <test-method status="PASS" signature="inputStudyNumberTest()[pri:14, instance:risTestScripts.ConfirmationTests@67b467e9]" name="inputStudyNumberTest" duration-ms="1266" started-at="2022-02-24T11:58:28Z" finished-at="2022-02-24T11:58:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: inputStudyNumberTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- inputStudyNumberTest -->
+        <test-method status="PASS" signature="confirmButtonTest()[pri:15, instance:risTestScripts.ConfirmationTests@67b467e9]" name="confirmButtonTest" duration-ms="1243" started-at="2022-02-24T11:58:29Z" finished-at="2022-02-24T11:58:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: confirmButtonTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- confirmButtonTest -->
+      </class> <!-- risTestScripts.ConfirmationTests -->
+      <class name="risTestScripts.ImagingMISTests">
+        <test-method status="PASS" signature="openImagingMISTest()[pri:46, instance:risTestScripts.ImagingMISTests@149494d8]" name="openImagingMISTest" duration-ms="2226" started-at="2022-02-24T12:00:48Z" finished-at="2022-02-24T12:00:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: openImagingMISTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openImagingMISTest -->
+        <test-method status="FAIL" signature="defaultViewDateSearchTest()[pri:47, instance:risTestScripts.ImagingMISTests@149494d8]" name="defaultViewDateSearchTest" duration-ms="3064" started-at="2022-02-24T12:00:50Z" finished-at="2022-02-24T12:00:53Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".mat\-paginator\-range\-label"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ad363a441ced543bf671c3dc04bc99d3
+*** Element info: {Using=class name, value=mat-paginator-range-label}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".mat\-paginator\-range\-label"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ad363a441ced543bf671c3dc04bc99d3
+*** Element info: {Using=class name, value=mat-paginator-range-label}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ImagingMISTests.defaultViewDateSearchTest(ImagingMISTests.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: defaultViewDateSearchTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- defaultViewDateSearchTest -->
+        <test-method status="PASS" signature="searchWithServiceCategoryServiceServiceStatusRoomDateTest()[pri:48, instance:risTestScripts.ImagingMISTests@149494d8]" name="searchWithServiceCategoryServiceServiceStatusRoomDateTest" duration-ms="8293" started-at="2022-02-24T12:00:53Z" finished-at="2022-02-24T12:01:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: searchWithServiceCategoryServiceServiceStatusRoomDateTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchWithServiceCategoryServiceServiceStatusRoomDateTest -->
+        <test-method status="FAIL" signature="searchOnMISTableTest()[pri:49, instance:risTestScripts.ImagingMISTests@149494d8]" name="searchOnMISTableTest" duration-ms="4310" started-at="2022-02-24T12:01:01Z" finished-at="2022-02-24T12:01:06Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failed: searchOnMISTableTest, Item count: 0 of 0 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failed: searchOnMISTableTest, Item count: 0 of 0 expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at risTestScripts.ImagingMISTests.searchOnMISTableTest(ImagingMISTests.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: searchOnMISTableTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchOnMISTableTest -->
+        <test-method status="FAIL" signature="validateMisReportDataTest()[pri:50, instance:risTestScripts.ImagingMISTests@149494d8]" name="validateMisReportDataTest" duration-ms="2011" started-at="2022-02-24T12:01:06Z" finished-at="2022-02-24T12:01:08Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ImagingMISTests.validateMisReportDataTest(ImagingMISTests.java:126)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: validateMisReportDataTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateMisReportDataTest -->
+        <test-method status="FAIL" signature="printMISReportButtonTest()[pri:51, instance:risTestScripts.ImagingMISTests@149494d8]" name="printMISReportButtonTest" duration-ms="1007" started-at="2022-02-24T12:01:08Z" finished-at="2022-02-24T12:01:09Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ImagingMISTests.printMISReportButtonTest(ImagingMISTests.java:201)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: printMISReportButtonTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printMISReportButtonTest -->
+      </class> <!-- risTestScripts.ImagingMISTests -->
+      <class name="risTestScripts.ReportPrintTests">
+        <test-method status="PASS" signature="openRis()[pri:0, instance:risTestScripts.ReportPrintTests@954b04f]" name="openRis" duration-ms="31173" started-at="2022-02-24T11:59:51Z" finished-at="2022-02-24T12:00:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: openRis]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openRis -->
+        <test-method status="PASS" signature="openReportPrintTest()[pri:39, instance:risTestScripts.ReportPrintTests@954b04f]" name="openReportPrintTest" duration-ms="6252" started-at="2022-02-24T12:00:22Z" finished-at="2022-02-24T12:00:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: openReportPrintTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openReportPrintTest -->
+        <test-method status="PASS" signature="defaultViewDateSearchTest()[pri:40, instance:risTestScripts.ReportPrintTests@954b04f]" name="defaultViewDateSearchTest" duration-ms="4100" started-at="2022-02-24T12:00:28Z" finished-at="2022-02-24T12:00:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: defaultViewDateSearchTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- defaultViewDateSearchTest -->
+        <test-method status="PASS" signature="searchWithServiceCategoryServiceStudyNumberRegIdTest()[pri:41, instance:risTestScripts.ReportPrintTests@954b04f]" name="searchWithServiceCategoryServiceStudyNumberRegIdTest" duration-ms="2982" started-at="2022-02-24T12:00:32Z" finished-at="2022-02-24T12:00:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: searchWithServiceCategoryServiceStudyNumberRegIdTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchWithServiceCategoryServiceStudyNumberRegIdTest -->
+        <test-method status="PASS" signature="searchOnPrintReportTableTest()[pri:42, instance:risTestScripts.ReportPrintTests@954b04f]" name="searchOnPrintReportTableTest" duration-ms="5456" started-at="2022-02-24T12:00:35Z" finished-at="2022-02-24T12:00:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: searchOnPrintReportTableTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchOnPrintReportTableTest -->
+        <test-method status="PASS" signature="viewReportButtonTest()[pri:43, instance:risTestScripts.ReportPrintTests@954b04f]" name="viewReportButtonTest" duration-ms="1195" started-at="2022-02-24T12:00:41Z" finished-at="2022-02-24T12:00:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: viewReportButtonTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- viewReportButtonTest -->
+        <test-method status="PASS" signature="printReportPageDataValidationTest()[pri:44, instance:risTestScripts.ReportPrintTests@954b04f]" name="printReportPageDataValidationTest" duration-ms="3373" started-at="2022-02-24T12:00:42Z" finished-at="2022-02-24T12:00:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: printReportPageDataValidationTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printReportPageDataValidationTest -->
+        <test-method status="PASS" signature="printButtonTest()[pri:45, instance:risTestScripts.ReportPrintTests@954b04f]" name="printButtonTest" duration-ms="2242" started-at="2022-02-24T12:00:45Z" finished-at="2022-02-24T12:00:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: printButtonTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printButtonTest -->
+      </class> <!-- risTestScripts.ReportPrintTests -->
+      <class name="risTestScripts.ReportVerifyTests">
+        <test-method status="PASS" signature="openReportVerificationFromMenuTest()[pri:32, instance:risTestScripts.ReportVerifyTests@4d1b0d2a]" name="openReportVerificationFromMenuTest" duration-ms="4188" started-at="2022-02-24T11:59:25Z" finished-at="2022-02-24T11:59:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: openReportVerificationFromMenuTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openReportVerificationFromMenuTest -->
+        <test-method status="PASS" signature="defaultviewDateSearchTest()[pri:33, instance:risTestScripts.ReportVerifyTests@4d1b0d2a]" name="defaultviewDateSearchTest" duration-ms="3106" started-at="2022-02-24T11:59:29Z" finished-at="2022-02-24T11:59:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: defaultviewDateSearchTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- defaultviewDateSearchTest -->
+        <test-method status="PASS" signature="searchOnVerifyReportTableTest()[pri:34, instance:risTestScripts.ReportVerifyTests@4d1b0d2a]" name="searchOnVerifyReportTableTest" duration-ms="4359" started-at="2022-02-24T11:59:32Z" finished-at="2022-02-24T11:59:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: searchOnVerifyReportTableTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchOnVerifyReportTableTest -->
+        <test-method status="PASS" signature="searchWithServiceCategoryServiceStudyNumberRegIdTest()[pri:34, instance:risTestScripts.ReportVerifyTests@4d1b0d2a]" name="searchWithServiceCategoryServiceStudyNumberRegIdTest" duration-ms="5078" started-at="2022-02-24T11:59:37Z" finished-at="2022-02-24T11:59:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: searchWithServiceCategoryServiceStudyNumberRegIdTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchWithServiceCategoryServiceStudyNumberRegIdTest -->
+        <test-method status="PASS" signature="verifyButtonTest()[pri:35, instance:risTestScripts.ReportVerifyTests@4d1b0d2a]" name="verifyButtonTest" duration-ms="2427" started-at="2022-02-24T11:59:42Z" finished-at="2022-02-24T11:59:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: verifyButtonTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyButtonTest -->
+        <test-method status="PASS" signature="reportVerificationPageDataTest()[pri:36, instance:risTestScripts.ReportVerifyTests@4d1b0d2a]" name="reportVerificationPageDataTest" duration-ms="3374" started-at="2022-02-24T11:59:44Z" finished-at="2022-02-24T11:59:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: reportVerificationPageDataTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reportVerificationPageDataTest -->
+        <test-method status="PASS" signature="verifiedByTest()[pri:37, instance:risTestScripts.ReportVerifyTests@4d1b0d2a]" name="verifiedByTest" duration-ms="1302" started-at="2022-02-24T11:59:47Z" finished-at="2022-02-24T11:59:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: verifiedByTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifiedByTest -->
+        <test-method status="PASS" signature="verifyReportButtonTest()[pri:38, instance:risTestScripts.ReportVerifyTests@4d1b0d2a]" name="verifyReportButtonTest" duration-ms="2231" started-at="2022-02-24T11:59:49Z" finished-at="2022-02-24T11:59:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: verifyReportButtonTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyReportButtonTest -->
+      </class> <!-- risTestScripts.ReportVerifyTests -->
+      <class name="risTestScripts.ReportUpdateTests">
+        <test-method status="PASS" signature="clickUpdateReportButtonTest()[pri:26, instance:risTestScripts.ReportUpdateTests@5c072e3f]" name="clickUpdateReportButtonTest" duration-ms="3265" started-at="2022-02-24T11:58:59Z" finished-at="2022-02-24T11:59:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: clickUpdateReportButtonTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickUpdateReportButtonTest -->
+        <test-method status="PASS" signature="defaultViewTableDataTest()[pri:27, instance:risTestScripts.ReportUpdateTests@5c072e3f]" name="defaultViewTableDataTest" duration-ms="3101" started-at="2022-02-24T11:59:03Z" finished-at="2022-02-24T11:59:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: defaultViewTableDataTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- defaultViewTableDataTest -->
+        <test-method status="PASS" signature="itemsPerPageTest()[pri:28, instance:risTestScripts.ReportUpdateTests@5c072e3f]" name="itemsPerPageTest" duration-ms="2116" started-at="2022-02-24T11:59:06Z" finished-at="2022-02-24T11:59:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: itemsPerPageTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- itemsPerPageTest -->
+        <test-method status="FAIL" signature="searchWithServiceCategoryServiceStudyNumberRegIdDateTest()[pri:29, instance:risTestScripts.ReportUpdateTests@5c072e3f]" name="searchWithServiceCategoryServiceStudyNumberRegIdDateTest" duration-ms="11970" started-at="2022-02-24T11:59:08Z" finished-at="2022-02-24T11:59:20Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".mat\-input\-element"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62356}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 47abf5425cb37a5cce2b14ce5fe1c161
+*** Element info: {Using=class name, value=mat-input-element}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".mat\-input\-element"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62356}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 47abf5425cb37a5cce2b14ce5fe1c161
+*** Element info: {Using=class name, value=mat-input-element}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ReportUpdateTests.searchWithServiceCategoryServiceStudyNumberRegIdDateTest(ReportUpdateTests.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: searchWithServiceCategoryServiceStudyNumberRegIdDateTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchWithServiceCategoryServiceStudyNumberRegIdDateTest -->
+        <test-method status="FAIL" signature="updateButtonTest()[pri:30, instance:risTestScripts.ReportUpdateTests@5c072e3f]" name="updateButtonTest" duration-ms="2060" started-at="2022-02-24T11:59:20Z" finished-at="2022-02-24T11:59:22Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='pay_advance']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62356}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 47abf5425cb37a5cce2b14ce5fe1c161
+*** Element info: {Using=xpath, value=//*[@id='pay_advance']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='pay_advance']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62356}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 47abf5425cb37a5cce2b14ce5fe1c161
+*** Element info: {Using=xpath, value=//*[@id='pay_advance']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ReportUpdateTests.updateButtonTest(ReportUpdateTests.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: updateButtonTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- updateButtonTest -->
+        <test-method status="FAIL" signature="updateReportAndUpdatebuttonTest()[pri:31, instance:risTestScripts.ReportUpdateTests@5c072e3f]" name="updateReportAndUpdatebuttonTest" duration-ms="3069" started-at="2022-02-24T11:59:22Z" finished-at="2022-02-24T11:59:25Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".angular\-editor\-textarea"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62356}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 47abf5425cb37a5cce2b14ce5fe1c161
+*** Element info: {Using=class name, value=angular-editor-textarea}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".angular\-editor\-textarea"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62356}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 47abf5425cb37a5cce2b14ce5fe1c161
+*** Element info: {Using=class name, value=angular-editor-textarea}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ReportUpdateTests.updateReportAndUpdatebuttonTest(ReportUpdateTests.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: updateReportAndUpdatebuttonTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- updateReportAndUpdatebuttonTest -->
+      </class> <!-- risTestScripts.ReportUpdateTests -->
+      <class name="risTestScripts.ServiceRoomMappingTests">
+        <test-method status="FAIL" signature="openServiceRoomMappingTest()[pri:52, instance:risTestScripts.ServiceRoomMappingTests@710726a3]" name="openServiceRoomMappingTest" duration-ms="2004" started-at="2022-02-24T12:01:09Z" finished-at="2022-02-24T12:01:11Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.openServiceRoomMappingTest(ServiceRoomMappingTests.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: openServiceRoomMappingTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openServiceRoomMappingTest -->
+        <test-method status="FAIL" signature="defaultViewTest()[pri:53, instance:risTestScripts.ServiceRoomMappingTests@710726a3]" name="defaultViewTest" duration-ms="3016" started-at="2022-02-24T12:01:11Z" finished-at="2022-02-24T12:01:14Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.defaultViewTest(ServiceRoomMappingTests.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: defaultViewTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- defaultViewTest -->
+        <test-method status="FAIL" signature="addNewRoomButtonTest()[pri:54, instance:risTestScripts.ServiceRoomMappingTests@710726a3]" name="addNewRoomButtonTest" duration-ms="1010" started-at="2022-02-24T12:01:14Z" finished-at="2022-02-24T12:01:15Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.addNewRoomButtonTest(ServiceRoomMappingTests.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: addNewRoomButtonTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addNewRoomButtonTest -->
+        <test-method status="FAIL" signature="addNewRoomTest()[pri:55, instance:risTestScripts.ServiceRoomMappingTests@710726a3]" name="addNewRoomTest" duration-ms="2007" started-at="2022-02-24T12:01:15Z" finished-at="2022-02-24T12:01:17Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.addNewRoomTest(ServiceRoomMappingTests.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: addNewRoomTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addNewRoomTest -->
+        <test-method status="FAIL" signature="searchRoomMappingTest()[pri:56, instance:risTestScripts.ServiceRoomMappingTests@710726a3]" name="searchRoomMappingTest" duration-ms="2010" started-at="2022-02-24T12:01:17Z" finished-at="2022-02-24T12:01:19Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.searchRoomMappingTest(ServiceRoomMappingTests.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: searchRoomMappingTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchRoomMappingTest -->
+        <test-method status="FAIL" signature="searchOnServiceRoomMappingTableTest()[pri:57, instance:risTestScripts.ServiceRoomMappingTests@710726a3]" name="searchOnServiceRoomMappingTableTest" duration-ms="3" started-at="2022-02-24T12:01:19Z" finished-at="2022-02-24T12:01:19Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.searchOnServiceRoomMappingTableTest(ServiceRoomMappingTests.java:126)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: searchOnServiceRoomMappingTableTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchOnServiceRoomMappingTableTest -->
+        <test-method status="FAIL" signature="validateMappingTableDataTest()[pri:58, instance:risTestScripts.ServiceRoomMappingTests@710726a3]" name="validateMappingTableDataTest" duration-ms="2030" started-at="2022-02-24T12:01:19Z" finished-at="2022-02-24T12:01:21Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.validateMappingTableDataTest(ServiceRoomMappingTests.java:146)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: validateMappingTableDataTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateMappingTableDataTest -->
+        <test-method status="FAIL" signature="updateButtonTest()[pri:59, instance:risTestScripts.ServiceRoomMappingTests@710726a3]" name="updateButtonTest" duration-ms="1003" started-at="2022-02-24T12:01:21Z" finished-at="2022-02-24T12:01:22Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.updateButtonTest(ServiceRoomMappingTests.java:186)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: updateButtonTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- updateButtonTest -->
+        <test-method status="FAIL" signature="updateMappingTest()[pri:60, instance:risTestScripts.ServiceRoomMappingTests@710726a3]" name="updateMappingTest" duration-ms="2007" started-at="2022-02-24T12:01:22Z" finished-at="2022-02-24T12:01:24Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.updateMappingTest(ServiceRoomMappingTests.java:204)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: updateMappingTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- updateMappingTest -->
+        <test-method status="FAIL" signature="validateUpdatedMappingTest()[pri:61, instance:risTestScripts.ServiceRoomMappingTests@710726a3]" name="validateUpdatedMappingTest" duration-ms="3017" started-at="2022-02-24T12:01:24Z" finished-at="2022-02-24T12:01:27Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.validateUpdatedMappingTest(ServiceRoomMappingTests.java:221)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: validateUpdatedMappingTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUpdatedMappingTest -->
+      </class> <!-- risTestScripts.ServiceRoomMappingTests -->
+    </test> <!-- RIS Application Tests -->
+  </suite> <!-- RIS Functional suite -->
+</testng-results>

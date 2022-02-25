@@ -1,0 +1,2306 @@
+<html>
+<head>
+<title>TestNG:  RIS Application Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>RIS Application Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>46/26/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Feb 24 11:57:04 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>271 seconds (271919 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='risTestScripts.ManageTemplateTests.AddReportTemplateButtonTest()'><b>AddReportTemplateButtonTest</b><br>Test class: risTestScripts.ManageTemplateTests<br/>
+<a href="#Output-1139851985" onClick='toggleBox("Output-1139851985", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1139851985" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1139851985">
+Failed: AddReportTemplateButtonTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ManageTemplateTests.AddReportTemplateButtonTest(ManageTemplateTests.java:47)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1139851985", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1139851985'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ManageTemplateTests.AddReportTemplateButtonTest(ManageTemplateTests.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>risTestScripts.ManageTemplateTests@646007f4</td></tr>
+<tr>
+<td title='risTestScripts.ManageTemplateTests.AddReportTemplateTest()'><b>AddReportTemplateTest</b><br>Test class: risTestScripts.ManageTemplateTests<br/>
+<a href="#Output-59382310" onClick='toggleBox("Output-59382310", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-59382310" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-59382310">
+Failed: AddReportTemplateTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ManageTemplateTests.AddReportTemplateTest(ManageTemplateTests.java:66)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace59382310", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace59382310'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ManageTemplateTests.AddReportTemplateTest(ManageTemplateTests.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>2</td>
+<td>risTestScripts.ManageTemplateTests@646007f4</td></tr>
+<tr>
+<td title='risTestScripts.ServiceRoomMappingTests.addNewRoomButtonTest()'><b>addNewRoomButtonTest</b><br>Test class: risTestScripts.ServiceRoomMappingTests<br/>
+<a href="#Output-80903581" onClick='toggleBox("Output-80903581", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-80903581" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-80903581">
+Failed: addNewRoomButtonTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.addNewRoomButtonTest(ServiceRoomMappingTests.java:62)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace80903581", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace80903581'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.addNewRoomButtonTest(ServiceRoomMappingTests.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>1</td>
+<td>risTestScripts.ServiceRoomMappingTests@710726a3</td></tr>
+<tr>
+<td title='risTestScripts.ServiceRoomMappingTests.addNewRoomTest()'><b>addNewRoomTest</b><br>Test class: risTestScripts.ServiceRoomMappingTests<br/>
+<a href="#Output-541135648" onClick='toggleBox("Output-541135648", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-541135648" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-541135648">
+Failed: addNewRoomTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.addNewRoomTest(ServiceRoomMappingTests.java:80)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace541135648", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace541135648'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.addNewRoomTest(ServiceRoomMappingTests.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>2</td>
+<td>risTestScripts.ServiceRoomMappingTests@710726a3</td></tr>
+<tr>
+<td title='risTestScripts.ManageTemplateTests.defaultViewDataTest()'><b>defaultViewDataTest</b><br>Test class: risTestScripts.ManageTemplateTests<br/>
+<a href="#Output-99295602" onClick='toggleBox("Output-99295602", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-99295602" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-99295602">
+Failed: defaultViewDataTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ManageTemplateTests.defaultViewDataTest(ManageTemplateTests.java:34)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace99295602", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace99295602'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ManageTemplateTests.defaultViewDataTest(ManageTemplateTests.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>2</td>
+<td>risTestScripts.ManageTemplateTests@646007f4</td></tr>
+<tr>
+<td title='risTestScripts.ImagingMISTests.defaultViewDateSearchTest()'><b>defaultViewDateSearchTest</b><br>Test class: risTestScripts.ImagingMISTests<br/>
+<a href="#Output-1202547191" onClick='toggleBox("Output-1202547191", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1202547191" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1202547191">
+Failed: defaultViewDateSearchTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.mat\-paginator\-range\-label&quot;}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ad363a441ced543bf671c3dc04bc99d3
+*** Element info: {Using=class name, value=mat-paginator-range-label}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ImagingMISTests.defaultViewDateSearchTest(ImagingMISTests.java:34)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1202547191", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1202547191'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.mat\-paginator\-range\-label&quot;}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ad363a441ced543bf671c3dc04bc99d3
+*** Element info: {Using=class name, value=mat-paginator-range-label}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ImagingMISTests.defaultViewDateSearchTest(ImagingMISTests.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>3</td>
+<td>risTestScripts.ImagingMISTests@149494d8</td></tr>
+<tr>
+<td title='risTestScripts.ServiceRoomMappingTests.defaultViewTest()'><b>defaultViewTest</b><br>Test class: risTestScripts.ServiceRoomMappingTests<br/>
+<a href="#Output-1389055824" onClick='toggleBox("Output-1389055824", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1389055824" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1389055824">
+Failed: defaultViewTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.defaultViewTest(ServiceRoomMappingTests.java:48)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1389055824", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1389055824'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.defaultViewTest(ServiceRoomMappingTests.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>3</td>
+<td>risTestScripts.ServiceRoomMappingTests@710726a3</td></tr>
+<tr>
+<td title='risTestScripts.ManageTemplateTests.openManageTemplateTest()'><b>openManageTemplateTest</b><br>Test class: risTestScripts.ManageTemplateTests<br/>
+<a href="#Output-33558975" onClick='toggleBox("Output-33558975", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-33558975" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-33558975">
+Failed: openManageTemplateTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ManageTemplateTests.openManageTemplateTest(ManageTemplateTests.java:22)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace33558975", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace33558975'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ManageTemplateTests.openManageTemplateTest(ManageTemplateTests.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>risTestScripts.ManageTemplateTests@646007f4</td></tr>
+<tr>
+<td title='risTestScripts.ServiceRoomMappingTests.openServiceRoomMappingTest()'><b>openServiceRoomMappingTest</b><br>Test class: risTestScripts.ServiceRoomMappingTests<br/>
+<a href="#Output-337029130" onClick='toggleBox("Output-337029130", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-337029130" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-337029130">
+Failed: openServiceRoomMappingTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.openServiceRoomMappingTest(ServiceRoomMappingTests.java:37)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace337029130", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace337029130'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.openServiceRoomMappingTest(ServiceRoomMappingTests.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>2</td>
+<td>risTestScripts.ServiceRoomMappingTests@710726a3</td></tr>
+<tr>
+<td title='risTestScripts.ImagingMISTests.printMISReportButtonTest()'><b>printMISReportButtonTest</b><br>Test class: risTestScripts.ImagingMISTests<br/>
+<a href="#Output-1258103238" onClick='toggleBox("Output-1258103238", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1258103238" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1258103238">
+Failed: printMISReportButtonTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ImagingMISTests.printMISReportButtonTest(ImagingMISTests.java:201)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1258103238", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1258103238'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ImagingMISTests.printMISReportButtonTest(ImagingMISTests.java:201)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>1</td>
+<td>risTestScripts.ImagingMISTests@149494d8</td></tr>
+<tr>
+<td title='risTestScripts.ManageTemplateTests.searchOnAvailableTemplateTableTest()'><b>searchOnAvailableTemplateTableTest</b><br>Test class: risTestScripts.ManageTemplateTests<br/>
+<a href="#Output-1145882513" onClick='toggleBox("Output-1145882513", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1145882513" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1145882513">
+Failed: searchOnAvailableTemplateTableTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ManageTemplateTests.searchOnAvailableTemplateTableTest(ManageTemplateTests.java:119)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1145882513", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1145882513'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ManageTemplateTests.searchOnAvailableTemplateTableTest(ManageTemplateTests.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>2</td>
+<td>risTestScripts.ManageTemplateTests@646007f4</td></tr>
+<tr>
+<td title='risTestScripts.ImagingMISTests.searchOnMISTableTest()'><b>searchOnMISTableTest</b><br>Test class: risTestScripts.ImagingMISTests<br/>
+<a href="#Output-238169801" onClick='toggleBox("Output-238169801", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-238169801" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-238169801">
+Failed: searchOnMISTableTest<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Failed: searchOnMISTableTest, Item count: 0 of 0 expected [true] but found [false]
+	at risTestScripts.ImagingMISTests.searchOnMISTableTest(ImagingMISTests.java:98)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace238169801", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace238169801'><pre>java.lang.AssertionError: Failed: searchOnMISTableTest, Item count: 0 of 0 expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at risTestScripts.ImagingMISTests.searchOnMISTableTest(ImagingMISTests.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>4</td>
+<td>risTestScripts.ImagingMISTests@149494d8</td></tr>
+<tr>
+<td title='risTestScripts.ServiceRoomMappingTests.searchOnServiceRoomMappingTableTest()'><b>searchOnServiceRoomMappingTableTest</b><br>Test class: risTestScripts.ServiceRoomMappingTests<br/>
+<a href="#Output-2136911375" onClick='toggleBox("Output-2136911375", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2136911375" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2136911375">
+Failed: searchOnServiceRoomMappingTableTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.searchOnServiceRoomMappingTableTest(ServiceRoomMappingTests.java:126)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2136911375", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2136911375'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.searchOnServiceRoomMappingTableTest(ServiceRoomMappingTests.java:126)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>risTestScripts.ServiceRoomMappingTests@710726a3</td></tr>
+<tr>
+<td title='risTestScripts.ServiceRoomMappingTests.searchRoomMappingTest()'><b>searchRoomMappingTest</b><br>Test class: risTestScripts.ServiceRoomMappingTests<br/>
+<a href="#Output-1014508942" onClick='toggleBox("Output-1014508942", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1014508942" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1014508942">
+Failed: searchRoomMappingTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.searchRoomMappingTest(ServiceRoomMappingTests.java:101)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1014508942", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1014508942'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.searchRoomMappingTest(ServiceRoomMappingTests.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>2</td>
+<td>risTestScripts.ServiceRoomMappingTests@710726a3</td></tr>
+<tr>
+<td title='risTestScripts.ManageTemplateTests.searchTemplateTest()'><b>searchTemplateTest</b><br>Test class: risTestScripts.ManageTemplateTests<br/>
+<a href="#Output-2048869869" onClick='toggleBox("Output-2048869869", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2048869869" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2048869869">
+Failed: searchTemplateTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ManageTemplateTests.searchTemplateTest(ManageTemplateTests.java:94)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2048869869", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2048869869'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ManageTemplateTests.searchTemplateTest(ManageTemplateTests.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>2</td>
+<td>risTestScripts.ManageTemplateTests@646007f4</td></tr>
+<tr>
+<td title='risTestScripts.ConfirmationTests.searchWithServiceCategoryServiceAndDateTest()'><b>searchWithServiceCategoryServiceAndDateTest</b><br>Test class: risTestScripts.ConfirmationTests<br/>
+<a href="#Output-1092619788" onClick='toggleBox("Output-1092619788", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1092619788" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1092619788">
+Failed: searchWithServiceCategoryServiceAndDateTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate option with value: 8
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at risTestScripts.ConfirmationTests.searchWithServiceCategoryServiceAndDateTest(ConfirmationTests.java:77)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1092619788", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1092619788'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate option with value: 8
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at risTestScripts.ConfirmationTests.searchWithServiceCategoryServiceAndDateTest(ConfirmationTests.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>risTestScripts.ConfirmationTests@67b467e9</td></tr>
+<tr>
+<td title='risTestScripts.ReportUpdateTests.searchWithServiceCategoryServiceStudyNumberRegIdDateTest()'><b>searchWithServiceCategoryServiceStudyNumberRegIdDateTest</b><br>Test class: risTestScripts.ReportUpdateTests<br/>
+<a href="#Output-1792088662" onClick='toggleBox("Output-1792088662", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1792088662" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1792088662">
+Failed: searchWithServiceCategoryServiceStudyNumberRegIdDateTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.mat\-input\-element&quot;}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62356}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 47abf5425cb37a5cce2b14ce5fe1c161
+*** Element info: {Using=class name, value=mat-input-element}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ReportUpdateTests.searchWithServiceCategoryServiceStudyNumberRegIdDateTest(ReportUpdateTests.java:89)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1792088662", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1792088662'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.mat\-input\-element&quot;}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62356}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 47abf5425cb37a5cce2b14ce5fe1c161
+*** Element info: {Using=class name, value=mat-input-element}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ReportUpdateTests.searchWithServiceCategoryServiceStudyNumberRegIdDateTest(ReportUpdateTests.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>11</td>
+<td>risTestScripts.ReportUpdateTests@5c072e3f</td></tr>
+<tr>
+<td title='risTestScripts.ManageTemplateTests.uniqueTemplateNameTest()'><b>uniqueTemplateNameTest</b><br>Test class: risTestScripts.ManageTemplateTests<br/>
+<a href="#Output-476868388" onClick='toggleBox("Output-476868388", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-476868388" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-476868388">
+Failed: uniqueTemplateNameTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ManageTemplateTests.uniqueTemplateNameTest(ManageTemplateTests.java:137)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace476868388", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace476868388'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ManageTemplateTests.uniqueTemplateNameTest(ManageTemplateTests.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>1</td>
+<td>risTestScripts.ManageTemplateTests@646007f4</td></tr>
+<tr>
+<td title='risTestScripts.ReportUpdateTests.updateButtonTest()'><b>updateButtonTest</b><br>Test class: risTestScripts.ReportUpdateTests<br/>
+<a href="#Output-1402333753" onClick='toggleBox("Output-1402333753", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1402333753" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1402333753">
+Failed: updateButtonTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;pay_advance&apos;]&quot;}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62356}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 47abf5425cb37a5cce2b14ce5fe1c161
+*** Element info: {Using=xpath, value=//*[@id=&apos;pay_advance&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ReportUpdateTests.updateButtonTest(ReportUpdateTests.java:99)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1402333753", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1402333753'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;pay_advance&apos;]&quot;}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62356}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 47abf5425cb37a5cce2b14ce5fe1c161
+*** Element info: {Using=xpath, value=//*[@id=&apos;pay_advance&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ReportUpdateTests.updateButtonTest(ReportUpdateTests.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>2</td>
+<td>risTestScripts.ReportUpdateTests@5c072e3f</td></tr>
+<tr>
+<td title='risTestScripts.ServiceRoomMappingTests.updateButtonTest()'><b>updateButtonTest</b><br>Test class: risTestScripts.ServiceRoomMappingTests<br/>
+<a href="#Output-185488647" onClick='toggleBox("Output-185488647", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-185488647" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-185488647">
+Failed: updateButtonTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.updateButtonTest(ServiceRoomMappingTests.java:186)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace185488647", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace185488647'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.updateButtonTest(ServiceRoomMappingTests.java:186)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>1</td>
+<td>risTestScripts.ServiceRoomMappingTests@710726a3</td></tr>
+<tr>
+<td title='risTestScripts.ServiceRoomMappingTests.updateMappingTest()'><b>updateMappingTest</b><br>Test class: risTestScripts.ServiceRoomMappingTests<br/>
+<a href="#Output-1011276990" onClick='toggleBox("Output-1011276990", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1011276990" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1011276990">
+Failed: updateMappingTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.updateMappingTest(ServiceRoomMappingTests.java:204)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1011276990", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1011276990'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.updateMappingTest(ServiceRoomMappingTests.java:204)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>2</td>
+<td>risTestScripts.ServiceRoomMappingTests@710726a3</td></tr>
+<tr>
+<td title='risTestScripts.ReportUpdateTests.updateReportAndUpdatebuttonTest()'><b>updateReportAndUpdatebuttonTest</b><br>Test class: risTestScripts.ReportUpdateTests<br/>
+<a href="#Output-1917161212" onClick='toggleBox("Output-1917161212", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1917161212" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1917161212">
+Failed: updateReportAndUpdatebuttonTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.angular\-editor\-textarea&quot;}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62356}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 47abf5425cb37a5cce2b14ce5fe1c161
+*** Element info: {Using=class name, value=angular-editor-textarea}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ReportUpdateTests.updateReportAndUpdatebuttonTest(ReportUpdateTests.java:118)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1917161212", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1917161212'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.angular\-editor\-textarea&quot;}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62356}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 47abf5425cb37a5cce2b14ce5fe1c161
+*** Element info: {Using=class name, value=angular-editor-textarea}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ReportUpdateTests.updateReportAndUpdatebuttonTest(ReportUpdateTests.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>3</td>
+<td>risTestScripts.ReportUpdateTests@5c072e3f</td></tr>
+<tr>
+<td title='risTestScripts.ManageTemplateTests.updateTemplateTest()'><b>updateTemplateTest</b><br>Test class: risTestScripts.ManageTemplateTests<br/>
+<a href="#Output-208350681" onClick='toggleBox("Output-208350681", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-208350681" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-208350681">
+Failed: updateTemplateTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ManageTemplateTests.updateTemplateTest(ManageTemplateTests.java:160)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace208350681", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace208350681'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ManageTemplateTests.updateTemplateTest(ManageTemplateTests.java:160)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>risTestScripts.ManageTemplateTests@646007f4</td></tr>
+<tr>
+<td title='risTestScripts.ServiceRoomMappingTests.validateMappingTableDataTest()'><b>validateMappingTableDataTest</b><br>Test class: risTestScripts.ServiceRoomMappingTests<br/>
+<a href="#Output-626941486" onClick='toggleBox("Output-626941486", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-626941486" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-626941486">
+Failed: validateMappingTableDataTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.validateMappingTableDataTest(ServiceRoomMappingTests.java:146)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace626941486", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace626941486'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.validateMappingTableDataTest(ServiceRoomMappingTests.java:146)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>2</td>
+<td>risTestScripts.ServiceRoomMappingTests@710726a3</td></tr>
+<tr>
+<td title='risTestScripts.ImagingMISTests.validateMisReportDataTest()'><b>validateMisReportDataTest</b><br>Test class: risTestScripts.ImagingMISTests<br/>
+<a href="#Output-777970377" onClick='toggleBox("Output-777970377", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-777970377" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-777970377">
+Failed: validateMisReportDataTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ImagingMISTests.validateMisReportDataTest(ImagingMISTests.java:126)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace777970377", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace777970377'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ImagingMISTests.validateMisReportDataTest(ImagingMISTests.java:126)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>2</td>
+<td>risTestScripts.ImagingMISTests@149494d8</td></tr>
+<tr>
+<td title='risTestScripts.ServiceRoomMappingTests.validateUpdatedMappingTest()'><b>validateUpdatedMappingTest</b><br>Test class: risTestScripts.ServiceRoomMappingTests<br/>
+<a href="#Output-285781448" onClick='toggleBox("Output-285781448", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-285781448" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-285781448">
+Failed: validateUpdatedMappingTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.validateUpdatedMappingTest(ServiceRoomMappingTests.java:221)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace285781448", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace285781448'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ServiceRoomMappingTests.validateUpdatedMappingTest(ServiceRoomMappingTests.java:221)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>3</td>
+<td>risTestScripts.ServiceRoomMappingTests@710726a3</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='risTestScripts.ConfirmationTests.SearchOnTableAndConfirmationTableDataTest()'><b>SearchOnTableAndConfirmationTableDataTest</b><br>Test class: risTestScripts.ConfirmationTests<br/>
+<a href="#Output-1894698434" onClick='toggleBox("Output-1894698434", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1894698434" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1894698434">
+Passed: SearchOnTableAndConfirmationTableDataTest<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>risTestScripts.ConfirmationTests@67b467e9</td></tr>
+<tr>
+<td title='risTestScripts.ReportUpdateTests.clickUpdateReportButtonTest()'><b>clickUpdateReportButtonTest</b><br>Test class: risTestScripts.ReportUpdateTests<br/>
+<a href="#Output-573102881" onClick='toggleBox("Output-573102881", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-573102881" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-573102881">
+Passed: clickUpdateReportButtonTest<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>risTestScripts.ReportUpdateTests@5c072e3f</td></tr>
+<tr>
+<td title='risTestScripts.ConfirmationTests.confirmButtonTest()'><b>confirmButtonTest</b><br>Test class: risTestScripts.ConfirmationTests<br/>
+<a href="#Output-1485485458" onClick='toggleBox("Output-1485485458", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1485485458" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1485485458">
+Passed: confirmButtonTest<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>risTestScripts.ConfirmationTests@67b467e9</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.createButtonTest()'><b>createButtonTest</b><br>Test class: risTestScripts.ReportCreationTests<br/>
+<a href="#Output-1949126165" onClick='toggleBox("Output-1949126165", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1949126165" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1949126165">
+Passed: createButtonTest<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>risTestScripts.ReportCreationTests@47db50c5</td></tr>
+<tr>
+<td title='risTestScripts.ReportPrintTests.defaultViewDateSearchTest()'><b>defaultViewDateSearchTest</b><br>Test class: risTestScripts.ReportPrintTests<br/>
+<a href="#Output-1179093020" onClick='toggleBox("Output-1179093020", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1179093020" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1179093020">
+Passed: defaultViewDateSearchTest<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>risTestScripts.ReportPrintTests@954b04f</td></tr>
+<tr>
+<td title='risTestScripts.ReportUpdateTests.defaultViewTableDataTest()'><b>defaultViewTableDataTest</b><br>Test class: risTestScripts.ReportUpdateTests<br/>
+<a href="#Output-1011104118" onClick='toggleBox("Output-1011104118", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1011104118" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1011104118">
+Passed: defaultViewTableDataTest<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>risTestScripts.ReportUpdateTests@5c072e3f</td></tr>
+<tr>
+<td title='risTestScripts.ReportVerifyTests.defaultviewDateSearchTest()'><b>defaultviewDateSearchTest</b><br>Test class: risTestScripts.ReportVerifyTests<br/>
+<a href="#Output-2090289474" onClick='toggleBox("Output-2090289474", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2090289474" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2090289474">
+Passed: defaultviewDateSearchTest<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>risTestScripts.ReportVerifyTests@4d1b0d2a</td></tr>
+<tr>
+<td title='risTestScripts.ScheduleTests.inputRoomScheduledateTime()'><b>inputRoomScheduledateTime</b><br>Test class: risTestScripts.ScheduleTests<br/>
+<a href="#Output-1443900956" onClick='toggleBox("Output-1443900956", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1443900956" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1443900956">
+Passed: inputRoomScheduledateTime<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>risTestScripts.ScheduleTests@706a04ae</td></tr>
+<tr>
+<td title='risTestScripts.ConfirmationTests.inputStudyNumberTest()'><b>inputStudyNumberTest</b><br>Test class: risTestScripts.ConfirmationTests<br/>
+<a href="#Output-968957548" onClick='toggleBox("Output-968957548", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-968957548" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-968957548">
+Passed: inputStudyNumberTest<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>risTestScripts.ConfirmationTests@67b467e9</td></tr>
+<tr>
+<td title='risTestScripts.ScheduleTests.itemsPerPageTest()'><b>itemsPerPageTest</b><br>Test class: risTestScripts.ScheduleTests<br/>
+<a href="#Output-1910896157" onClick='toggleBox("Output-1910896157", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1910896157" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1910896157">
+Passed: itemsPerPageTest<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>risTestScripts.ScheduleTests@706a04ae</td></tr>
+<tr>
+<td title='risTestScripts.ConfirmationTests.itemsPerPageTest()'><b>itemsPerPageTest</b><br>Test class: risTestScripts.ConfirmationTests<br/>
+<a href="#Output-1984328477" onClick='toggleBox("Output-1984328477", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1984328477" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1984328477">
+Passed: itemsPerPageTest<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>risTestScripts.ConfirmationTests@67b467e9</td></tr>
+<tr>
+<td title='risTestScripts.ReportUpdateTests.itemsPerPageTest()'><b>itemsPerPageTest</b><br>Test class: risTestScripts.ReportUpdateTests<br/>
+<a href="#Output-1492822331" onClick='toggleBox("Output-1492822331", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1492822331" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1492822331">
+Passed: itemsPerPageTest<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>risTestScripts.ReportUpdateTests@5c072e3f</td></tr>
+<tr>
+<td title='risTestScripts.ConfirmationTests.openImageCaptureAndConfirmationTest()'><b>openImageCaptureAndConfirmationTest</b><br>Test class: risTestScripts.ConfirmationTests<br/>
+<a href="#Output-1520491508" onClick='toggleBox("Output-1520491508", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1520491508" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1520491508">
+Passed: openImageCaptureAndConfirmationTest<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>risTestScripts.ConfirmationTests@67b467e9</td></tr>
+<tr>
+<td title='risTestScripts.ImagingMISTests.openImagingMISTest()'><b>openImagingMISTest</b><br>Test class: risTestScripts.ImagingMISTests<br/>
+<a href="#Output-1410008136" onClick='toggleBox("Output-1410008136", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1410008136" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1410008136">
+Passed: openImagingMISTest<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>risTestScripts.ImagingMISTests@149494d8</td></tr>
+<tr>
+<td title='risTestScripts.ConfirmationTests.openMainMenuTest()'><b>openMainMenuTest</b><br>Test class: risTestScripts.ConfirmationTests<br/>
+<a href="#Output-1700421020" onClick='toggleBox("Output-1700421020", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1700421020" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1700421020">
+Passed: openMainMenuTest<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>risTestScripts.ConfirmationTests@67b467e9</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.openReportCreationTest()'><b>openReportCreationTest</b><br>Test class: risTestScripts.ReportCreationTests<br/>
+<a href="#Output-701681793" onClick='toggleBox("Output-701681793", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-701681793" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-701681793">
+Passed: openReportCreationTest<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>risTestScripts.ReportCreationTests@47db50c5</td></tr>
+<tr>
+<td title='risTestScripts.ReportPrintTests.openReportPrintTest()'><b>openReportPrintTest</b><br>Test class: risTestScripts.ReportPrintTests<br/>
+<a href="#Output-448569108" onClick='toggleBox("Output-448569108", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-448569108" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-448569108">
+Passed: openReportPrintTest<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>risTestScripts.ReportPrintTests@954b04f</td></tr>
+<tr>
+<td title='risTestScripts.ReportVerifyTests.openReportVerificationFromMenuTest()'><b>openReportVerificationFromMenuTest</b><br>Test class: risTestScripts.ReportVerifyTests<br/>
+<a href="#Output-46627301" onClick='toggleBox("Output-46627301", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-46627301" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-46627301">
+Passed: openReportVerificationFromMenuTest<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>risTestScripts.ReportVerifyTests@4d1b0d2a</td></tr>
+<tr>
+<td title='risTestScripts.ScheduleTests.openRis()'><b>openRis</b><br>Test class: risTestScripts.ScheduleTests<br/>
+<a href="#Output-307411297" onClick='toggleBox("Output-307411297", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-307411297" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-307411297">
+Passed: openRis<br/>
+</div>
+</td>
+<td></td>
+<td>37</td>
+<td>risTestScripts.ScheduleTests@706a04ae</td></tr>
+<tr>
+<td title='risTestScripts.ReportPrintTests.openRis()'><b>openRis</b><br>Test class: risTestScripts.ReportPrintTests<br/>
+<a href="#Output-1055800875" onClick='toggleBox("Output-1055800875", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1055800875" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1055800875">
+Passed: openRis<br/>
+</div>
+</td>
+<td></td>
+<td>31</td>
+<td>risTestScripts.ReportPrintTests@954b04f</td></tr>
+<tr>
+<td title='risTestScripts.ReportPrintTests.printButtonTest()'><b>printButtonTest</b><br>Test class: risTestScripts.ReportPrintTests<br/>
+<a href="#Output-1689723487" onClick='toggleBox("Output-1689723487", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1689723487" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1689723487">
+Passed: printButtonTest<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>risTestScripts.ReportPrintTests@954b04f</td></tr>
+<tr>
+<td title='risTestScripts.ReportPrintTests.printReportPageDataValidationTest()'><b>printReportPageDataValidationTest</b><br>Test class: risTestScripts.ReportPrintTests<br/>
+<a href="#Output-346847161" onClick='toggleBox("Output-346847161", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-346847161" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-346847161">
+Passed: printReportPageDataValidationTest<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>risTestScripts.ReportPrintTests@954b04f</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.reportCreationPageCreatedByTest()'><b>reportCreationPageCreatedByTest</b><br>Test class: risTestScripts.ReportCreationTests<br/>
+<a href="#Output-223975178" onClick='toggleBox("Output-223975178", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-223975178" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-223975178">
+Passed: reportCreationPageCreatedByTest<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>risTestScripts.ReportCreationTests@47db50c5</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.reportCreationPageDataTest()'><b>reportCreationPageDataTest</b><br>Test class: risTestScripts.ReportCreationTests<br/>
+<a href="#Output-639105046" onClick='toggleBox("Output-639105046", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-639105046" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-639105046">
+Passed: reportCreationPageDataTest<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>risTestScripts.ReportCreationTests@47db50c5</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.reportCreationPageNegativeTest()'><b>reportCreationPageNegativeTest</b><br>Test class: risTestScripts.ReportCreationTests<br/>
+<a href="#Output-23053378" onClick='toggleBox("Output-23053378", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-23053378" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-23053378">
+Passed: reportCreationPageNegativeTest<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>risTestScripts.ReportCreationTests@47db50c5</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.reportCreationPageSaveButtonTest()'><b>reportCreationPageSaveButtonTest</b><br>Test class: risTestScripts.ReportCreationTests<br/>
+<a href="#Output-1255445356" onClick='toggleBox("Output-1255445356", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1255445356" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1255445356">
+Passed: reportCreationPageSaveButtonTest<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>risTestScripts.ReportCreationTests@47db50c5</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.reportCreationPageSelectTemplateTest()'><b>reportCreationPageSelectTemplateTest</b><br>Test class: risTestScripts.ReportCreationTests<br/>
+<a href="#Output-916958177" onClick='toggleBox("Output-916958177", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-916958177" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-916958177">
+Passed: reportCreationPageSelectTemplateTest<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>risTestScripts.ReportCreationTests@47db50c5</td></tr>
+<tr>
+<td title='risTestScripts.ReportVerifyTests.reportVerificationPageDataTest()'><b>reportVerificationPageDataTest</b><br>Test class: risTestScripts.ReportVerifyTests<br/>
+<a href="#Output-442465916" onClick='toggleBox("Output-442465916", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-442465916" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-442465916">
+Passed: reportVerificationPageDataTest<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>risTestScripts.ReportVerifyTests@4d1b0d2a</td></tr>
+<tr>
+<td title='risTestScripts.ScheduleTests.scheduleButtonTest()'><b>scheduleButtonTest</b><br>Test class: risTestScripts.ScheduleTests<br/>
+<a href="#Output-1185618138" onClick='toggleBox("Output-1185618138", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1185618138" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1185618138">
+Passed: scheduleButtonTest<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>risTestScripts.ScheduleTests@706a04ae</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.searchOnCreateReportTableAndDataTest()'><b>searchOnCreateReportTableAndDataTest</b><br>Test class: risTestScripts.ReportCreationTests<br/>
+<a href="#Output-821342630" onClick='toggleBox("Output-821342630", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-821342630" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-821342630">
+Passed: searchOnCreateReportTableAndDataTest<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>risTestScripts.ReportCreationTests@47db50c5</td></tr>
+<tr>
+<td title='risTestScripts.ReportPrintTests.searchOnPrintReportTableTest()'><b>searchOnPrintReportTableTest</b><br>Test class: risTestScripts.ReportPrintTests<br/>
+<a href="#Output-773518491" onClick='toggleBox("Output-773518491", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-773518491" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-773518491">
+Passed: searchOnPrintReportTableTest<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>risTestScripts.ReportPrintTests@954b04f</td></tr>
+<tr>
+<td title='risTestScripts.ScheduleTests.searchOnTableTest()'><b>searchOnTableTest</b><br>Test class: risTestScripts.ScheduleTests<br/>
+<a href="#Output-822232612" onClick='toggleBox("Output-822232612", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-822232612" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-822232612">
+Passed: searchOnTableTest<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>risTestScripts.ScheduleTests@706a04ae</td></tr>
+<tr>
+<td title='risTestScripts.ReportVerifyTests.searchOnVerifyReportTableTest()'><b>searchOnVerifyReportTableTest</b><br>Test class: risTestScripts.ReportVerifyTests<br/>
+<a href="#Output-1774897456" onClick='toggleBox("Output-1774897456", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1774897456" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1774897456">
+Passed: searchOnVerifyReportTableTest<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>risTestScripts.ReportVerifyTests@4d1b0d2a</td></tr>
+<tr>
+<td title='risTestScripts.ScheduleTests.searchResultsTest()'><b>searchResultsTest</b><br>Test class: risTestScripts.ScheduleTests<br/>
+<a href="#Output-40875560" onClick='toggleBox("Output-40875560", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-40875560" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-40875560">
+Passed: searchResultsTest<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>risTestScripts.ScheduleTests@706a04ae</td></tr>
+<tr>
+<td title='risTestScripts.ScheduleTests.searchWithDateNegativeTest()'><b>searchWithDateNegativeTest</b><br>Test class: risTestScripts.ScheduleTests<br/>
+<a href="#Output-501608687" onClick='toggleBox("Output-501608687", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-501608687" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-501608687">
+Passed: searchWithDateNegativeTest<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>risTestScripts.ScheduleTests@706a04ae</td></tr>
+<tr>
+<td title='risTestScripts.ConfirmationTests.searchWithDateTest()'><b>searchWithDateTest</b><br>Test class: risTestScripts.ConfirmationTests<br/>
+<a href="#Output-2061226112" onClick='toggleBox("Output-2061226112", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2061226112" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2061226112">
+Passed: searchWithDateTest<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>risTestScripts.ConfirmationTests@67b467e9</td></tr>
+<tr>
+<td title='risTestScripts.ScheduleTests.searchWithServiceCategoryServiceDateTest()'><b>searchWithServiceCategoryServiceDateTest</b><br>Test class: risTestScripts.ScheduleTests<br/>
+<a href="#Output-1407324654" onClick='toggleBox("Output-1407324654", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1407324654" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1407324654">
+Passed: searchWithServiceCategoryServiceDateTest<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>risTestScripts.ScheduleTests@706a04ae</td></tr>
+<tr>
+<td title='risTestScripts.ImagingMISTests.searchWithServiceCategoryServiceServiceStatusRoomDateTest()'><b>searchWithServiceCategoryServiceServiceStatusRoomDateTest</b><br>Test class: risTestScripts.ImagingMISTests<br/>
+<a href="#Output-1031479068" onClick='toggleBox("Output-1031479068", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1031479068" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1031479068">
+Passed: searchWithServiceCategoryServiceServiceStatusRoomDateTest<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>risTestScripts.ImagingMISTests@149494d8</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.searchWithServiceCategoryServiceStudyNumberRegIdDateTest()'><b>searchWithServiceCategoryServiceStudyNumberRegIdDateTest</b><br>Test class: risTestScripts.ReportCreationTests<br/>
+<a href="#Output-1279469670" onClick='toggleBox("Output-1279469670", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1279469670" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1279469670">
+Passed: searchWithServiceCategoryServiceStudyNumberRegIdDateTest<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>risTestScripts.ReportCreationTests@47db50c5</td></tr>
+<tr>
+<td title='risTestScripts.ReportVerifyTests.searchWithServiceCategoryServiceStudyNumberRegIdTest()'><b>searchWithServiceCategoryServiceStudyNumberRegIdTest</b><br>Test class: risTestScripts.ReportVerifyTests<br/>
+<a href="#Output-2054077982" onClick='toggleBox("Output-2054077982", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2054077982" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2054077982">
+Passed: searchWithServiceCategoryServiceStudyNumberRegIdTest<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>risTestScripts.ReportVerifyTests@4d1b0d2a</td></tr>
+<tr>
+<td title='risTestScripts.ReportPrintTests.searchWithServiceCategoryServiceStudyNumberRegIdTest()'><b>searchWithServiceCategoryServiceStudyNumberRegIdTest</b><br>Test class: risTestScripts.ReportPrintTests<br/>
+<a href="#Output-1468192631" onClick='toggleBox("Output-1468192631", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1468192631" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1468192631">
+Passed: searchWithServiceCategoryServiceStudyNumberRegIdTest<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>risTestScripts.ReportPrintTests@954b04f</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.showLastThreeDaysDataDefaultDateSearchTest()'><b>showLastThreeDaysDataDefaultDateSearchTest</b><br>Test class: risTestScripts.ReportCreationTests<br/>
+<a href="#Output-923013679" onClick='toggleBox("Output-923013679", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-923013679" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-923013679">
+Passed: showLastThreeDaysDataDefaultDateSearchTest<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>risTestScripts.ReportCreationTests@47db50c5</td></tr>
+<tr>
+<td title='risTestScripts.ReportVerifyTests.verifiedByTest()'><b>verifiedByTest</b><br>Test class: risTestScripts.ReportVerifyTests<br/>
+<a href="#Output-573023937" onClick='toggleBox("Output-573023937", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-573023937" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-573023937">
+Passed: verifiedByTest<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>risTestScripts.ReportVerifyTests@4d1b0d2a</td></tr>
+<tr>
+<td title='risTestScripts.ReportVerifyTests.verifyButtonTest()'><b>verifyButtonTest</b><br>Test class: risTestScripts.ReportVerifyTests<br/>
+<a href="#Output-1399398408" onClick='toggleBox("Output-1399398408", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1399398408" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1399398408">
+Passed: verifyButtonTest<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>risTestScripts.ReportVerifyTests@4d1b0d2a</td></tr>
+<tr>
+<td title='risTestScripts.ReportVerifyTests.verifyReportButtonTest()'><b>verifyReportButtonTest</b><br>Test class: risTestScripts.ReportVerifyTests<br/>
+<a href="#Output-1893987183" onClick='toggleBox("Output-1893987183", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1893987183" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1893987183">
+Passed: verifyReportButtonTest<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>risTestScripts.ReportVerifyTests@4d1b0d2a</td></tr>
+<tr>
+<td title='risTestScripts.ReportPrintTests.viewReportButtonTest()'><b>viewReportButtonTest</b><br>Test class: risTestScripts.ReportPrintTests<br/>
+<a href="#Output-81505591" onClick='toggleBox("Output-81505591", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-81505591" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-81505591">
+Passed: viewReportButtonTest<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>risTestScripts.ReportPrintTests@954b04f</td></tr>
+</table><p>
+</body>
+</html>

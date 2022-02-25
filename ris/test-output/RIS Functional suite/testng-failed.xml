@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RIS Functional suite]">
+  <listeners>
+    <listener class-name="CommonPack.Listeners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test name="RIS Application Tests(failed)">
+    <classes>
+      <class name="risTestScripts.ManageTemplateTests">
+        <methods>
+          <include name="searchTemplateTest"/>
+          <include name="AddReportTemplateButtonTest"/>
+          <include name="uniqueTemplateNameTest"/>
+          <include name="searchOnAvailableTemplateTableTest"/>
+          <include name="defaultViewDataTest"/>
+          <include name="openManageTemplateTest"/>
+          <include name="updateTemplateTest"/>
+          <include name="AddReportTemplateTest"/>
+        </methods>
+      </class> <!-- risTestScripts.ManageTemplateTests -->
+      <class name="risTestScripts.ServiceRoomMappingTests">
+        <methods>
+          <include name="validateUpdatedMappingTest"/>
+          <include name="searchOnServiceRoomMappingTableTest"/>
+          <include name="searchRoomMappingTest"/>
+          <include name="defaultViewTest"/>
+          <include name="updateButtonTest"/>
+          <include name="addNewRoomButtonTest"/>
+          <include name="updateMappingTest"/>
+          <include name="openServiceRoomMappingTest"/>
+          <include name="validateMappingTableDataTest"/>
+          <include name="addNewRoomTest"/>
+        </methods>
+      </class> <!-- risTestScripts.ServiceRoomMappingTests -->
+      <class name="risTestScripts.ConfirmationTests">
+        <methods>
+          <include name="searchWithServiceCategoryServiceAndDateTest"/>
+        </methods>
+      </class> <!-- risTestScripts.ConfirmationTests -->
+      <class name="risTestScripts.ReportUpdateTests">
+        <methods>
+          <include name="updateReportAndUpdatebuttonTest"/>
+          <include name="searchWithServiceCategoryServiceStudyNumberRegIdDateTest"/>
+          <include name="updateButtonTest"/>
+        </methods>
+      </class> <!-- risTestScripts.ReportUpdateTests -->
+      <class name="risTestScripts.ImagingMISTests">
+        <methods>
+          <include name="searchOnMISTableTest"/>
+          <include name="validateMisReportDataTest"/>
+          <include name="printMISReportButtonTest"/>
+          <include name="defaultViewDateSearchTest"/>
+        </methods>
+      </class> <!-- risTestScripts.ImagingMISTests -->
+    </classes>
+  </test> <!-- RIS Application Tests(failed) -->
+</suite> <!-- Failed suite [RIS Functional suite] -->

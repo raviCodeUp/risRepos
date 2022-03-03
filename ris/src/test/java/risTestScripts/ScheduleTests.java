@@ -131,7 +131,7 @@ public class ScheduleTests extends OpenBrowsers {
 			System.out.println("serviceName :" + serviceName);
 			Properties properties = new Properties();
 			FileOutputStream outputstream = new FileOutputStream(
-					"C:\\Users\\ravik\\OneDrive\\Desktop\\eclipse data\\RaviQA\\workspace\\ris\\src\\test\\resources\\properties\\testdata.properties");
+					System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\testdata.properties");
 			properties.setProperty("patientName", patientName);
 			properties.setProperty("orderDate", orderDate);
 			properties.setProperty("serviceName", serviceName);

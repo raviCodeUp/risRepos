@@ -71,7 +71,7 @@ public class ReportCreationTests extends OpenBrowsers {
 		try {
 			Properties properties = new Properties();
 			FileInputStream inputstream = new FileInputStream(
-					"C:\\Users\\ravik\\OneDrive\\Desktop\\eclipse data\\RaviQA\\workspace\\ris\\src\\test\\resources\\properties\\confirm.properties");
+					System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\confirm.properties");
 			properties.load(inputstream);
 			String studyNumber = properties.getProperty("studyNumber");
 			String registrationId = properties.getProperty("registrationId");
@@ -111,7 +111,7 @@ public class ReportCreationTests extends OpenBrowsers {
 		try {
 			Properties properties = new Properties();
 			FileInputStream inputstream = new FileInputStream(
-					"C:\\Users\\ravik\\OneDrive\\Desktop\\eclipse data\\RaviQA\\workspace\\ris\\src\\test\\resources\\properties\\confirm.properties");
+					System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\confirm.properties");
 			properties.load(inputstream);
 			String studyNumber = properties.getProperty("studyNumber");
 			String registrationId = properties.getProperty("registrationId");
@@ -135,7 +135,7 @@ public class ReportCreationTests extends OpenBrowsers {
 					.getText();
 			Properties properties1 = new Properties();
 			FileOutputStream outputstream1 = new FileOutputStream(
-					"C:\\Users\\ravik\\OneDrive\\Desktop\\eclipse data\\RaviQA\\workspace\\ris\\src\\test\\resources\\properties\\createreport.properties");
+					System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\createreport.properties");
 			properties1.setProperty("registrationId", registrationId);
 			properties1.setProperty("patientName", patientName);
 			properties1.setProperty("scheduleDateTime", scheduleDateTime);
@@ -179,7 +179,7 @@ public class ReportCreationTests extends OpenBrowsers {
 			Thread.sleep(3000);
 			Properties properties = new Properties();
 			FileInputStream inputstream = new FileInputStream(
-					"C:\\Users\\ravik\\OneDrive\\Desktop\\eclipse data\\RaviQA\\workspace\\ris\\src\\test\\resources\\properties\\confirm.properties");
+					System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\confirm.properties");
 			properties.load(inputstream);
 			String studyNumber = properties.getProperty("studyNumber");
 			String registrationId = properties.getProperty("registrationId");

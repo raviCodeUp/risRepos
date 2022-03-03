@@ -109,7 +109,7 @@ public class ConfirmationTests extends OpenBrowsers {
 			Thread.sleep(2000);
 			Properties properties = new Properties();
 			FileInputStream inputstream = new FileInputStream(
-					"C:\\Users\\ravik\\OneDrive\\Desktop\\eclipse data\\RaviQA\\workspace\\ris\\src\\test\\resources\\properties\\testdata.properties");
+					System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\testdata.properties");
 			properties.load(inputstream);
 			String patientName = properties.getProperty("patientName");
 			String orderDate = properties.getProperty("orderDate");
@@ -137,7 +137,7 @@ public class ConfirmationTests extends OpenBrowsers {
 				System.out.println(registrationId + " " + scheduleDateTime);
 				Properties properties1 = new Properties();
 				FileOutputStream outputstream1 = new FileOutputStream(
-						"C:\\Users\\ravik\\OneDrive\\Desktop\\eclipse data\\RaviQA\\workspace\\ris\\src\\test\\resources\\properties\\confirm.properties");
+						System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\confirm.properties");
 				properties1.setProperty("registrationId", registrationId);
 				properties1.setProperty("patientName", patientName1);
 				properties1.setProperty("scheduleDateTime", scheduleDateTime);

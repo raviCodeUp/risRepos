@@ -85,7 +85,7 @@ public class ImagingMISTests extends OpenBrowsers {
 		try {
 			Properties properties = new Properties();
 			FileInputStream inputstream = new FileInputStream(
-					"C:\\Users\\ravik\\OneDrive\\Desktop\\eclipse data\\RaviQA\\workspace\\ris\\src\\test\\resources\\properties\\verifyreport.properties");
+					System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\verifyreport.properties");
 			properties.load(inputstream);
 			String patientName = properties.getProperty("patientName");
 			driver.findElement(By.className("mat-input-element")).sendKeys(patientName);
@@ -111,7 +111,7 @@ public class ImagingMISTests extends OpenBrowsers {
 			Thread.sleep(2000);
 			Properties properties = new Properties();
 			FileInputStream inputstream = new FileInputStream(
-					"C:\\Users\\ravik\\OneDrive\\Desktop\\eclipse data\\RaviQA\\workspace\\ris\\src\\test\\resources\\properties\\verifyreport.properties");
+					System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\verifyreport.properties");
 			properties.load(inputstream);
 			String studyNumber = properties.getProperty("studyNumber");
 			String registrationId = properties.getProperty("registrationId");

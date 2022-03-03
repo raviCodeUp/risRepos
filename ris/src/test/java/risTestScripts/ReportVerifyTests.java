@@ -64,7 +64,7 @@ public class ReportVerifyTests extends OpenBrowsers {
 		try {
 			Properties properties = new Properties();
 			FileInputStream inputstream = new FileInputStream(
-					"C:\\Users\\ravik\\OneDrive\\Desktop\\eclipse data\\RaviQA\\workspace\\ris\\src\\test\\resources\\properties\\createreport.properties");
+					System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\createreport.properties");
 			properties.load(inputstream);
 			String studyNumber = properties.getProperty("studyNumber");
 			String registrationId = properties.getProperty("registrationId");
@@ -108,7 +108,7 @@ public class ReportVerifyTests extends OpenBrowsers {
 		try {
 			Properties properties = new Properties();
 			FileInputStream inputstream = new FileInputStream(
-					"C:\\Users\\ravik\\OneDrive\\Desktop\\eclipse data\\RaviQA\\workspace\\ris\\src\\test\\resources\\properties\\createreport.properties");
+					System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\createreport.properties");
 			properties.load(inputstream);
 			String patientName = properties.getProperty("patientName");
 			Thread.sleep(2000);
@@ -133,7 +133,7 @@ public class ReportVerifyTests extends OpenBrowsers {
 		try {
 			Properties properties = new Properties();
 			FileInputStream inputstream = new FileInputStream(
-					"C:\\Users\\ravik\\OneDrive\\Desktop\\eclipse data\\RaviQA\\workspace\\ris\\src\\test\\resources\\properties\\createreport.properties");
+					System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\createreport.properties");
 			properties.load(inputstream);
 			String studyNumber = properties.getProperty("studyNumber");
 			String registrationId = properties.getProperty("registrationId");
@@ -156,7 +156,7 @@ public class ReportVerifyTests extends OpenBrowsers {
 
 			Properties properties1 = new Properties();
 			FileOutputStream outputstream1 = new FileOutputStream(
-					"C:\\Users\\ravik\\OneDrive\\Desktop\\eclipse data\\RaviQA\\workspace\\ris\\src\\test\\resources\\properties\\verifyreport.properties");
+					System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\verifyreport.properties");
 			properties1.setProperty("registrationId", registrationId);
 			properties1.setProperty("patientName", patientName);
 			properties1.setProperty("scheduleDateTime", scheduleDateTime);
@@ -178,7 +178,7 @@ public class ReportVerifyTests extends OpenBrowsers {
 			SoftAssert Assert = new SoftAssert();
 			Properties properties = new Properties();
 			FileInputStream inputstream = new FileInputStream(
-					"C:\\Users\\ravik\\OneDrive\\Desktop\\eclipse data\\RaviQA\\workspace\\ris\\src\\test\\resources\\properties\\createreport.properties");
+					System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\createreport.properties");
 			properties.load(inputstream);
 			String studyNumber = properties.getProperty("studyNumber");
 			String registrationId = properties.getProperty("registrationId");

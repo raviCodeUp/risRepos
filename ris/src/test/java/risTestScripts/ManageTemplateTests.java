@@ -59,7 +59,7 @@ public class ManageTemplateTests extends OpenBrowsers {
 		try {
 			Properties properties = new Properties();
 			FileInputStream inputstream = new FileInputStream(
-					"C:\\Users\\ravik\\OneDrive\\Desktop\\eclipse data\\RaviQA\\workspace\\ris\\src\\test\\resources\\properties\\browser.properties");
+					System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\browser.properties");
 			properties.load(inputstream);
 			String templateName = properties.getProperty("templateName");
 			Thread.sleep(2000);
@@ -112,7 +112,7 @@ public class ManageTemplateTests extends OpenBrowsers {
 		try {
 			Properties properties = new Properties();
 			FileInputStream inputstream = new FileInputStream(
-					"C:\\Users\\ravik\\OneDrive\\Desktop\\eclipse data\\RaviQA\\workspace\\ris\\src\\test\\resources\\properties\\browser.properties");
+					System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\browser.properties");
 			properties.load(inputstream);
 			String templateName = properties.getProperty("templateName");
 			Thread.sleep(2000);
@@ -154,7 +154,7 @@ public class ManageTemplateTests extends OpenBrowsers {
 			SoftAssert Assert = new SoftAssert();
 			Properties properties = new Properties();
 			FileInputStream inputstream = new FileInputStream(
-					"C:\\Users\\ravik\\OneDrive\\Desktop\\eclipse data\\RaviQA\\workspace\\ris\\src\\test\\resources\\properties\\browser.properties");
+					System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\browser.properties");
 			properties.load(inputstream);
 			String templateName = properties.getProperty("templateName");
 			driver.findElement(By

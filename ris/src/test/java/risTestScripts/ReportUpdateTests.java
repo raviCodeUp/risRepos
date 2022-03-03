@@ -64,7 +64,7 @@ public class ReportUpdateTests extends OpenBrowsers {
 			Thread.sleep(2000);
 			Properties properties = new Properties();
 			FileInputStream inputstream = new FileInputStream(
-					"C:\\Users\\ravik\\OneDrive\\Desktop\\eclipse data\\RaviQA\\workspace\\ris\\src\\test\\resources\\properties\\confirm.properties");
+					System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\confirm.properties");
 			properties.load(inputstream);
 			String studyNumber = properties.getProperty("studyNumber");
 			String registrationId = properties.getProperty("registrationId");

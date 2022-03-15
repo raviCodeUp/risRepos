@@ -9,10 +9,10 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import OpenBrowsers.OpenBrowsers;
+import OpenBrowsers.Login;
 
 @Test(priority = 0)
-public class ServiceRoomMappingTests extends OpenBrowsers {
+public class ServiceRoomMappingTests extends Login {
 /*	@Test(priority = 0)
 	public void openRis() throws IOException {
 

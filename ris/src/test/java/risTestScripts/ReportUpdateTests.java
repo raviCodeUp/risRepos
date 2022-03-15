@@ -10,10 +10,10 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import OpenBrowsers.OpenBrowsers;
+import OpenBrowsers.Login;
 
 @Test(priority = 3)
-public class ReportUpdateTests extends OpenBrowsers {
+public class ReportUpdateTests extends Login {
 	
 	@Test(priority = 26)
 	public void clickUpdateReportButtonTest() throws IOException {

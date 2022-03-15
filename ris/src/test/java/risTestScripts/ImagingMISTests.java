@@ -11,10 +11,10 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import OpenBrowsers.OpenBrowsers;
+import OpenBrowsers.Login;
 
 @Test(priority = 5)
-public class ImagingMISTests extends OpenBrowsers {
+public class ImagingMISTests extends Login {
 
 	@Test(priority = 46)
 	public void openImagingMISTest() throws IOException {

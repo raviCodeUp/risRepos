@@ -6,9 +6,9 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>helloOne</name>
+	<name>RIS Testscript</name>
 	<url>http://maven.apache.org</url>
-
+<!-- compiler and surefire plugin for jenkins to run testNg.xml-->
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jre.level>1.8</jre.level>
@@ -17,7 +17,7 @@
 
 	<build>
 		<plugins>
-			<!-- Compiler plug-in -->
+			
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -27,14 +27,14 @@
 					<target>${jdk.level}</target>
 				</configuration>
 			</plugin>
-			<!-- Below plug-in is used to execute tests -->
+			
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M5</version>
 				<configuration>
 					<suiteXmlFiles>
-						<!-- TestNG suite XML files -->
+						
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>

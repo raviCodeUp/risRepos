@@ -11,10 +11,10 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import OpenBrowsers.OpenBrowsers;
+import OpenBrowsers.Login;
 
 @Test(priority = 1)
-public class ConfirmationTests extends OpenBrowsers {
+public class ConfirmationTests extends Login {
 	/*@Test(priority = 0)
 	public void openRis() throws IOException {
 

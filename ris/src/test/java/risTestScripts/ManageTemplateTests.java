@@ -11,9 +11,9 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import OpenBrowsers.OpenBrowsers;
+import OpenBrowsers.Login;
 
-public class ManageTemplateTests extends OpenBrowsers {
+public class ManageTemplateTests extends Login {
 	
 	@Test(priority = 62)
 	public void openManageTemplateTest() throws IOException {

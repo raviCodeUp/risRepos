@@ -14,22 +14,29 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import OpenBrowsers.OpenBrowsers;
+import OpenBrowsers.Login;
 
 @Test(priority = 0)
-public class ScheduleTests extends OpenBrowsers {
+public class ScheduleTests extends Login {
 
 	public String patientName1;
 
+	/*
+	 * @Test(priority = 0) public void openRis() throws IOException {
+	 * 
+	 * try { OpenBrowsers.main(null);// open Browser login System.out.println(
+	 * "inside openRis"); Thread.sleep(5000); driver.findElement( By.linkText(
+	 * "Radiology Information System")).click(); } catch (InterruptedException
+	 * e) { // TODO Auto-generated catch block e.printStackTrace(); } }
+	 */
 	@Test(priority = 0)
 	public void openRis() throws IOException {
 
 		try {
-			OpenBrowsers.main(null);// open Browser login
+			// OpenBrowsers.main(null);// open Browser login
 			System.out.println("inside openRis");
 			Thread.sleep(5000);
-			driver.findElement(
-					By.linkText("Radiology Information System")).click();
+			driver.findElement(By.linkText("Radiology Information System")).click();
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -131,7 +138,7 @@ public class ScheduleTests extends OpenBrowsers {
 			System.out.println("serviceName :" + serviceName);
 			Properties properties = new Properties();
 			FileOutputStream outputstream = new FileOutputStream(
-					System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\testdata.properties");
+					System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\testdata.properties");
 			properties.setProperty("patientName", patientName);
 			properties.setProperty("orderDate", orderDate);
 			properties.setProperty("serviceName", serviceName);

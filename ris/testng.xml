@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="RIS Functional suite">
+<suite name="RIS Regression suite">
 	<listeners>
 		<listener class-name="CommonPack.Listeners" />
 		<listener class-name="org.uncommons.reportng.HTMLReporter" />
 	</listeners>
+	<parameter name="browser" value="edge" />
 	<test name="RIS Application Tests">
 		<classes>
-		 	<class name="risTestScripts.ScheduleTests" />
+			<class name="OpenBrowsers.Login" />
+			<class name="risTestScripts.ScheduleTests" />
 			<class name="risTestScripts.ConfirmationTests" />
 			<class name="risTestScripts.ReportCreationTests" />
 			<class name="risTestScripts.ReportUpdateTests" />
-		 	<class name="risTestScripts.ReportVerifyTests" />
-		 	<class name="risTestScripts.ReportPrintTests" />
-		 	<class name="risTestScripts.ImagingMISTests" />
-		 	<class name="risTestScripts.ServiceRoomMappingTests" />
-		 	<class name="risTestScripts.ManageTemplateTests" />
+			<class name="risTestScripts.ReportVerifyTests" />
+			<class name="risTestScripts.ReportPrintTests" />
+			<class name="risTestScripts.ImagingMISTests" />
+			<class name="risTestScripts.ServiceRoomMappingTests" />
+			<class name="risTestScripts.ManageTemplateTests" />
 		</classes>
-	</test> <!-- Functional Tests -->
-</suite> <!-- RIS Functional suite -->
+	</test> <!-- RIS Application Tests -->
+</suite> <!-- RIS Regression suite -->

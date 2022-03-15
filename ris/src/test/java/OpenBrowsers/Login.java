@@ -19,7 +19,7 @@ public class Login {
 	public static WebDriver driver;
     @Parameters({"browser"})
 	@BeforeSuite
-	public void launchApp(String browser) throws IOException {
+	public void launchAndLoginRis(String browser) throws IOException {
 
 		try {
 
@@ -51,7 +51,7 @@ public class Login {
 			Thread.sleep(1000);
 			driver.findElement(By.xpath("//*[@id='mat-input-1']")).sendKeys(password);
 			// driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			Thread.sleep(11000);
+			Thread.sleep(15000);
 			driver.findElement(
 					By.xpath("//*[@id='content-wrap']/app-header/app-login/section/div/div/div[2]/form/div/button"))
 					.click();

@@ -8,7 +8,7 @@
 
 	<name>RIS Testscript</name>
 	<url>http://maven.apache.org</url>
-<!-- compiler and surefire plugin for jenkins to run testNg.xml-->
+	<!-- compiler and surefire plugin for jenkins to run testNg.xml -->
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jre.level>1.8</jre.level>
@@ -17,7 +17,7 @@
 
 	<build>
 		<plugins>
-			
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -27,14 +27,19 @@
 					<target>${jdk.level}</target>
 				</configuration>
 			</plugin>
-			
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M5</version>
 				<configuration>
+					<systemProperties>
+						<property>
+							<name>browser</name>
+							<value>${browser}</value>
+						</property>
+					</systemProperties>
 					<suiteXmlFiles>
-						
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
@@ -42,7 +47,7 @@
 		</plugins>
 	</build>
 
-<!-- Include the following dependencies -->
+	<!-- Include the following dependencies -->
 
 	<dependencies>
 		<dependency>

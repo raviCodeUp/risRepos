@@ -1,0 +1,511 @@
+<html>
+<head>
+<title>TestNG:  RIS Application Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>RIS Application Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/71</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 15 12:28:19 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (314 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='OpenBrowsers.Login.launchApp()'><b>launchApp</b><br>Test class: OpenBrowsers.Login<br>Parameters: edge</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;content-wrap&apos;]/app-header/app-login/section/div/div/div[2]/form/div/button&quot;}
+  (Session info: MicrosoftEdge=99.0.1150.30)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.30, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52945}, msedge: {msedgedriverVersion: 99.0.1150.39 (83e7eb830583b..., userDataDir: C:\Users\ravik\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa6e04d9f5cb6641396ef763da30001a
+*** Element info: {Using=xpath, value=//*[@id=&apos;content-wrap&apos;]/app-header/app-login/section/div/div/div[2]/form/div/button}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at OpenBrowsers.Login.launchApp(Login.java:55)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1174586025", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1174586025'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;content-wrap&apos;]/app-header/app-login/section/div/div/div[2]/form/div/button&quot;}
+  (Session info: MicrosoftEdge=99.0.1150.30)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.30, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52945}, msedge: {msedgedriverVersion: 99.0.1150.39 (83e7eb830583b..., userDataDir: C:\Users\ravik\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa6e04d9f5cb6641396ef763da30001a
+*** Element info: {Using=xpath, value=//*[@id=&apos;content-wrap&apos;]/app-header/app-login/section/div/div/div[2]/form/div/button}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at OpenBrowsers.Login.launchApp(Login.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='risTestScripts.ManageTemplateTests.AddReportTemplateButtonTest()'><b>AddReportTemplateButtonTest</b><br>Test class: risTestScripts.ManageTemplateTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ManageTemplateTests@24a35978</td></tr>
+<tr>
+<td title='risTestScripts.ManageTemplateTests.AddReportTemplateTest()'><b>AddReportTemplateTest</b><br>Test class: risTestScripts.ManageTemplateTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ManageTemplateTests@24a35978</td></tr>
+<tr>
+<td title='risTestScripts.ConfirmationTests.SearchOnTableAndConfirmationTableDataTest()'><b>SearchOnTableAndConfirmationTableDataTest</b><br>Test class: risTestScripts.ConfirmationTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ConfirmationTests@77846d2c</td></tr>
+<tr>
+<td title='risTestScripts.ServiceRoomMappingTests.addNewRoomButtonTest()'><b>addNewRoomButtonTest</b><br>Test class: risTestScripts.ServiceRoomMappingTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ServiceRoomMappingTests@df27fae</td></tr>
+<tr>
+<td title='risTestScripts.ServiceRoomMappingTests.addNewRoomTest()'><b>addNewRoomTest</b><br>Test class: risTestScripts.ServiceRoomMappingTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ServiceRoomMappingTests@df27fae</td></tr>
+<tr>
+<td title='risTestScripts.ReportUpdateTests.clickUpdateReportButtonTest()'><b>clickUpdateReportButtonTest</b><br>Test class: risTestScripts.ReportUpdateTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportUpdateTests@4c762604</td></tr>
+<tr>
+<td title='risTestScripts.ConfirmationTests.confirmButtonTest()'><b>confirmButtonTest</b><br>Test class: risTestScripts.ConfirmationTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ConfirmationTests@77846d2c</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.createButtonTest()'><b>createButtonTest</b><br>Test class: risTestScripts.ReportCreationTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportCreationTests@548ad73b</td></tr>
+<tr>
+<td title='risTestScripts.ManageTemplateTests.defaultViewDataTest()'><b>defaultViewDataTest</b><br>Test class: risTestScripts.ManageTemplateTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ManageTemplateTests@24a35978</td></tr>
+<tr>
+<td title='risTestScripts.ReportPrintTests.defaultViewDateSearchTest()'><b>defaultViewDateSearchTest</b><br>Test class: risTestScripts.ReportPrintTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportPrintTests@727803de</td></tr>
+<tr>
+<td title='risTestScripts.ImagingMISTests.defaultViewDateSearchTest()'><b>defaultViewDateSearchTest</b><br>Test class: risTestScripts.ImagingMISTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ImagingMISTests@704921a5</td></tr>
+<tr>
+<td title='risTestScripts.ReportUpdateTests.defaultViewTableDataTest()'><b>defaultViewTableDataTest</b><br>Test class: risTestScripts.ReportUpdateTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportUpdateTests@4c762604</td></tr>
+<tr>
+<td title='risTestScripts.ServiceRoomMappingTests.defaultViewTest()'><b>defaultViewTest</b><br>Test class: risTestScripts.ServiceRoomMappingTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ServiceRoomMappingTests@df27fae</td></tr>
+<tr>
+<td title='risTestScripts.ReportVerifyTests.defaultviewDateSearchTest()'><b>defaultviewDateSearchTest</b><br>Test class: risTestScripts.ReportVerifyTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportVerifyTests@2641e737</td></tr>
+<tr>
+<td title='risTestScripts.ScheduleTests.inputRoomScheduledateTime()'><b>inputRoomScheduledateTime</b><br>Test class: risTestScripts.ScheduleTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ScheduleTests@4cf4d528</td></tr>
+<tr>
+<td title='risTestScripts.ConfirmationTests.inputStudyNumberTest()'><b>inputStudyNumberTest</b><br>Test class: risTestScripts.ConfirmationTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ConfirmationTests@77846d2c</td></tr>
+<tr>
+<td title='risTestScripts.ScheduleTests.itemsPerPageTest()'><b>itemsPerPageTest</b><br>Test class: risTestScripts.ScheduleTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ScheduleTests@4cf4d528</td></tr>
+<tr>
+<td title='risTestScripts.ConfirmationTests.itemsPerPageTest()'><b>itemsPerPageTest</b><br>Test class: risTestScripts.ConfirmationTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ConfirmationTests@77846d2c</td></tr>
+<tr>
+<td title='risTestScripts.ReportUpdateTests.itemsPerPageTest()'><b>itemsPerPageTest</b><br>Test class: risTestScripts.ReportUpdateTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportUpdateTests@4c762604</td></tr>
+<tr>
+<td title='risTestScripts.ConfirmationTests.openImageCaptureAndConfirmationTest()'><b>openImageCaptureAndConfirmationTest</b><br>Test class: risTestScripts.ConfirmationTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ConfirmationTests@77846d2c</td></tr>
+<tr>
+<td title='risTestScripts.ImagingMISTests.openImagingMISTest()'><b>openImagingMISTest</b><br>Test class: risTestScripts.ImagingMISTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ImagingMISTests@704921a5</td></tr>
+<tr>
+<td title='risTestScripts.ConfirmationTests.openMainMenuTest()'><b>openMainMenuTest</b><br>Test class: risTestScripts.ConfirmationTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ConfirmationTests@77846d2c</td></tr>
+<tr>
+<td title='risTestScripts.ManageTemplateTests.openManageTemplateTest()'><b>openManageTemplateTest</b><br>Test class: risTestScripts.ManageTemplateTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ManageTemplateTests@24a35978</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.openReportCreationTest()'><b>openReportCreationTest</b><br>Test class: risTestScripts.ReportCreationTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportCreationTests@548ad73b</td></tr>
+<tr>
+<td title='risTestScripts.ReportPrintTests.openReportPrintTest()'><b>openReportPrintTest</b><br>Test class: risTestScripts.ReportPrintTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportPrintTests@727803de</td></tr>
+<tr>
+<td title='risTestScripts.ReportVerifyTests.openReportVerificationFromMenuTest()'><b>openReportVerificationFromMenuTest</b><br>Test class: risTestScripts.ReportVerifyTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportVerifyTests@2641e737</td></tr>
+<tr>
+<td title='risTestScripts.ScheduleTests.openRis()'><b>openRis</b><br>Test class: risTestScripts.ScheduleTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ScheduleTests@4cf4d528</td></tr>
+<tr>
+<td title='risTestScripts.ServiceRoomMappingTests.openServiceRoomMappingTest()'><b>openServiceRoomMappingTest</b><br>Test class: risTestScripts.ServiceRoomMappingTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ServiceRoomMappingTests@df27fae</td></tr>
+<tr>
+<td title='risTestScripts.ReportPrintTests.printButtonTest()'><b>printButtonTest</b><br>Test class: risTestScripts.ReportPrintTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportPrintTests@727803de</td></tr>
+<tr>
+<td title='risTestScripts.ImagingMISTests.printMISReportButtonTest()'><b>printMISReportButtonTest</b><br>Test class: risTestScripts.ImagingMISTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ImagingMISTests@704921a5</td></tr>
+<tr>
+<td title='risTestScripts.ReportPrintTests.printReportPageDataValidationTest()'><b>printReportPageDataValidationTest</b><br>Test class: risTestScripts.ReportPrintTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportPrintTests@727803de</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.reportCreationPageCreatedByTest()'><b>reportCreationPageCreatedByTest</b><br>Test class: risTestScripts.ReportCreationTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportCreationTests@548ad73b</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.reportCreationPageDataTest()'><b>reportCreationPageDataTest</b><br>Test class: risTestScripts.ReportCreationTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportCreationTests@548ad73b</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.reportCreationPageNegativeTest()'><b>reportCreationPageNegativeTest</b><br>Test class: risTestScripts.ReportCreationTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportCreationTests@548ad73b</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.reportCreationPageSaveButtonTest()'><b>reportCreationPageSaveButtonTest</b><br>Test class: risTestScripts.ReportCreationTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportCreationTests@548ad73b</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.reportCreationPageSelectTemplateTest()'><b>reportCreationPageSelectTemplateTest</b><br>Test class: risTestScripts.ReportCreationTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportCreationTests@548ad73b</td></tr>
+<tr>
+<td title='risTestScripts.ReportVerifyTests.reportVerificationPageDataTest()'><b>reportVerificationPageDataTest</b><br>Test class: risTestScripts.ReportVerifyTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportVerifyTests@2641e737</td></tr>
+<tr>
+<td title='risTestScripts.ScheduleTests.scheduleButtonTest()'><b>scheduleButtonTest</b><br>Test class: risTestScripts.ScheduleTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ScheduleTests@4cf4d528</td></tr>
+<tr>
+<td title='risTestScripts.ManageTemplateTests.searchOnAvailableTemplateTableTest()'><b>searchOnAvailableTemplateTableTest</b><br>Test class: risTestScripts.ManageTemplateTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ManageTemplateTests@24a35978</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.searchOnCreateReportTableAndDataTest()'><b>searchOnCreateReportTableAndDataTest</b><br>Test class: risTestScripts.ReportCreationTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportCreationTests@548ad73b</td></tr>
+<tr>
+<td title='risTestScripts.ImagingMISTests.searchOnMISTableTest()'><b>searchOnMISTableTest</b><br>Test class: risTestScripts.ImagingMISTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ImagingMISTests@704921a5</td></tr>
+<tr>
+<td title='risTestScripts.ReportPrintTests.searchOnPrintReportTableTest()'><b>searchOnPrintReportTableTest</b><br>Test class: risTestScripts.ReportPrintTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportPrintTests@727803de</td></tr>
+<tr>
+<td title='risTestScripts.ServiceRoomMappingTests.searchOnServiceRoomMappingTableTest()'><b>searchOnServiceRoomMappingTableTest</b><br>Test class: risTestScripts.ServiceRoomMappingTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ServiceRoomMappingTests@df27fae</td></tr>
+<tr>
+<td title='risTestScripts.ScheduleTests.searchOnTableTest()'><b>searchOnTableTest</b><br>Test class: risTestScripts.ScheduleTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ScheduleTests@4cf4d528</td></tr>
+<tr>
+<td title='risTestScripts.ReportVerifyTests.searchOnVerifyReportTableTest()'><b>searchOnVerifyReportTableTest</b><br>Test class: risTestScripts.ReportVerifyTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportVerifyTests@2641e737</td></tr>
+<tr>
+<td title='risTestScripts.ScheduleTests.searchResultsTest()'><b>searchResultsTest</b><br>Test class: risTestScripts.ScheduleTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ScheduleTests@4cf4d528</td></tr>
+<tr>
+<td title='risTestScripts.ServiceRoomMappingTests.searchRoomMappingTest()'><b>searchRoomMappingTest</b><br>Test class: risTestScripts.ServiceRoomMappingTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ServiceRoomMappingTests@df27fae</td></tr>
+<tr>
+<td title='risTestScripts.ManageTemplateTests.searchTemplateTest()'><b>searchTemplateTest</b><br>Test class: risTestScripts.ManageTemplateTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ManageTemplateTests@24a35978</td></tr>
+<tr>
+<td title='risTestScripts.ScheduleTests.searchWithDateNegativeTest()'><b>searchWithDateNegativeTest</b><br>Test class: risTestScripts.ScheduleTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ScheduleTests@4cf4d528</td></tr>
+<tr>
+<td title='risTestScripts.ConfirmationTests.searchWithDateTest()'><b>searchWithDateTest</b><br>Test class: risTestScripts.ConfirmationTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ConfirmationTests@77846d2c</td></tr>
+<tr>
+<td title='risTestScripts.ConfirmationTests.searchWithServiceCategoryServiceAndDateTest()'><b>searchWithServiceCategoryServiceAndDateTest</b><br>Test class: risTestScripts.ConfirmationTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ConfirmationTests@77846d2c</td></tr>
+<tr>
+<td title='risTestScripts.ScheduleTests.searchWithServiceCategoryServiceDateTest()'><b>searchWithServiceCategoryServiceDateTest</b><br>Test class: risTestScripts.ScheduleTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ScheduleTests@4cf4d528</td></tr>
+<tr>
+<td title='risTestScripts.ImagingMISTests.searchWithServiceCategoryServiceServiceStatusRoomDateTest()'><b>searchWithServiceCategoryServiceServiceStatusRoomDateTest</b><br>Test class: risTestScripts.ImagingMISTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ImagingMISTests@704921a5</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.searchWithServiceCategoryServiceStudyNumberRegIdDateTest()'><b>searchWithServiceCategoryServiceStudyNumberRegIdDateTest</b><br>Test class: risTestScripts.ReportCreationTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportCreationTests@548ad73b</td></tr>
+<tr>
+<td title='risTestScripts.ReportUpdateTests.searchWithServiceCategoryServiceStudyNumberRegIdDateTest()'><b>searchWithServiceCategoryServiceStudyNumberRegIdDateTest</b><br>Test class: risTestScripts.ReportUpdateTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportUpdateTests@4c762604</td></tr>
+<tr>
+<td title='risTestScripts.ReportVerifyTests.searchWithServiceCategoryServiceStudyNumberRegIdTest()'><b>searchWithServiceCategoryServiceStudyNumberRegIdTest</b><br>Test class: risTestScripts.ReportVerifyTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportVerifyTests@2641e737</td></tr>
+<tr>
+<td title='risTestScripts.ReportPrintTests.searchWithServiceCategoryServiceStudyNumberRegIdTest()'><b>searchWithServiceCategoryServiceStudyNumberRegIdTest</b><br>Test class: risTestScripts.ReportPrintTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportPrintTests@727803de</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.showLastThreeDaysDataDefaultDateSearchTest()'><b>showLastThreeDaysDataDefaultDateSearchTest</b><br>Test class: risTestScripts.ReportCreationTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportCreationTests@548ad73b</td></tr>
+<tr>
+<td title='risTestScripts.ManageTemplateTests.uniqueTemplateNameTest()'><b>uniqueTemplateNameTest</b><br>Test class: risTestScripts.ManageTemplateTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ManageTemplateTests@24a35978</td></tr>
+<tr>
+<td title='risTestScripts.ReportUpdateTests.updateButtonTest()'><b>updateButtonTest</b><br>Test class: risTestScripts.ReportUpdateTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportUpdateTests@4c762604</td></tr>
+<tr>
+<td title='risTestScripts.ServiceRoomMappingTests.updateButtonTest()'><b>updateButtonTest</b><br>Test class: risTestScripts.ServiceRoomMappingTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ServiceRoomMappingTests@df27fae</td></tr>
+<tr>
+<td title='risTestScripts.ServiceRoomMappingTests.updateMappingTest()'><b>updateMappingTest</b><br>Test class: risTestScripts.ServiceRoomMappingTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ServiceRoomMappingTests@df27fae</td></tr>
+<tr>
+<td title='risTestScripts.ReportUpdateTests.updateReportAndUpdatebuttonTest()'><b>updateReportAndUpdatebuttonTest</b><br>Test class: risTestScripts.ReportUpdateTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportUpdateTests@4c762604</td></tr>
+<tr>
+<td title='risTestScripts.ManageTemplateTests.updateTemplateTest()'><b>updateTemplateTest</b><br>Test class: risTestScripts.ManageTemplateTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ManageTemplateTests@24a35978</td></tr>
+<tr>
+<td title='risTestScripts.ServiceRoomMappingTests.validateMappingTableDataTest()'><b>validateMappingTableDataTest</b><br>Test class: risTestScripts.ServiceRoomMappingTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ServiceRoomMappingTests@df27fae</td></tr>
+<tr>
+<td title='risTestScripts.ImagingMISTests.validateMisReportDataTest()'><b>validateMisReportDataTest</b><br>Test class: risTestScripts.ImagingMISTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ImagingMISTests@704921a5</td></tr>
+<tr>
+<td title='risTestScripts.ServiceRoomMappingTests.validateUpdatedMappingTest()'><b>validateUpdatedMappingTest</b><br>Test class: risTestScripts.ServiceRoomMappingTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ServiceRoomMappingTests@df27fae</td></tr>
+<tr>
+<td title='risTestScripts.ReportVerifyTests.verifiedByTest()'><b>verifiedByTest</b><br>Test class: risTestScripts.ReportVerifyTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportVerifyTests@2641e737</td></tr>
+<tr>
+<td title='risTestScripts.ReportVerifyTests.verifyButtonTest()'><b>verifyButtonTest</b><br>Test class: risTestScripts.ReportVerifyTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportVerifyTests@2641e737</td></tr>
+<tr>
+<td title='risTestScripts.ReportVerifyTests.verifyReportButtonTest()'><b>verifyReportButtonTest</b><br>Test class: risTestScripts.ReportVerifyTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportVerifyTests@2641e737</td></tr>
+<tr>
+<td title='risTestScripts.ReportPrintTests.viewReportButtonTest()'><b>viewReportButtonTest</b><br>Test class: risTestScripts.ReportPrintTests</td>
+<td></td>
+<td>0</td>
+<td>risTestScripts.ReportPrintTests@727803de</td></tr>
+</table><p>
+</body>
+</html>

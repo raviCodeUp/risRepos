@@ -11,7 +11,7 @@ import org.testng.asserts.SoftAssert;
 
 import OpenBrowsers.Login;
 
-@Test(priority = 0)
+@Test(priority = 6)
 public class ServiceRoomMappingTests extends Login {
 /*	@Test(priority = 0)
 	public void openRis() throws IOException {
@@ -27,7 +27,7 @@ public class ServiceRoomMappingTests extends Login {
 			e.printStackTrace();
 		}
 	}*/
-	@Test(priority = 52)
+	@Test(priority = 52,groups="regression")
 	public void openServiceRoomMappingTest() throws IOException {
 
 		try {
@@ -40,7 +40,7 @@ public class ServiceRoomMappingTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 53)
+	@Test(priority = 53,groups="regression")
 	public void defaultViewTest() throws IOException {
 
 		try {
@@ -54,7 +54,7 @@ public class ServiceRoomMappingTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 54)
+	@Test(priority = 54,groups="regression")
 	public void addNewRoomButtonTest() throws IOException {
 
 		try {
@@ -72,7 +72,7 @@ public class ServiceRoomMappingTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 55)
+	@Test(priority = 55,groups="regression")
 	public void addNewRoomTest() throws IOException {
 
 		try {
@@ -92,7 +92,7 @@ public class ServiceRoomMappingTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 56)
+	@Test(priority = 56,groups="regression")
 	public void searchRoomMappingTest() throws IOException {
 
 		try {
@@ -119,7 +119,7 @@ public class ServiceRoomMappingTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 57)
+	@Test(priority = 57,groups="regression")
 	public void searchOnServiceRoomMappingTableTest() throws IOException {
 
 		try {
@@ -136,7 +136,7 @@ public class ServiceRoomMappingTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 58)
+	@Test(priority = 58,groups="regression")
 	public void validateMappingTableDataTest() throws IOException {
 
 		try {
@@ -178,7 +178,7 @@ public class ServiceRoomMappingTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 59)
+	@Test(priority = 59,groups="regression")
 	public void updateButtonTest() throws IOException {
 
 		try {
@@ -196,7 +196,7 @@ public class ServiceRoomMappingTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 60)
+	@Test(priority = 60,groups="regression")
 	public void updateMappingTest() throws IOException {
 
 		try {
@@ -212,7 +212,7 @@ public class ServiceRoomMappingTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 61)
+	@Test(priority = 61,groups="regression")
 	public void validateUpdatedMappingTest() throws IOException {
 
 		try {

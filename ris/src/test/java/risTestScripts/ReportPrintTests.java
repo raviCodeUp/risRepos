@@ -30,7 +30,7 @@ public class ReportPrintTests extends Login {
 			e.printStackTrace();
 		}
 	}*/
-	@Test(priority = 39)
+	@Test(priority = 39,groups={"smoke","sanity","regression"})
 	public void openReportPrintTest() throws IOException {
 		try {
 			//Thread.sleep(4000);
@@ -42,7 +42,7 @@ public class ReportPrintTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 40)
+	@Test(priority = 40,groups="regression")
 	public void defaultViewDateSearchTest() throws IOException {
 		try {
 			Thread.sleep(4000);
@@ -58,7 +58,7 @@ public class ReportPrintTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 41)
+	@Test(priority = 41,groups={"smoke","sanity","regression"})
 	public void searchWithServiceCategoryServiceStudyNumberRegIdTest() throws IOException {
 		try {
 			Properties properties = new Properties();
@@ -70,7 +70,7 @@ public class ReportPrintTests extends Login {
 			WebElement scDdown = driver.findElement(By.name("ProcedureCategoryCode"));
 			Select sc = new Select(scDdown);
 			sc.selectByValue("8");
-			Thread.sleep(2000);
+			Thread.sleep(4000);
 			WebElement sDdown = driver.findElement(By.name("service_id"));
 			Select s = new Select(sDdown);
 			s.selectByValue("56");
@@ -86,7 +86,7 @@ public class ReportPrintTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 42)
+	@Test(priority = 42,groups={"smoke","sanity","regression"})
 	public void searchOnPrintReportTableTest() throws IOException {
 		try {
 			Properties properties = new Properties();
@@ -130,7 +130,7 @@ public class ReportPrintTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 43)
+	@Test(priority = 43,groups={"smoke","sanity","regression"})
 	public void viewReportButtonTest() throws IOException {
 		try {
 			Thread.sleep(1000);
@@ -148,7 +148,7 @@ public class ReportPrintTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 44)
+	@Test(priority = 44,groups="regression")
 	public void printReportPageDataValidationTest() throws IOException {
 		try {
 			SoftAssert Assert = new SoftAssert();
@@ -194,7 +194,7 @@ public class ReportPrintTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 45)
+	@Test(priority = 45,groups={"smoke","sanity","regression"})
 	public void printButtonTest() throws IOException {
 		try {
 			Thread.sleep(2000);

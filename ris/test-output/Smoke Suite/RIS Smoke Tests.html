@@ -1,0 +1,653 @@
+<html>
+<head>
+<title>TestNG:  RIS Smoke Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>RIS Smoke Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>27/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 16 12:20:12 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>97 seconds (97181 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>smoke </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='risTestScripts.ScheduleTests.scheduleButtonTest()'><b>scheduleButtonTest</b><br>Test class: risTestScripts.ScheduleTests<br/>
+<a href="#Output-1869673263" onClick='toggleBox("Output-1869673263", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1869673263" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1869673263">
+Failed: scheduleButtonTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.smallBtn&quot;}
+  (Session info: chrome=99.0.4844.51)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e84d1b0b97f706a3207e85b7f61a5410
+*** Element info: {Using=class name, value=smallBtn}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ScheduleTests.scheduleButtonTest(ScheduleTests.java:245)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1869673263", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1869673263'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.smallBtn&quot;}
+  (Session info: chrome=99.0.4844.51)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e84d1b0b97f706a3207e85b7f61a5410
+*** Element info: {Using=class name, value=smallBtn}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ScheduleTests.scheduleButtonTest(ScheduleTests.java:245)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>2</td>
+<td>risTestScripts.ScheduleTests@77846d2c</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.searchWithServiceCategoryServiceStudyNumberRegIdDateTest()'><b>searchWithServiceCategoryServiceStudyNumberRegIdDateTest</b><br>Test class: risTestScripts.ReportCreationTests<br/>
+<a href="#Output-1960253514" onClick='toggleBox("Output-1960253514", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1960253514" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1960253514">
+Failed: searchWithServiceCategoryServiceStudyNumberRegIdDateTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;ProcedureCategoryCode&apos;]&quot;}
+  (Session info: chrome=99.0.4844.51)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e84d1b0b97f706a3207e85b7f61a5410
+*** Element info: {Using=name, value=ProcedureCategoryCode}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ReportCreationTests.searchWithServiceCategoryServiceStudyNumberRegIdDateTest(ReportCreationTests.java:78)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1960253514", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1960253514'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;ProcedureCategoryCode&apos;]&quot;}
+  (Session info: chrome=99.0.4844.51)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e84d1b0b97f706a3207e85b7f61a5410
+*** Element info: {Using=name, value=ProcedureCategoryCode}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ReportCreationTests.searchWithServiceCategoryServiceStudyNumberRegIdDateTest(ReportCreationTests.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>risTestScripts.ReportCreationTests@4c762604</td></tr>
+<tr>
+<td title='risTestScripts.ReportPrintTests.searchWithServiceCategoryServiceStudyNumberRegIdTest()'><b>searchWithServiceCategoryServiceStudyNumberRegIdTest</b><br>Test class: risTestScripts.ReportPrintTests<br/>
+<a href="#Output-1450712470" onClick='toggleBox("Output-1450712470", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1450712470" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1450712470">
+Failed: searchWithServiceCategoryServiceStudyNumberRegIdTest<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=99.0.4844.51)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e84d1b0b97f706a3207e85b7f61a5410
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:53)
+	at risTestScripts.ReportPrintTests.searchWithServiceCategoryServiceStudyNumberRegIdTest(ReportPrintTests.java:71)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1450712470", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1450712470'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=99.0.4844.51)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e84d1b0b97f706a3207e85b7f61a5410
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:53)
+	at risTestScripts.ReportPrintTests.searchWithServiceCategoryServiceStudyNumberRegIdTest(ReportPrintTests.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>risTestScripts.ReportPrintTests@727803de</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='risTestScripts.ConfirmationTests.SearchOnTableAndConfirmationTableDataTest()'><b>SearchOnTableAndConfirmationTableDataTest</b><br>Test class: risTestScripts.ConfirmationTests<br/>
+<a href="#Output-876962272" onClick='toggleBox("Output-876962272", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-876962272" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-876962272">
+Passed: SearchOnTableAndConfirmationTableDataTest<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>risTestScripts.ConfirmationTests@548ad73b</td></tr>
+<tr>
+<td title='risTestScripts.ConfirmationTests.confirmButtonTest()'><b>confirmButtonTest</b><br>Test class: risTestScripts.ConfirmationTests<br/>
+<a href="#Output-742672280" onClick='toggleBox("Output-742672280", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-742672280" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-742672280">
+Passed: confirmButtonTest<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>risTestScripts.ConfirmationTests@548ad73b</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.createButtonTest()'><b>createButtonTest</b><br>Test class: risTestScripts.ReportCreationTests<br/>
+<a href="#Output-623131585" onClick='toggleBox("Output-623131585", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-623131585" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-623131585">
+Passed: createButtonTest<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>risTestScripts.ReportCreationTests@4c762604</td></tr>
+<tr>
+<td title='risTestScripts.ScheduleTests.inputRoomScheduledateTime()'><b>inputRoomScheduledateTime</b><br>Test class: risTestScripts.ScheduleTests<br/>
+<a href="#Output-2109027570" onClick='toggleBox("Output-2109027570", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2109027570" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2109027570">
+Passed: inputRoomScheduledateTime<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>risTestScripts.ScheduleTests@77846d2c</td></tr>
+<tr>
+<td title='risTestScripts.ConfirmationTests.inputStudyNumberTest()'><b>inputStudyNumberTest</b><br>Test class: risTestScripts.ConfirmationTests<br/>
+<a href="#Output-1481751887" onClick='toggleBox("Output-1481751887", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1481751887" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1481751887">
+Passed: inputStudyNumberTest<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>risTestScripts.ConfirmationTests@548ad73b</td></tr>
+<tr>
+<td title='risTestScripts.ConfirmationTests.openImageCaptureAndConfirmationTest()'><b>openImageCaptureAndConfirmationTest</b><br>Test class: risTestScripts.ConfirmationTests<br/>
+<a href="#Output-1264754451" onClick='toggleBox("Output-1264754451", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1264754451" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1264754451">
+Passed: openImageCaptureAndConfirmationTest<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>risTestScripts.ConfirmationTests@548ad73b</td></tr>
+<tr>
+<td title='risTestScripts.ConfirmationTests.openMainMenuTest()'><b>openMainMenuTest</b><br>Test class: risTestScripts.ConfirmationTests<br/>
+<a href="#Output-1374982240" onClick='toggleBox("Output-1374982240", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1374982240" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1374982240">
+Passed: openMainMenuTest<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>risTestScripts.ConfirmationTests@548ad73b</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.openReportCreationTest()'><b>openReportCreationTest</b><br>Test class: risTestScripts.ReportCreationTests<br/>
+<a href="#Output-681747431" onClick='toggleBox("Output-681747431", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-681747431" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-681747431">
+Passed: openReportCreationTest<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>risTestScripts.ReportCreationTests@4c762604</td></tr>
+<tr>
+<td title='risTestScripts.ReportPrintTests.openReportPrintTest()'><b>openReportPrintTest</b><br>Test class: risTestScripts.ReportPrintTests<br/>
+<a href="#Output-824357143" onClick='toggleBox("Output-824357143", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-824357143" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-824357143">
+Passed: openReportPrintTest<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>risTestScripts.ReportPrintTests@727803de</td></tr>
+<tr>
+<td title='risTestScripts.ReportVerifyTests.openReportVerificationFromMenuTest()'><b>openReportVerificationFromMenuTest</b><br>Test class: risTestScripts.ReportVerifyTests<br/>
+<a href="#Output-511651343" onClick='toggleBox("Output-511651343", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-511651343" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-511651343">
+Passed: openReportVerificationFromMenuTest<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>risTestScripts.ReportVerifyTests@2641e737</td></tr>
+<tr>
+<td title='risTestScripts.ScheduleTests.openRis()'><b>openRis</b><br>Test class: risTestScripts.ScheduleTests<br/>
+<a href="#Output-137533655" onClick='toggleBox("Output-137533655", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-137533655" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-137533655">
+Passed: openRis<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>risTestScripts.ScheduleTests@77846d2c</td></tr>
+<tr>
+<td title='risTestScripts.ReportPrintTests.printButtonTest()'><b>printButtonTest</b><br>Test class: risTestScripts.ReportPrintTests<br/>
+<a href="#Output-117460541" onClick='toggleBox("Output-117460541", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-117460541" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-117460541">
+Passed: printButtonTest<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>risTestScripts.ReportPrintTests@727803de</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.reportCreationPageCreatedByTest()'><b>reportCreationPageCreatedByTest</b><br>Test class: risTestScripts.ReportCreationTests<br/>
+<a href="#Output-874153561" onClick='toggleBox("Output-874153561", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-874153561" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-874153561">
+Passed: reportCreationPageCreatedByTest<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>risTestScripts.ReportCreationTests@4c762604</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.reportCreationPageDataTest()'><b>reportCreationPageDataTest</b><br>Test class: risTestScripts.ReportCreationTests<br/>
+<a href="#Output-1830969563" onClick='toggleBox("Output-1830969563", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1830969563" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1830969563">
+Passed: reportCreationPageDataTest<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>risTestScripts.ReportCreationTests@4c762604</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.reportCreationPageSaveButtonTest()'><b>reportCreationPageSaveButtonTest</b><br>Test class: risTestScripts.ReportCreationTests<br/>
+<a href="#Output-23053378" onClick='toggleBox("Output-23053378", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-23053378" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-23053378">
+Passed: reportCreationPageSaveButtonTest<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>risTestScripts.ReportCreationTests@4c762604</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.reportCreationPageSelectTemplateTest()'><b>reportCreationPageSelectTemplateTest</b><br>Test class: risTestScripts.ReportCreationTests<br/>
+<a href="#Output-1552179791" onClick='toggleBox("Output-1552179791", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1552179791" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1552179791">
+Passed: reportCreationPageSelectTemplateTest<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>risTestScripts.ReportCreationTests@4c762604</td></tr>
+<tr>
+<td title='risTestScripts.ReportCreationTests.searchOnCreateReportTableAndDataTest()'><b>searchOnCreateReportTableAndDataTest</b><br>Test class: risTestScripts.ReportCreationTests<br/>
+<a href="#Output-331748029" onClick='toggleBox("Output-331748029", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-331748029" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-331748029">
+Passed: searchOnCreateReportTableAndDataTest<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>risTestScripts.ReportCreationTests@4c762604</td></tr>
+<tr>
+<td title='risTestScripts.ReportPrintTests.searchOnPrintReportTableTest()'><b>searchOnPrintReportTableTest</b><br>Test class: risTestScripts.ReportPrintTests<br/>
+<a href="#Output-1041451158" onClick='toggleBox("Output-1041451158", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1041451158" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1041451158">
+Passed: searchOnPrintReportTableTest<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>risTestScripts.ReportPrintTests@727803de</td></tr>
+<tr>
+<td title='risTestScripts.ScheduleTests.searchOnTableTest()'><b>searchOnTableTest</b><br>Test class: risTestScripts.ScheduleTests<br/>
+<a href="#Output-493944943" onClick='toggleBox("Output-493944943", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-493944943" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-493944943">
+Passed: searchOnTableTest<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>risTestScripts.ScheduleTests@77846d2c</td></tr>
+<tr>
+<td title='risTestScripts.ReportVerifyTests.searchOnVerifyReportTableTest()'><b>searchOnVerifyReportTableTest</b><br>Test class: risTestScripts.ReportVerifyTests<br/>
+<a href="#Output-1285463992" onClick='toggleBox("Output-1285463992", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1285463992" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1285463992">
+Passed: searchOnVerifyReportTableTest<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>risTestScripts.ReportVerifyTests@2641e737</td></tr>
+<tr>
+<td title='risTestScripts.ConfirmationTests.searchWithServiceCategoryServiceAndDateTest()'><b>searchWithServiceCategoryServiceAndDateTest</b><br>Test class: risTestScripts.ConfirmationTests<br/>
+<a href="#Output-1919125229" onClick='toggleBox("Output-1919125229", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1919125229" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1919125229">
+Passed: searchWithServiceCategoryServiceAndDateTest<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>risTestScripts.ConfirmationTests@548ad73b</td></tr>
+<tr>
+<td title='risTestScripts.ScheduleTests.searchWithServiceCategoryServiceDateTest()'><b>searchWithServiceCategoryServiceDateTest</b><br>Test class: risTestScripts.ScheduleTests<br/>
+<a href="#Output-1572745406" onClick='toggleBox("Output-1572745406", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1572745406" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1572745406">
+Passed: searchWithServiceCategoryServiceDateTest<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>risTestScripts.ScheduleTests@77846d2c</td></tr>
+<tr>
+<td title='risTestScripts.ReportVerifyTests.searchWithServiceCategoryServiceStudyNumberRegIdTest()'><b>searchWithServiceCategoryServiceStudyNumberRegIdTest</b><br>Test class: risTestScripts.ReportVerifyTests<br/>
+<a href="#Output-967460257" onClick='toggleBox("Output-967460257", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-967460257" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-967460257">
+Passed: searchWithServiceCategoryServiceStudyNumberRegIdTest<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>risTestScripts.ReportVerifyTests@2641e737</td></tr>
+<tr>
+<td title='risTestScripts.ReportVerifyTests.verifiedByTest()'><b>verifiedByTest</b><br>Test class: risTestScripts.ReportVerifyTests<br/>
+<a href="#Output-1047477166" onClick='toggleBox("Output-1047477166", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1047477166" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1047477166">
+Passed: verifiedByTest<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>risTestScripts.ReportVerifyTests@2641e737</td></tr>
+<tr>
+<td title='risTestScripts.ReportVerifyTests.verifyButtonTest()'><b>verifyButtonTest</b><br>Test class: risTestScripts.ReportVerifyTests<br/>
+<a href="#Output-159917166" onClick='toggleBox("Output-159917166", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-159917166" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-159917166">
+Passed: verifyButtonTest<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>risTestScripts.ReportVerifyTests@2641e737</td></tr>
+<tr>
+<td title='risTestScripts.ReportVerifyTests.verifyReportButtonTest()'><b>verifyReportButtonTest</b><br>Test class: risTestScripts.ReportVerifyTests<br/>
+<a href="#Output-1179272258" onClick='toggleBox("Output-1179272258", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1179272258" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1179272258">
+Passed: verifyReportButtonTest<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>risTestScripts.ReportVerifyTests@2641e737</td></tr>
+<tr>
+<td title='risTestScripts.ReportPrintTests.viewReportButtonTest()'><b>viewReportButtonTest</b><br>Test class: risTestScripts.ReportPrintTests<br/>
+<a href="#Output-654740048" onClick='toggleBox("Output-654740048", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-654740048" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-654740048">
+Passed: viewReportButtonTest<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>risTestScripts.ReportPrintTests@727803de</td></tr>
+</table><p>
+</body>
+</html>

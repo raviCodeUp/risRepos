@@ -40,7 +40,7 @@
 						</property>
 					</systemProperties>
 					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>${testsuit}</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

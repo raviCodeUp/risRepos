@@ -29,7 +29,7 @@ public class ConfirmationTests extends Login {
 			e.printStackTrace();
 		}
 	}*/
-	@Test(priority = 8)
+	@Test(priority = 8,groups={"smoke","sanity","regression"})
 	public void openMainMenuTest() throws IOException {
 		try {
 			Thread.sleep(4000);
@@ -40,7 +40,7 @@ public class ConfirmationTests extends Login {
 		}
 	}
 
-	@Test(priority = 9)
+	@Test(priority = 9,groups={"smoke","sanity","regression"})
 	public void openImageCaptureAndConfirmationTest() throws IOException {
 		try {
 			Thread.sleep(2000);
@@ -51,7 +51,7 @@ public class ConfirmationTests extends Login {
 		}
 	}
 
-	@Test(priority = 10)
+	@Test(priority = 10,groups="regression")
 	public void searchWithDateTest() throws IOException {
 		try {
 			Thread.sleep(4000);
@@ -68,10 +68,10 @@ public class ConfirmationTests extends Login {
 		}
 	}
 
-	@Test(priority = 11)
+	@Test(priority = 11,groups={"smoke","sanity","regression"})
 	public void searchWithServiceCategoryServiceAndDateTest() throws IOException {
 		try {
-			Thread.sleep(2000);
+			Thread.sleep(4000);
 			System.out.println("Inside captureConfirmTest : Service & Date search Test");
 			WebElement sCDdown = driver.findElement(By.name("service_category_code"));
 			Select selectSc = new Select(sCDdown);
@@ -90,7 +90,7 @@ public class ConfirmationTests extends Login {
 		}
 	}
 
-	@Test(priority = 12)
+	@Test(priority = 12,groups="regression")
 	public void itemsPerPageTest() throws IOException {
 		try {
 			Thread.sleep(2000);
@@ -103,7 +103,7 @@ public class ConfirmationTests extends Login {
 		}
 	}
 
-	@Test(priority = 13)
+	@Test(priority = 13,groups={"smoke","sanity","regression"})
 	public void SearchOnTableAndConfirmationTableDataTest() throws IOException {
 		try {
 			Thread.sleep(2000);
@@ -151,7 +151,7 @@ public class ConfirmationTests extends Login {
 		}
 	}
 
-	@Test(priority = 14)
+	@Test(priority = 14,groups={"smoke","sanity","regression"})
 	public void inputStudyNumberTest() throws IOException {
 		try {
 			Thread.sleep(1000);
@@ -165,7 +165,7 @@ public class ConfirmationTests extends Login {
 
 	}
 
-	@Test(priority = 15)
+	@Test(priority = 15,groups={"smoke","sanity","regression"})
 	public void confirmButtonTest() throws IOException {
 		try {
 			Thread.sleep(1000);

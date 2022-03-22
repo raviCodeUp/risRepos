@@ -1,242 +1,318 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="71" failed="0" total="71" passed="0">
+<testng-results skipped="0" failed="3" total="30" passed="27">
   <reporter-output>
+    <line>
+      <![CDATA[Test started: openRis]]>
+    </line>
+    <line>
+      <![CDATA[Passed: openRis]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchWithServiceCategoryServiceDateTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: searchWithServiceCategoryServiceDateTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchOnTableTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: searchOnTableTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: inputRoomScheduledateTime]]>
+    </line>
+    <line>
+      <![CDATA[Passed: inputRoomScheduledateTime]]>
+    </line>
+    <line>
+      <![CDATA[Test started: scheduleButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: scheduleButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: openMainMenuTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: openMainMenuTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: openImageCaptureAndConfirmationTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: openImageCaptureAndConfirmationTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchWithServiceCategoryServiceAndDateTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: searchWithServiceCategoryServiceAndDateTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: SearchOnTableAndConfirmationTableDataTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: SearchOnTableAndConfirmationTableDataTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: inputStudyNumberTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: inputStudyNumberTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: confirmButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: confirmButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: openReportCreationTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: openReportCreationTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchWithServiceCategoryServiceStudyNumberRegIdDateTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: searchWithServiceCategoryServiceStudyNumberRegIdDateTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchOnCreateReportTableAndDataTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: searchOnCreateReportTableAndDataTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: createButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: createButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: reportCreationPageDataTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: reportCreationPageDataTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: reportCreationPageSelectTemplateTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: reportCreationPageSelectTemplateTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: reportCreationPageCreatedByTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: reportCreationPageCreatedByTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: reportCreationPageSaveButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: reportCreationPageSaveButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: openReportVerificationFromMenuTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: openReportVerificationFromMenuTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchOnVerifyReportTableTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: searchOnVerifyReportTableTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchWithServiceCategoryServiceStudyNumberRegIdTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: searchWithServiceCategoryServiceStudyNumberRegIdTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: verifyButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: verifyButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: verifiedByTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: verifiedByTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: verifyReportButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: verifyReportButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: openReportPrintTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: openReportPrintTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchWithServiceCategoryServiceStudyNumberRegIdTest]]>
+    </line>
+    <line>
+      <![CDATA[Failed: searchWithServiceCategoryServiceStudyNumberRegIdTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: searchOnPrintReportTableTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: searchOnPrintReportTableTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: viewReportButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: viewReportButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Test started: printButtonTest]]>
+    </line>
+    <line>
+      <![CDATA[Passed: printButtonTest]]>
+    </line>
   </reporter-output>
-  <suite name="RIS Regression suite" duration-ms="314" started-at="2022-03-15T06:58:19Z" finished-at="2022-03-15T06:58:20Z">
+  <suite name="Smoke Suite" duration-ms="97181" started-at="2022-03-16T06:50:12Z" finished-at="2022-03-16T06:51:49Z">
     <groups>
+      <group name="regression">
+        <method signature="ConfirmationTests.SearchOnTableAndConfirmationTableDataTest()[pri:13, instance:risTestScripts.ConfirmationTests@548ad73b]" name="SearchOnTableAndConfirmationTableDataTest" class="risTestScripts.ConfirmationTests"/>
+        <method signature="ConfirmationTests.confirmButtonTest()[pri:15, instance:risTestScripts.ConfirmationTests@548ad73b]" name="confirmButtonTest" class="risTestScripts.ConfirmationTests"/>
+        <method signature="ConfirmationTests.inputStudyNumberTest()[pri:14, instance:risTestScripts.ConfirmationTests@548ad73b]" name="inputStudyNumberTest" class="risTestScripts.ConfirmationTests"/>
+        <method signature="ConfirmationTests.openImageCaptureAndConfirmationTest()[pri:9, instance:risTestScripts.ConfirmationTests@548ad73b]" name="openImageCaptureAndConfirmationTest" class="risTestScripts.ConfirmationTests"/>
+        <method signature="ConfirmationTests.openMainMenuTest()[pri:8, instance:risTestScripts.ConfirmationTests@548ad73b]" name="openMainMenuTest" class="risTestScripts.ConfirmationTests"/>
+        <method signature="ConfirmationTests.searchWithServiceCategoryServiceAndDateTest()[pri:11, instance:risTestScripts.ConfirmationTests@548ad73b]" name="searchWithServiceCategoryServiceAndDateTest" class="risTestScripts.ConfirmationTests"/>
+        <method signature="ReportCreationTests.createButtonTest()[pri:20, instance:risTestScripts.ReportCreationTests@4c762604]" name="createButtonTest" class="risTestScripts.ReportCreationTests"/>
+        <method signature="ReportCreationTests.openReportCreationTest()[pri:16, instance:risTestScripts.ReportCreationTests@4c762604]" name="openReportCreationTest" class="risTestScripts.ReportCreationTests"/>
+        <method signature="ReportCreationTests.reportCreationPageCreatedByTest()[pri:24, instance:risTestScripts.ReportCreationTests@4c762604]" name="reportCreationPageCreatedByTest" class="risTestScripts.ReportCreationTests"/>
+        <method signature="ReportCreationTests.reportCreationPageDataTest()[pri:21, instance:risTestScripts.ReportCreationTests@4c762604]" name="reportCreationPageDataTest" class="risTestScripts.ReportCreationTests"/>
+        <method signature="ReportCreationTests.reportCreationPageSaveButtonTest()[pri:25, instance:risTestScripts.ReportCreationTests@4c762604]" name="reportCreationPageSaveButtonTest" class="risTestScripts.ReportCreationTests"/>
+        <method signature="ReportCreationTests.reportCreationPageSelectTemplateTest()[pri:23, instance:risTestScripts.ReportCreationTests@4c762604]" name="reportCreationPageSelectTemplateTest" class="risTestScripts.ReportCreationTests"/>
+        <method signature="ReportCreationTests.searchOnCreateReportTableAndDataTest()[pri:19, instance:risTestScripts.ReportCreationTests@4c762604]" name="searchOnCreateReportTableAndDataTest" class="risTestScripts.ReportCreationTests"/>
+        <method signature="ReportCreationTests.searchWithServiceCategoryServiceStudyNumberRegIdDateTest()[pri:18, instance:risTestScripts.ReportCreationTests@4c762604]" name="searchWithServiceCategoryServiceStudyNumberRegIdDateTest" class="risTestScripts.ReportCreationTests"/>
+        <method signature="ReportPrintTests.openReportPrintTest()[pri:39, instance:risTestScripts.ReportPrintTests@727803de]" name="openReportPrintTest" class="risTestScripts.ReportPrintTests"/>
+        <method signature="ReportPrintTests.printButtonTest()[pri:45, instance:risTestScripts.ReportPrintTests@727803de]" name="printButtonTest" class="risTestScripts.ReportPrintTests"/>
+        <method signature="ReportPrintTests.searchOnPrintReportTableTest()[pri:42, instance:risTestScripts.ReportPrintTests@727803de]" name="searchOnPrintReportTableTest" class="risTestScripts.ReportPrintTests"/>
+        <method signature="ReportPrintTests.searchWithServiceCategoryServiceStudyNumberRegIdTest()[pri:41, instance:risTestScripts.ReportPrintTests@727803de]" name="searchWithServiceCategoryServiceStudyNumberRegIdTest" class="risTestScripts.ReportPrintTests"/>
+        <method signature="ReportPrintTests.viewReportButtonTest()[pri:43, instance:risTestScripts.ReportPrintTests@727803de]" name="viewReportButtonTest" class="risTestScripts.ReportPrintTests"/>
+        <method signature="ReportVerifyTests.openReportVerificationFromMenuTest()[pri:32, instance:risTestScripts.ReportVerifyTests@2641e737]" name="openReportVerificationFromMenuTest" class="risTestScripts.ReportVerifyTests"/>
+        <method signature="ReportVerifyTests.searchOnVerifyReportTableTest()[pri:34, instance:risTestScripts.ReportVerifyTests@2641e737]" name="searchOnVerifyReportTableTest" class="risTestScripts.ReportVerifyTests"/>
+        <method signature="ReportVerifyTests.searchWithServiceCategoryServiceStudyNumberRegIdTest()[pri:34, instance:risTestScripts.ReportVerifyTests@2641e737]" name="searchWithServiceCategoryServiceStudyNumberRegIdTest" class="risTestScripts.ReportVerifyTests"/>
+        <method signature="ReportVerifyTests.verifiedByTest()[pri:37, instance:risTestScripts.ReportVerifyTests@2641e737]" name="verifiedByTest" class="risTestScripts.ReportVerifyTests"/>
+        <method signature="ReportVerifyTests.verifyButtonTest()[pri:35, instance:risTestScripts.ReportVerifyTests@2641e737]" name="verifyButtonTest" class="risTestScripts.ReportVerifyTests"/>
+        <method signature="ReportVerifyTests.verifyReportButtonTest()[pri:38, instance:risTestScripts.ReportVerifyTests@2641e737]" name="verifyReportButtonTest" class="risTestScripts.ReportVerifyTests"/>
+        <method signature="ScheduleTests.inputRoomScheduledateTime()[pri:6, instance:risTestScripts.ScheduleTests@77846d2c]" name="inputRoomScheduledateTime" class="risTestScripts.ScheduleTests"/>
+        <method signature="ScheduleTests.openRis()[pri:0, instance:risTestScripts.ScheduleTests@77846d2c]" name="openRis" class="risTestScripts.ScheduleTests"/>
+        <method signature="ScheduleTests.scheduleButtonTest()[pri:7, instance:risTestScripts.ScheduleTests@77846d2c]" name="scheduleButtonTest" class="risTestScripts.ScheduleTests"/>
+        <method signature="ScheduleTests.searchOnTableTest()[pri:5, instance:risTestScripts.ScheduleTests@77846d2c]" name="searchOnTableTest" class="risTestScripts.ScheduleTests"/>
+        <method signature="ScheduleTests.searchWithServiceCategoryServiceDateTest()[pri:2, instance:risTestScripts.ScheduleTests@77846d2c]" name="searchWithServiceCategoryServiceDateTest" class="risTestScripts.ScheduleTests"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="ConfirmationTests.SearchOnTableAndConfirmationTableDataTest()[pri:13, instance:risTestScripts.ConfirmationTests@548ad73b]" name="SearchOnTableAndConfirmationTableDataTest" class="risTestScripts.ConfirmationTests"/>
+        <method signature="ConfirmationTests.confirmButtonTest()[pri:15, instance:risTestScripts.ConfirmationTests@548ad73b]" name="confirmButtonTest" class="risTestScripts.ConfirmationTests"/>
+        <method signature="ConfirmationTests.inputStudyNumberTest()[pri:14, instance:risTestScripts.ConfirmationTests@548ad73b]" name="inputStudyNumberTest" class="risTestScripts.ConfirmationTests"/>
+        <method signature="ConfirmationTests.openImageCaptureAndConfirmationTest()[pri:9, instance:risTestScripts.ConfirmationTests@548ad73b]" name="openImageCaptureAndConfirmationTest" class="risTestScripts.ConfirmationTests"/>
+        <method signature="ConfirmationTests.openMainMenuTest()[pri:8, instance:risTestScripts.ConfirmationTests@548ad73b]" name="openMainMenuTest" class="risTestScripts.ConfirmationTests"/>
+        <method signature="ConfirmationTests.searchWithServiceCategoryServiceAndDateTest()[pri:11, instance:risTestScripts.ConfirmationTests@548ad73b]" name="searchWithServiceCategoryServiceAndDateTest" class="risTestScripts.ConfirmationTests"/>
+        <method signature="ReportCreationTests.createButtonTest()[pri:20, instance:risTestScripts.ReportCreationTests@4c762604]" name="createButtonTest" class="risTestScripts.ReportCreationTests"/>
+        <method signature="ReportCreationTests.openReportCreationTest()[pri:16, instance:risTestScripts.ReportCreationTests@4c762604]" name="openReportCreationTest" class="risTestScripts.ReportCreationTests"/>
+        <method signature="ReportCreationTests.reportCreationPageCreatedByTest()[pri:24, instance:risTestScripts.ReportCreationTests@4c762604]" name="reportCreationPageCreatedByTest" class="risTestScripts.ReportCreationTests"/>
+        <method signature="ReportCreationTests.reportCreationPageDataTest()[pri:21, instance:risTestScripts.ReportCreationTests@4c762604]" name="reportCreationPageDataTest" class="risTestScripts.ReportCreationTests"/>
+        <method signature="ReportCreationTests.reportCreationPageSaveButtonTest()[pri:25, instance:risTestScripts.ReportCreationTests@4c762604]" name="reportCreationPageSaveButtonTest" class="risTestScripts.ReportCreationTests"/>
+        <method signature="ReportCreationTests.reportCreationPageSelectTemplateTest()[pri:23, instance:risTestScripts.ReportCreationTests@4c762604]" name="reportCreationPageSelectTemplateTest" class="risTestScripts.ReportCreationTests"/>
+        <method signature="ReportCreationTests.searchOnCreateReportTableAndDataTest()[pri:19, instance:risTestScripts.ReportCreationTests@4c762604]" name="searchOnCreateReportTableAndDataTest" class="risTestScripts.ReportCreationTests"/>
+        <method signature="ReportCreationTests.searchWithServiceCategoryServiceStudyNumberRegIdDateTest()[pri:18, instance:risTestScripts.ReportCreationTests@4c762604]" name="searchWithServiceCategoryServiceStudyNumberRegIdDateTest" class="risTestScripts.ReportCreationTests"/>
+        <method signature="ReportPrintTests.openReportPrintTest()[pri:39, instance:risTestScripts.ReportPrintTests@727803de]" name="openReportPrintTest" class="risTestScripts.ReportPrintTests"/>
+        <method signature="ReportPrintTests.printButtonTest()[pri:45, instance:risTestScripts.ReportPrintTests@727803de]" name="printButtonTest" class="risTestScripts.ReportPrintTests"/>
+        <method signature="ReportPrintTests.searchOnPrintReportTableTest()[pri:42, instance:risTestScripts.ReportPrintTests@727803de]" name="searchOnPrintReportTableTest" class="risTestScripts.ReportPrintTests"/>
+        <method signature="ReportPrintTests.searchWithServiceCategoryServiceStudyNumberRegIdTest()[pri:41, instance:risTestScripts.ReportPrintTests@727803de]" name="searchWithServiceCategoryServiceStudyNumberRegIdTest" class="risTestScripts.ReportPrintTests"/>
+        <method signature="ReportPrintTests.viewReportButtonTest()[pri:43, instance:risTestScripts.ReportPrintTests@727803de]" name="viewReportButtonTest" class="risTestScripts.ReportPrintTests"/>
+        <method signature="ReportVerifyTests.openReportVerificationFromMenuTest()[pri:32, instance:risTestScripts.ReportVerifyTests@2641e737]" name="openReportVerificationFromMenuTest" class="risTestScripts.ReportVerifyTests"/>
+        <method signature="ReportVerifyTests.searchOnVerifyReportTableTest()[pri:34, instance:risTestScripts.ReportVerifyTests@2641e737]" name="searchOnVerifyReportTableTest" class="risTestScripts.ReportVerifyTests"/>
+        <method signature="ReportVerifyTests.searchWithServiceCategoryServiceStudyNumberRegIdTest()[pri:34, instance:risTestScripts.ReportVerifyTests@2641e737]" name="searchWithServiceCategoryServiceStudyNumberRegIdTest" class="risTestScripts.ReportVerifyTests"/>
+        <method signature="ReportVerifyTests.verifiedByTest()[pri:37, instance:risTestScripts.ReportVerifyTests@2641e737]" name="verifiedByTest" class="risTestScripts.ReportVerifyTests"/>
+        <method signature="ReportVerifyTests.verifyButtonTest()[pri:35, instance:risTestScripts.ReportVerifyTests@2641e737]" name="verifyButtonTest" class="risTestScripts.ReportVerifyTests"/>
+        <method signature="ReportVerifyTests.verifyReportButtonTest()[pri:38, instance:risTestScripts.ReportVerifyTests@2641e737]" name="verifyReportButtonTest" class="risTestScripts.ReportVerifyTests"/>
+        <method signature="ScheduleTests.inputRoomScheduledateTime()[pri:6, instance:risTestScripts.ScheduleTests@77846d2c]" name="inputRoomScheduledateTime" class="risTestScripts.ScheduleTests"/>
+        <method signature="ScheduleTests.openRis()[pri:0, instance:risTestScripts.ScheduleTests@77846d2c]" name="openRis" class="risTestScripts.ScheduleTests"/>
+        <method signature="ScheduleTests.scheduleButtonTest()[pri:7, instance:risTestScripts.ScheduleTests@77846d2c]" name="scheduleButtonTest" class="risTestScripts.ScheduleTests"/>
+        <method signature="ScheduleTests.searchOnTableTest()[pri:5, instance:risTestScripts.ScheduleTests@77846d2c]" name="searchOnTableTest" class="risTestScripts.ScheduleTests"/>
+        <method signature="ScheduleTests.searchWithServiceCategoryServiceDateTest()[pri:2, instance:risTestScripts.ScheduleTests@77846d2c]" name="searchWithServiceCategoryServiceDateTest" class="risTestScripts.ScheduleTests"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="ConfirmationTests.SearchOnTableAndConfirmationTableDataTest()[pri:13, instance:risTestScripts.ConfirmationTests@548ad73b]" name="SearchOnTableAndConfirmationTableDataTest" class="risTestScripts.ConfirmationTests"/>
+        <method signature="ConfirmationTests.confirmButtonTest()[pri:15, instance:risTestScripts.ConfirmationTests@548ad73b]" name="confirmButtonTest" class="risTestScripts.ConfirmationTests"/>
+        <method signature="ConfirmationTests.inputStudyNumberTest()[pri:14, instance:risTestScripts.ConfirmationTests@548ad73b]" name="inputStudyNumberTest" class="risTestScripts.ConfirmationTests"/>
+        <method signature="ConfirmationTests.openImageCaptureAndConfirmationTest()[pri:9, instance:risTestScripts.ConfirmationTests@548ad73b]" name="openImageCaptureAndConfirmationTest" class="risTestScripts.ConfirmationTests"/>
+        <method signature="ConfirmationTests.openMainMenuTest()[pri:8, instance:risTestScripts.ConfirmationTests@548ad73b]" name="openMainMenuTest" class="risTestScripts.ConfirmationTests"/>
+        <method signature="ConfirmationTests.searchWithServiceCategoryServiceAndDateTest()[pri:11, instance:risTestScripts.ConfirmationTests@548ad73b]" name="searchWithServiceCategoryServiceAndDateTest" class="risTestScripts.ConfirmationTests"/>
+        <method signature="ReportCreationTests.createButtonTest()[pri:20, instance:risTestScripts.ReportCreationTests@4c762604]" name="createButtonTest" class="risTestScripts.ReportCreationTests"/>
+        <method signature="ReportCreationTests.openReportCreationTest()[pri:16, instance:risTestScripts.ReportCreationTests@4c762604]" name="openReportCreationTest" class="risTestScripts.ReportCreationTests"/>
+        <method signature="ReportCreationTests.reportCreationPageCreatedByTest()[pri:24, instance:risTestScripts.ReportCreationTests@4c762604]" name="reportCreationPageCreatedByTest" class="risTestScripts.ReportCreationTests"/>
+        <method signature="ReportCreationTests.reportCreationPageDataTest()[pri:21, instance:risTestScripts.ReportCreationTests@4c762604]" name="reportCreationPageDataTest" class="risTestScripts.ReportCreationTests"/>
+        <method signature="ReportCreationTests.reportCreationPageSaveButtonTest()[pri:25, instance:risTestScripts.ReportCreationTests@4c762604]" name="reportCreationPageSaveButtonTest" class="risTestScripts.ReportCreationTests"/>
+        <method signature="ReportCreationTests.reportCreationPageSelectTemplateTest()[pri:23, instance:risTestScripts.ReportCreationTests@4c762604]" name="reportCreationPageSelectTemplateTest" class="risTestScripts.ReportCreationTests"/>
+        <method signature="ReportCreationTests.searchOnCreateReportTableAndDataTest()[pri:19, instance:risTestScripts.ReportCreationTests@4c762604]" name="searchOnCreateReportTableAndDataTest" class="risTestScripts.ReportCreationTests"/>
+        <method signature="ReportCreationTests.searchWithServiceCategoryServiceStudyNumberRegIdDateTest()[pri:18, instance:risTestScripts.ReportCreationTests@4c762604]" name="searchWithServiceCategoryServiceStudyNumberRegIdDateTest" class="risTestScripts.ReportCreationTests"/>
+        <method signature="ReportPrintTests.openReportPrintTest()[pri:39, instance:risTestScripts.ReportPrintTests@727803de]" name="openReportPrintTest" class="risTestScripts.ReportPrintTests"/>
+        <method signature="ReportPrintTests.printButtonTest()[pri:45, instance:risTestScripts.ReportPrintTests@727803de]" name="printButtonTest" class="risTestScripts.ReportPrintTests"/>
+        <method signature="ReportPrintTests.searchOnPrintReportTableTest()[pri:42, instance:risTestScripts.ReportPrintTests@727803de]" name="searchOnPrintReportTableTest" class="risTestScripts.ReportPrintTests"/>
+        <method signature="ReportPrintTests.searchWithServiceCategoryServiceStudyNumberRegIdTest()[pri:41, instance:risTestScripts.ReportPrintTests@727803de]" name="searchWithServiceCategoryServiceStudyNumberRegIdTest" class="risTestScripts.ReportPrintTests"/>
+        <method signature="ReportPrintTests.viewReportButtonTest()[pri:43, instance:risTestScripts.ReportPrintTests@727803de]" name="viewReportButtonTest" class="risTestScripts.ReportPrintTests"/>
+        <method signature="ReportVerifyTests.openReportVerificationFromMenuTest()[pri:32, instance:risTestScripts.ReportVerifyTests@2641e737]" name="openReportVerificationFromMenuTest" class="risTestScripts.ReportVerifyTests"/>
+        <method signature="ReportVerifyTests.searchOnVerifyReportTableTest()[pri:34, instance:risTestScripts.ReportVerifyTests@2641e737]" name="searchOnVerifyReportTableTest" class="risTestScripts.ReportVerifyTests"/>
+        <method signature="ReportVerifyTests.searchWithServiceCategoryServiceStudyNumberRegIdTest()[pri:34, instance:risTestScripts.ReportVerifyTests@2641e737]" name="searchWithServiceCategoryServiceStudyNumberRegIdTest" class="risTestScripts.ReportVerifyTests"/>
+        <method signature="ReportVerifyTests.verifiedByTest()[pri:37, instance:risTestScripts.ReportVerifyTests@2641e737]" name="verifiedByTest" class="risTestScripts.ReportVerifyTests"/>
+        <method signature="ReportVerifyTests.verifyButtonTest()[pri:35, instance:risTestScripts.ReportVerifyTests@2641e737]" name="verifyButtonTest" class="risTestScripts.ReportVerifyTests"/>
+        <method signature="ReportVerifyTests.verifyReportButtonTest()[pri:38, instance:risTestScripts.ReportVerifyTests@2641e737]" name="verifyReportButtonTest" class="risTestScripts.ReportVerifyTests"/>
+        <method signature="ScheduleTests.inputRoomScheduledateTime()[pri:6, instance:risTestScripts.ScheduleTests@77846d2c]" name="inputRoomScheduledateTime" class="risTestScripts.ScheduleTests"/>
+        <method signature="ScheduleTests.openRis()[pri:0, instance:risTestScripts.ScheduleTests@77846d2c]" name="openRis" class="risTestScripts.ScheduleTests"/>
+        <method signature="ScheduleTests.scheduleButtonTest()[pri:7, instance:risTestScripts.ScheduleTests@77846d2c]" name="scheduleButtonTest" class="risTestScripts.ScheduleTests"/>
+        <method signature="ScheduleTests.searchOnTableTest()[pri:5, instance:risTestScripts.ScheduleTests@77846d2c]" name="searchOnTableTest" class="risTestScripts.ScheduleTests"/>
+        <method signature="ScheduleTests.searchWithServiceCategoryServiceDateTest()[pri:2, instance:risTestScripts.ScheduleTests@77846d2c]" name="searchWithServiceCategoryServiceDateTest" class="risTestScripts.ScheduleTests"/>
+      </group> <!-- sanity -->
     </groups>
-    <test name="RIS Application Tests" duration-ms="314" started-at="2022-03-15T06:58:19Z" finished-at="2022-03-15T06:58:20Z">
+    <test name="RIS Smoke Tests" duration-ms="97181" started-at="2022-03-16T06:50:12Z" finished-at="2022-03-16T06:51:49Z">
       <class name="risTestScripts.ReportCreationTests">
-        <test-method status="SKIP" signature="openReportCreationTest()[pri:16, instance:risTestScripts.ReportCreationTests@548ad73b]" name="openReportCreationTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
+        <test-method status="PASS" signature="openReportCreationTest()[pri:16, instance:risTestScripts.ReportCreationTests@4c762604]" name="openReportCreationTest" duration-ms="1162" started-at="2022-03-16T12:21:01Z" finished-at="2022-03-16T12:21:02Z">
           <reporter-output>
+            <line>
+              <![CDATA[Passed: openReportCreationTest]]>
+            </line>
           </reporter-output>
         </test-method> <!-- openReportCreationTest -->
-        <test-method status="SKIP" signature="showLastThreeDaysDataDefaultDateSearchTest()[pri:17, instance:risTestScripts.ReportCreationTests@548ad73b]" name="showLastThreeDaysDataDefaultDateSearchTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- showLastThreeDaysDataDefaultDateSearchTest -->
-        <test-method status="SKIP" signature="searchWithServiceCategoryServiceStudyNumberRegIdDateTest()[pri:18, instance:risTestScripts.ReportCreationTests@548ad73b]" name="searchWithServiceCategoryServiceStudyNumberRegIdDateTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchWithServiceCategoryServiceStudyNumberRegIdDateTest -->
-        <test-method status="SKIP" signature="searchOnCreateReportTableAndDataTest()[pri:19, instance:risTestScripts.ReportCreationTests@548ad73b]" name="searchOnCreateReportTableAndDataTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchOnCreateReportTableAndDataTest -->
-        <test-method status="SKIP" signature="createButtonTest()[pri:20, instance:risTestScripts.ReportCreationTests@548ad73b]" name="createButtonTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createButtonTest -->
-        <test-method status="SKIP" signature="reportCreationPageDataTest()[pri:21, instance:risTestScripts.ReportCreationTests@548ad73b]" name="reportCreationPageDataTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportCreationPageDataTest -->
-        <test-method status="SKIP" signature="reportCreationPageNegativeTest()[pri:22, instance:risTestScripts.ReportCreationTests@548ad73b]" name="reportCreationPageNegativeTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportCreationPageNegativeTest -->
-        <test-method status="SKIP" signature="reportCreationPageSelectTemplateTest()[pri:23, instance:risTestScripts.ReportCreationTests@548ad73b]" name="reportCreationPageSelectTemplateTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportCreationPageSelectTemplateTest -->
-        <test-method status="SKIP" signature="reportCreationPageCreatedByTest()[pri:24, instance:risTestScripts.ReportCreationTests@548ad73b]" name="reportCreationPageCreatedByTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportCreationPageCreatedByTest -->
-        <test-method status="SKIP" signature="reportCreationPageSaveButtonTest()[pri:25, instance:risTestScripts.ReportCreationTests@548ad73b]" name="reportCreationPageSaveButtonTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportCreationPageSaveButtonTest -->
-      </class> <!-- risTestScripts.ReportCreationTests -->
-      <class name="risTestScripts.ManageTemplateTests">
-        <test-method status="SKIP" signature="openManageTemplateTest()[pri:62, instance:risTestScripts.ManageTemplateTests@24a35978]" name="openManageTemplateTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openManageTemplateTest -->
-        <test-method status="SKIP" signature="defaultViewDataTest()[pri:63, instance:risTestScripts.ManageTemplateTests@24a35978]" name="defaultViewDataTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- defaultViewDataTest -->
-        <test-method status="SKIP" signature="AddReportTemplateButtonTest()[pri:64, instance:risTestScripts.ManageTemplateTests@24a35978]" name="AddReportTemplateButtonTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AddReportTemplateButtonTest -->
-        <test-method status="SKIP" signature="AddReportTemplateTest()[pri:65, instance:risTestScripts.ManageTemplateTests@24a35978]" name="AddReportTemplateTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AddReportTemplateTest -->
-        <test-method status="SKIP" signature="searchTemplateTest()[pri:66, instance:risTestScripts.ManageTemplateTests@24a35978]" name="searchTemplateTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchTemplateTest -->
-        <test-method status="SKIP" signature="searchOnAvailableTemplateTableTest()[pri:67, instance:risTestScripts.ManageTemplateTests@24a35978]" name="searchOnAvailableTemplateTableTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchOnAvailableTemplateTableTest -->
-        <test-method status="SKIP" signature="uniqueTemplateNameTest()[pri:68, instance:risTestScripts.ManageTemplateTests@24a35978]" name="uniqueTemplateNameTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- uniqueTemplateNameTest -->
-        <test-method status="SKIP" signature="updateTemplateTest()[pri:69, instance:risTestScripts.ManageTemplateTests@24a35978]" name="updateTemplateTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateTemplateTest -->
-      </class> <!-- risTestScripts.ManageTemplateTests -->
-      <class name="risTestScripts.ConfirmationTests">
-        <test-method status="SKIP" signature="openMainMenuTest()[pri:8, instance:risTestScripts.ConfirmationTests@77846d2c]" name="openMainMenuTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openMainMenuTest -->
-        <test-method status="SKIP" signature="openImageCaptureAndConfirmationTest()[pri:9, instance:risTestScripts.ConfirmationTests@77846d2c]" name="openImageCaptureAndConfirmationTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openImageCaptureAndConfirmationTest -->
-        <test-method status="SKIP" signature="searchWithDateTest()[pri:10, instance:risTestScripts.ConfirmationTests@77846d2c]" name="searchWithDateTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchWithDateTest -->
-        <test-method status="SKIP" signature="searchWithServiceCategoryServiceAndDateTest()[pri:11, instance:risTestScripts.ConfirmationTests@77846d2c]" name="searchWithServiceCategoryServiceAndDateTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchWithServiceCategoryServiceAndDateTest -->
-        <test-method status="SKIP" signature="itemsPerPageTest()[pri:12, instance:risTestScripts.ConfirmationTests@77846d2c]" name="itemsPerPageTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- itemsPerPageTest -->
-        <test-method status="SKIP" signature="SearchOnTableAndConfirmationTableDataTest()[pri:13, instance:risTestScripts.ConfirmationTests@77846d2c]" name="SearchOnTableAndConfirmationTableDataTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SearchOnTableAndConfirmationTableDataTest -->
-        <test-method status="SKIP" signature="inputStudyNumberTest()[pri:14, instance:risTestScripts.ConfirmationTests@77846d2c]" name="inputStudyNumberTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inputStudyNumberTest -->
-        <test-method status="SKIP" signature="confirmButtonTest()[pri:15, instance:risTestScripts.ConfirmationTests@77846d2c]" name="confirmButtonTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- confirmButtonTest -->
-      </class> <!-- risTestScripts.ConfirmationTests -->
-      <class name="risTestScripts.ScheduleTests">
-        <test-method status="SKIP" signature="openRis()[pri:0, instance:risTestScripts.ScheduleTests@4cf4d528]" name="openRis" duration-ms="0" started-at="2022-03-15T12:28:19Z" finished-at="2022-03-15T12:28:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openRis -->
-        <test-method status="SKIP" signature="searchWithDateNegativeTest()[pri:1, instance:risTestScripts.ScheduleTests@4cf4d528]" name="searchWithDateNegativeTest" duration-ms="0" started-at="2022-03-15T12:28:19Z" finished-at="2022-03-15T12:28:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchWithDateNegativeTest -->
-        <test-method status="SKIP" signature="searchWithServiceCategoryServiceDateTest()[pri:2, instance:risTestScripts.ScheduleTests@4cf4d528]" name="searchWithServiceCategoryServiceDateTest" duration-ms="0" started-at="2022-03-15T12:28:19Z" finished-at="2022-03-15T12:28:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchWithServiceCategoryServiceDateTest -->
-        <test-method status="SKIP" signature="searchResultsTest()[pri:3, instance:risTestScripts.ScheduleTests@4cf4d528]" name="searchResultsTest" duration-ms="0" started-at="2022-03-15T12:28:19Z" finished-at="2022-03-15T12:28:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchResultsTest -->
-        <test-method status="SKIP" signature="itemsPerPageTest()[pri:4, instance:risTestScripts.ScheduleTests@4cf4d528]" name="itemsPerPageTest" duration-ms="0" started-at="2022-03-15T12:28:19Z" finished-at="2022-03-15T12:28:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- itemsPerPageTest -->
-        <test-method status="SKIP" signature="searchOnTableTest()[pri:5, instance:risTestScripts.ScheduleTests@4cf4d528]" name="searchOnTableTest" duration-ms="0" started-at="2022-03-15T12:28:19Z" finished-at="2022-03-15T12:28:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchOnTableTest -->
-        <test-method status="SKIP" signature="inputRoomScheduledateTime()[pri:6, instance:risTestScripts.ScheduleTests@4cf4d528]" name="inputRoomScheduledateTime" duration-ms="0" started-at="2022-03-15T12:28:19Z" finished-at="2022-03-15T12:28:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inputRoomScheduledateTime -->
-        <test-method status="SKIP" signature="scheduleButtonTest()[pri:7, instance:risTestScripts.ScheduleTests@4cf4d528]" name="scheduleButtonTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scheduleButtonTest -->
-      </class> <!-- risTestScripts.ScheduleTests -->
-      <class name="risTestScripts.ImagingMISTests">
-        <test-method status="SKIP" signature="openImagingMISTest()[pri:46, instance:risTestScripts.ImagingMISTests@704921a5]" name="openImagingMISTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openImagingMISTest -->
-        <test-method status="SKIP" signature="defaultViewDateSearchTest()[pri:47, instance:risTestScripts.ImagingMISTests@704921a5]" name="defaultViewDateSearchTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- defaultViewDateSearchTest -->
-        <test-method status="SKIP" signature="searchWithServiceCategoryServiceServiceStatusRoomDateTest()[pri:48, instance:risTestScripts.ImagingMISTests@704921a5]" name="searchWithServiceCategoryServiceServiceStatusRoomDateTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchWithServiceCategoryServiceServiceStatusRoomDateTest -->
-        <test-method status="SKIP" signature="searchOnMISTableTest()[pri:49, instance:risTestScripts.ImagingMISTests@704921a5]" name="searchOnMISTableTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchOnMISTableTest -->
-        <test-method status="SKIP" signature="validateMisReportDataTest()[pri:50, instance:risTestScripts.ImagingMISTests@704921a5]" name="validateMisReportDataTest" duration-ms="1" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateMisReportDataTest -->
-        <test-method status="SKIP" signature="printMISReportButtonTest()[pri:51, instance:risTestScripts.ImagingMISTests@704921a5]" name="printMISReportButtonTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printMISReportButtonTest -->
-      </class> <!-- risTestScripts.ImagingMISTests -->
-      <class name="risTestScripts.ReportPrintTests">
-        <test-method status="SKIP" signature="openReportPrintTest()[pri:39, instance:risTestScripts.ReportPrintTests@727803de]" name="openReportPrintTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openReportPrintTest -->
-        <test-method status="SKIP" signature="defaultViewDateSearchTest()[pri:40, instance:risTestScripts.ReportPrintTests@727803de]" name="defaultViewDateSearchTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- defaultViewDateSearchTest -->
-        <test-method status="SKIP" signature="searchWithServiceCategoryServiceStudyNumberRegIdTest()[pri:41, instance:risTestScripts.ReportPrintTests@727803de]" name="searchWithServiceCategoryServiceStudyNumberRegIdTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchWithServiceCategoryServiceStudyNumberRegIdTest -->
-        <test-method status="SKIP" signature="searchOnPrintReportTableTest()[pri:42, instance:risTestScripts.ReportPrintTests@727803de]" name="searchOnPrintReportTableTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchOnPrintReportTableTest -->
-        <test-method status="SKIP" signature="viewReportButtonTest()[pri:43, instance:risTestScripts.ReportPrintTests@727803de]" name="viewReportButtonTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- viewReportButtonTest -->
-        <test-method status="SKIP" signature="printReportPageDataValidationTest()[pri:44, instance:risTestScripts.ReportPrintTests@727803de]" name="printReportPageDataValidationTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printReportPageDataValidationTest -->
-        <test-method status="SKIP" signature="printButtonTest()[pri:45, instance:risTestScripts.ReportPrintTests@727803de]" name="printButtonTest" duration-ms="5" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printButtonTest -->
-      </class> <!-- risTestScripts.ReportPrintTests -->
-      <class name="OpenBrowsers.Login">
-        <test-method status="FAIL" signature="launchApp(java.lang.String)[pri:0, instance:OpenBrowsers.Login@545997b1]" name="launchApp" is-config="true" duration-ms="0" started-at="2022-03-15T12:26:15Z" finished-at="2022-03-15T12:26:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="FAIL" signature="searchWithServiceCategoryServiceStudyNumberRegIdDateTest()[pri:18, instance:risTestScripts.ReportCreationTests@4c762604]" name="searchWithServiceCategoryServiceStudyNumberRegIdDateTest" duration-ms="46" started-at="2022-03-16T12:21:02Z" finished-at="2022-03-16T12:21:03Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='content-wrap']/app-header/app-login/section/div/div/div[2]/form/div/button"}
-  (Session info: MicrosoftEdge=99.0.1150.30)
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='ProcedureCategoryCode']"}
+  (Session info: chrome=99.0.4844.51)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.30, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52945}, msedge: {msedgedriverVersion: 99.0.1150.39 (83e7eb830583b..., userDataDir: C:\Users\ravik\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: fa6e04d9f5cb6641396ef763da30001a
-*** Element info: {Using=xpath, value=//*[@id='content-wrap']/app-header/app-login/section/div/div/div[2]/form/div/button}]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e84d1b0b97f706a3207e85b7f61a5410
+*** Element info: {Using=name, value=ProcedureCategoryCode}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='content-wrap']/app-header/app-login/section/div/div/div[2]/form/div/button"}
-  (Session info: MicrosoftEdge=99.0.1150.30)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='ProcedureCategoryCode']"}
+  (Session info: chrome=99.0.4844.51)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.30, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52945}, msedge: {msedgedriverVersion: 99.0.1150.39 (83e7eb830583b..., userDataDir: C:\Users\ravik\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: fa6e04d9f5cb6641396ef763da30001a
-*** Element info: {Using=xpath, value=//*[@id='content-wrap']/app-header/app-login/section/div/div/div[2]/form/div/button}
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e84d1b0b97f706a3207e85b7f61a5410
+*** Element info: {Using=name, value=ProcedureCategoryCode}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -248,19 +324,25 @@ Session ID: fa6e04d9f5cb6641396ef763da30001a
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at OpenBrowsers.Login.launchApp(Login.java:55)
+	at risTestScripts.ReportCreationTests.searchWithServiceCategoryServiceStudyNumberRegIdDateTest(ReportCreationTests.java:78)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
 	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
@@ -275,111 +357,356 @@ Session ID: fa6e04d9f5cb6641396ef763da30001a
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
+            <line>
+              <![CDATA[Failed: searchWithServiceCategoryServiceStudyNumberRegIdDateTest]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- launchApp -->
-      </class> <!-- OpenBrowsers.Login -->
-      <class name="risTestScripts.ReportVerifyTests">
-        <test-method status="SKIP" signature="openReportVerificationFromMenuTest()[pri:32, instance:risTestScripts.ReportVerifyTests@2641e737]" name="openReportVerificationFromMenuTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
+        </test-method> <!-- searchWithServiceCategoryServiceStudyNumberRegIdDateTest -->
+        <test-method status="PASS" signature="searchOnCreateReportTableAndDataTest()[pri:19, instance:risTestScripts.ReportCreationTests@4c762604]" name="searchOnCreateReportTableAndDataTest" duration-ms="6357" started-at="2022-03-16T12:21:03Z" finished-at="2022-03-16T12:21:09Z">
           <reporter-output>
+            <line>
+              <![CDATA[Passed: searchOnCreateReportTableAndDataTest]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- openReportVerificationFromMenuTest -->
-        <test-method status="SKIP" signature="defaultviewDateSearchTest()[pri:33, instance:risTestScripts.ReportVerifyTests@2641e737]" name="defaultviewDateSearchTest" duration-ms="1" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
+        </test-method> <!-- searchOnCreateReportTableAndDataTest -->
+        <test-method status="PASS" signature="createButtonTest()[pri:20, instance:risTestScripts.ReportCreationTests@4c762604]" name="createButtonTest" duration-ms="1330" started-at="2022-03-16T12:21:09Z" finished-at="2022-03-16T12:21:10Z">
           <reporter-output>
+            <line>
+              <![CDATA[Passed: createButtonTest]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- defaultviewDateSearchTest -->
-        <test-method status="SKIP" signature="searchOnVerifyReportTableTest()[pri:34, instance:risTestScripts.ReportVerifyTests@2641e737]" name="searchOnVerifyReportTableTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
+        </test-method> <!-- createButtonTest -->
+        <test-method status="PASS" signature="reportCreationPageDataTest()[pri:21, instance:risTestScripts.ReportCreationTests@4c762604]" name="reportCreationPageDataTest" duration-ms="3330" started-at="2022-03-16T12:21:10Z" finished-at="2022-03-16T12:21:14Z">
           <reporter-output>
+            <line>
+              <![CDATA[Passed: reportCreationPageDataTest]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- searchOnVerifyReportTableTest -->
-        <test-method status="SKIP" signature="searchWithServiceCategoryServiceStudyNumberRegIdTest()[pri:34, instance:risTestScripts.ReportVerifyTests@2641e737]" name="searchWithServiceCategoryServiceStudyNumberRegIdTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
+        </test-method> <!-- reportCreationPageDataTest -->
+        <test-method status="PASS" signature="reportCreationPageSelectTemplateTest()[pri:23, instance:risTestScripts.ReportCreationTests@4c762604]" name="reportCreationPageSelectTemplateTest" duration-ms="1372" started-at="2022-03-16T12:21:14Z" finished-at="2022-03-16T12:21:15Z">
           <reporter-output>
+            <line>
+              <![CDATA[Passed: reportCreationPageSelectTemplateTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reportCreationPageSelectTemplateTest -->
+        <test-method status="PASS" signature="reportCreationPageCreatedByTest()[pri:24, instance:risTestScripts.ReportCreationTests@4c762604]" name="reportCreationPageCreatedByTest" duration-ms="1313" started-at="2022-03-16T12:21:15Z" finished-at="2022-03-16T12:21:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: reportCreationPageCreatedByTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reportCreationPageCreatedByTest -->
+        <test-method status="PASS" signature="reportCreationPageSaveButtonTest()[pri:25, instance:risTestScripts.ReportCreationTests@4c762604]" name="reportCreationPageSaveButtonTest" duration-ms="2251" started-at="2022-03-16T12:21:16Z" finished-at="2022-03-16T12:21:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: reportCreationPageSaveButtonTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reportCreationPageSaveButtonTest -->
+      </class> <!-- risTestScripts.ReportCreationTests -->
+      <class name="risTestScripts.ScheduleTests">
+        <test-method status="PASS" signature="openRis()[pri:0, instance:risTestScripts.ScheduleTests@77846d2c]" name="openRis" duration-ms="7783" started-at="2022-03-16T12:20:12Z" finished-at="2022-03-16T12:20:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: openRis]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openRis -->
+        <test-method status="PASS" signature="searchWithServiceCategoryServiceDateTest()[pri:2, instance:risTestScripts.ScheduleTests@77846d2c]" name="searchWithServiceCategoryServiceDateTest" duration-ms="5702" started-at="2022-03-16T12:20:20Z" finished-at="2022-03-16T12:20:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: searchWithServiceCategoryServiceDateTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchWithServiceCategoryServiceDateTest -->
+        <test-method status="PASS" signature="searchOnTableTest()[pri:5, instance:risTestScripts.ScheduleTests@77846d2c]" name="searchOnTableTest" duration-ms="4653" started-at="2022-03-16T12:20:26Z" finished-at="2022-03-16T12:20:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: searchOnTableTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchOnTableTest -->
+        <test-method status="PASS" signature="inputRoomScheduledateTime()[pri:6, instance:risTestScripts.ScheduleTests@77846d2c]" name="inputRoomScheduledateTime" duration-ms="6610" started-at="2022-03-16T12:20:30Z" finished-at="2022-03-16T12:20:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: inputRoomScheduledateTime]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- inputRoomScheduledateTime -->
+        <test-method status="FAIL" signature="scheduleButtonTest()[pri:7, instance:risTestScripts.ScheduleTests@77846d2c]" name="scheduleButtonTest" duration-ms="2242" started-at="2022-03-16T12:20:37Z" finished-at="2022-03-16T12:20:39Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".smallBtn"}
+  (Session info: chrome=99.0.4844.51)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e84d1b0b97f706a3207e85b7f61a5410
+*** Element info: {Using=class name, value=smallBtn}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".smallBtn"}
+  (Session info: chrome=99.0.4844.51)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e84d1b0b97f706a3207e85b7f61a5410
+*** Element info: {Using=class name, value=smallBtn}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at risTestScripts.ScheduleTests.scheduleButtonTest(ScheduleTests.java:245)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: scheduleButtonTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scheduleButtonTest -->
+      </class> <!-- risTestScripts.ScheduleTests -->
+      <class name="risTestScripts.ConfirmationTests">
+        <test-method status="PASS" signature="openMainMenuTest()[pri:8, instance:risTestScripts.ConfirmationTests@548ad73b]" name="openMainMenuTest" duration-ms="4232" started-at="2022-03-16T12:20:39Z" finished-at="2022-03-16T12:20:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: openMainMenuTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openMainMenuTest -->
+        <test-method status="PASS" signature="openImageCaptureAndConfirmationTest()[pri:9, instance:risTestScripts.ConfirmationTests@548ad73b]" name="openImageCaptureAndConfirmationTest" duration-ms="2260" started-at="2022-03-16T12:20:43Z" finished-at="2022-03-16T12:20:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: openImageCaptureAndConfirmationTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openImageCaptureAndConfirmationTest -->
+        <test-method status="PASS" signature="searchWithServiceCategoryServiceAndDateTest()[pri:11, instance:risTestScripts.ConfirmationTests@548ad73b]" name="searchWithServiceCategoryServiceAndDateTest" duration-ms="8265" started-at="2022-03-16T12:20:46Z" finished-at="2022-03-16T12:20:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: searchWithServiceCategoryServiceAndDateTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchWithServiceCategoryServiceAndDateTest -->
+        <test-method status="PASS" signature="SearchOnTableAndConfirmationTableDataTest()[pri:13, instance:risTestScripts.ConfirmationTests@548ad73b]" name="SearchOnTableAndConfirmationTableDataTest" duration-ms="4713" started-at="2022-03-16T12:20:54Z" finished-at="2022-03-16T12:20:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: SearchOnTableAndConfirmationTableDataTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchOnTableAndConfirmationTableDataTest -->
+        <test-method status="PASS" signature="inputStudyNumberTest()[pri:14, instance:risTestScripts.ConfirmationTests@548ad73b]" name="inputStudyNumberTest" duration-ms="1304" started-at="2022-03-16T12:20:59Z" finished-at="2022-03-16T12:21:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: inputStudyNumberTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- inputStudyNumberTest -->
+        <test-method status="PASS" signature="confirmButtonTest()[pri:15, instance:risTestScripts.ConfirmationTests@548ad73b]" name="confirmButtonTest" duration-ms="1224" started-at="2022-03-16T12:21:00Z" finished-at="2022-03-16T12:21:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: confirmButtonTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- confirmButtonTest -->
+      </class> <!-- risTestScripts.ConfirmationTests -->
+      <class name="risTestScripts.ReportPrintTests">
+        <test-method status="PASS" signature="openReportPrintTest()[pri:39, instance:risTestScripts.ReportPrintTests@727803de]" name="openReportPrintTest" duration-ms="2168" started-at="2022-03-16T12:21:38Z" finished-at="2022-03-16T12:21:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: openReportPrintTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openReportPrintTest -->
+        <test-method status="FAIL" signature="searchWithServiceCategoryServiceStudyNumberRegIdTest()[pri:41, instance:risTestScripts.ReportPrintTests@727803de]" name="searchWithServiceCategoryServiceStudyNumberRegIdTest" duration-ms="130" started-at="2022-03-16T12:21:40Z" finished-at="2022-03-16T12:21:40Z">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=99.0.4844.51)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e84d1b0b97f706a3207e85b7f61a5410]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=99.0.4844.51)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MM5QJ97', ip: '10.23.252.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e84d1b0b97f706a3207e85b7f61a5410
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at org.openqa.selenium.support.ui.Select.<init>(Select.java:53)
+	at risTestScripts.ReportPrintTests.searchWithServiceCategoryServiceStudyNumberRegIdTest(ReportPrintTests.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failed: searchWithServiceCategoryServiceStudyNumberRegIdTest]]>
+            </line>
           </reporter-output>
         </test-method> <!-- searchWithServiceCategoryServiceStudyNumberRegIdTest -->
-        <test-method status="SKIP" signature="verifyButtonTest()[pri:35, instance:risTestScripts.ReportVerifyTests@2641e737]" name="verifyButtonTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
+        <test-method status="PASS" signature="searchOnPrintReportTableTest()[pri:42, instance:risTestScripts.ReportPrintTests@727803de]" name="searchOnPrintReportTableTest" duration-ms="5462" started-at="2022-03-16T12:21:40Z" finished-at="2022-03-16T12:21:46Z">
           <reporter-output>
+            <line>
+              <![CDATA[Passed: searchOnPrintReportTableTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchOnPrintReportTableTest -->
+        <test-method status="PASS" signature="viewReportButtonTest()[pri:43, instance:risTestScripts.ReportPrintTests@727803de]" name="viewReportButtonTest" duration-ms="1245" started-at="2022-03-16T12:21:46Z" finished-at="2022-03-16T12:21:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: viewReportButtonTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- viewReportButtonTest -->
+        <test-method status="PASS" signature="printButtonTest()[pri:45, instance:risTestScripts.ReportPrintTests@727803de]" name="printButtonTest" duration-ms="2218" started-at="2022-03-16T12:21:47Z" finished-at="2022-03-16T12:21:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: printButtonTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printButtonTest -->
+      </class> <!-- risTestScripts.ReportPrintTests -->
+      <class name="OpenBrowsers.Login">
+        <test-method status="PASS" signature="launchAndLoginRis(java.lang.String)[pri:0, instance:OpenBrowsers.Login@4cf4d528]" name="launchAndLoginRis" is-config="true" duration-ms="40204" started-at="2022-03-16T12:19:32Z" finished-at="2022-03-16T12:20:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoginRis -->
+      </class> <!-- OpenBrowsers.Login -->
+      <class name="risTestScripts.ReportVerifyTests">
+        <test-method status="PASS" signature="openReportVerificationFromMenuTest()[pri:32, instance:risTestScripts.ReportVerifyTests@2641e737]" name="openReportVerificationFromMenuTest" duration-ms="4178" started-at="2022-03-16T12:21:18Z" finished-at="2022-03-16T12:21:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: openReportVerificationFromMenuTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openReportVerificationFromMenuTest -->
+        <test-method status="PASS" signature="searchOnVerifyReportTableTest()[pri:34, instance:risTestScripts.ReportVerifyTests@2641e737]" name="searchOnVerifyReportTableTest" duration-ms="4306" started-at="2022-03-16T12:21:23Z" finished-at="2022-03-16T12:21:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: searchOnVerifyReportTableTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchOnVerifyReportTableTest -->
+        <test-method status="PASS" signature="searchWithServiceCategoryServiceStudyNumberRegIdTest()[pri:34, instance:risTestScripts.ReportVerifyTests@2641e737]" name="searchWithServiceCategoryServiceStudyNumberRegIdTest" duration-ms="5167" started-at="2022-03-16T12:21:27Z" finished-at="2022-03-16T12:21:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: searchWithServiceCategoryServiceStudyNumberRegIdTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchWithServiceCategoryServiceStudyNumberRegIdTest -->
+        <test-method status="PASS" signature="verifyButtonTest()[pri:35, instance:risTestScripts.ReportVerifyTests@2641e737]" name="verifyButtonTest" duration-ms="2330" started-at="2022-03-16T12:21:32Z" finished-at="2022-03-16T12:21:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed: verifyButtonTest]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifyButtonTest -->
-        <test-method status="SKIP" signature="reportVerificationPageDataTest()[pri:36, instance:risTestScripts.ReportVerifyTests@2641e737]" name="reportVerificationPageDataTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
+        <test-method status="PASS" signature="verifiedByTest()[pri:37, instance:risTestScripts.ReportVerifyTests@2641e737]" name="verifiedByTest" duration-ms="1292" started-at="2022-03-16T12:21:34Z" finished-at="2022-03-16T12:21:36Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportVerificationPageDataTest -->
-        <test-method status="SKIP" signature="verifiedByTest()[pri:37, instance:risTestScripts.ReportVerifyTests@2641e737]" name="verifiedByTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
+            <line>
+              <![CDATA[Passed: verifiedByTest]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifiedByTest -->
-        <test-method status="SKIP" signature="verifyReportButtonTest()[pri:38, instance:risTestScripts.ReportVerifyTests@2641e737]" name="verifyReportButtonTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
+        <test-method status="PASS" signature="verifyReportButtonTest()[pri:38, instance:risTestScripts.ReportVerifyTests@2641e737]" name="verifyReportButtonTest" duration-ms="2181" started-at="2022-03-16T12:21:36Z" finished-at="2022-03-16T12:21:38Z">
           <reporter-output>
+            <line>
+              <![CDATA[Passed: verifyReportButtonTest]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifyReportButtonTest -->
       </class> <!-- risTestScripts.ReportVerifyTests -->
-      <class name="risTestScripts.ReportUpdateTests">
-        <test-method status="SKIP" signature="clickUpdateReportButtonTest()[pri:26, instance:risTestScripts.ReportUpdateTests@4c762604]" name="clickUpdateReportButtonTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickUpdateReportButtonTest -->
-        <test-method status="SKIP" signature="defaultViewTableDataTest()[pri:27, instance:risTestScripts.ReportUpdateTests@4c762604]" name="defaultViewTableDataTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- defaultViewTableDataTest -->
-        <test-method status="SKIP" signature="itemsPerPageTest()[pri:28, instance:risTestScripts.ReportUpdateTests@4c762604]" name="itemsPerPageTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- itemsPerPageTest -->
-        <test-method status="SKIP" signature="searchWithServiceCategoryServiceStudyNumberRegIdDateTest()[pri:29, instance:risTestScripts.ReportUpdateTests@4c762604]" name="searchWithServiceCategoryServiceStudyNumberRegIdDateTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchWithServiceCategoryServiceStudyNumberRegIdDateTest -->
-        <test-method status="SKIP" signature="updateButtonTest()[pri:30, instance:risTestScripts.ReportUpdateTests@4c762604]" name="updateButtonTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateButtonTest -->
-        <test-method status="SKIP" signature="updateReportAndUpdatebuttonTest()[pri:31, instance:risTestScripts.ReportUpdateTests@4c762604]" name="updateReportAndUpdatebuttonTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateReportAndUpdatebuttonTest -->
-      </class> <!-- risTestScripts.ReportUpdateTests -->
-      <class name="risTestScripts.ServiceRoomMappingTests">
-        <test-method status="SKIP" signature="openServiceRoomMappingTest()[pri:52, instance:risTestScripts.ServiceRoomMappingTests@df27fae]" name="openServiceRoomMappingTest" duration-ms="1" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openServiceRoomMappingTest -->
-        <test-method status="SKIP" signature="defaultViewTest()[pri:53, instance:risTestScripts.ServiceRoomMappingTests@df27fae]" name="defaultViewTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- defaultViewTest -->
-        <test-method status="SKIP" signature="addNewRoomButtonTest()[pri:54, instance:risTestScripts.ServiceRoomMappingTests@df27fae]" name="addNewRoomButtonTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addNewRoomButtonTest -->
-        <test-method status="SKIP" signature="addNewRoomTest()[pri:55, instance:risTestScripts.ServiceRoomMappingTests@df27fae]" name="addNewRoomTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addNewRoomTest -->
-        <test-method status="SKIP" signature="searchRoomMappingTest()[pri:56, instance:risTestScripts.ServiceRoomMappingTests@df27fae]" name="searchRoomMappingTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchRoomMappingTest -->
-        <test-method status="SKIP" signature="searchOnServiceRoomMappingTableTest()[pri:57, instance:risTestScripts.ServiceRoomMappingTests@df27fae]" name="searchOnServiceRoomMappingTableTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchOnServiceRoomMappingTableTest -->
-        <test-method status="SKIP" signature="validateMappingTableDataTest()[pri:58, instance:risTestScripts.ServiceRoomMappingTests@df27fae]" name="validateMappingTableDataTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateMappingTableDataTest -->
-        <test-method status="SKIP" signature="updateButtonTest()[pri:59, instance:risTestScripts.ServiceRoomMappingTests@df27fae]" name="updateButtonTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateButtonTest -->
-        <test-method status="SKIP" signature="updateMappingTest()[pri:60, instance:risTestScripts.ServiceRoomMappingTests@df27fae]" name="updateMappingTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateMappingTest -->
-        <test-method status="SKIP" signature="validateUpdatedMappingTest()[pri:61, instance:risTestScripts.ServiceRoomMappingTests@df27fae]" name="validateUpdatedMappingTest" duration-ms="0" started-at="2022-03-15T12:28:20Z" finished-at="2022-03-15T12:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateUpdatedMappingTest -->
-      </class> <!-- risTestScripts.ServiceRoomMappingTests -->
-    </test> <!-- RIS Application Tests -->
-  </suite> <!-- RIS Regression suite -->
+    </test> <!-- RIS Smoke Tests -->
+  </suite> <!-- Smoke Suite -->
 </testng-results>

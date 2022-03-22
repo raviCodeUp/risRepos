@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sanity Suite]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="CommonPack.Listeners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test name="RIS Sanity Tests(failed)">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="risTestScripts.ScheduleTests">
+        <methods>
+          <include name="scheduleButtonTest"/>
+          <include name="inputRoomScheduledateTime"/>
+        </methods>
+      </class> <!-- risTestScripts.ScheduleTests -->
+      <class name="risTestScripts.ReportCreationTests">
+        <methods>
+          <include name="reportCreationPageDataTest"/>
+          <include name="reportCreationPageSelectTemplateTest"/>
+          <include name="searchWithServiceCategoryServiceStudyNumberRegIdDateTest"/>
+          <include name="reportCreationPageSaveButtonTest"/>
+          <include name="searchOnCreateReportTableAndDataTest"/>
+          <include name="reportCreationPageCreatedByTest"/>
+          <include name="openReportCreationTest"/>
+          <include name="createButtonTest"/>
+        </methods>
+      </class> <!-- risTestScripts.ReportCreationTests -->
+      <class name="risTestScripts.ReportVerifyTests">
+        <methods>
+          <include name="verifyReportButtonTest"/>
+          <include name="searchWithServiceCategoryServiceStudyNumberRegIdTest"/>
+          <include name="searchOnVerifyReportTableTest"/>
+          <include name="verifyButtonTest"/>
+          <include name="openReportVerificationFromMenuTest"/>
+          <include name="verifiedByTest"/>
+        </methods>
+      </class> <!-- risTestScripts.ReportVerifyTests -->
+      <class name="risTestScripts.ReportPrintTests">
+        <methods>
+          <include name="openReportPrintTest"/>
+          <include name="searchWithServiceCategoryServiceStudyNumberRegIdTest"/>
+          <include name="viewReportButtonTest"/>
+          <include name="searchOnPrintReportTableTest"/>
+          <include name="printButtonTest"/>
+        </methods>
+      </class> <!-- risTestScripts.ReportPrintTests -->
+      <class name="risTestScripts.ConfirmationTests">
+        <methods>
+          <include name="confirmButtonTest"/>
+          <include name="SearchOnTableAndConfirmationTableDataTest"/>
+          <include name="openMainMenuTest"/>
+          <include name="inputStudyNumberTest"/>
+          <include name="openImageCaptureAndConfirmationTest"/>
+          <include name="searchWithServiceCategoryServiceAndDateTest"/>
+        </methods>
+      </class> <!-- risTestScripts.ConfirmationTests -->
+      <class name="OpenBrowsers.Login">
+        <methods>
+          <include name="launchAndLoginRis"/>
+        </methods>
+      </class> <!-- OpenBrowsers.Login -->
+      <class name="risTestScripts.ImagingMISTests">
+        <methods>
+          <include name="openImagingMISTest"/>
+          <include name="searchOnMISTableTest"/>
+          <include name="searchWithServiceCategoryServiceServiceStatusRoomDateTest"/>
+          <include name="validateMisReportDataTest"/>
+          <include name="printMISReportButtonTest"/>
+        </methods>
+      </class> <!-- risTestScripts.ImagingMISTests -->
+    </classes>
+  </test> <!-- RIS Sanity Tests(failed) -->
+</suite> <!-- Failed suite [Sanity Suite] -->

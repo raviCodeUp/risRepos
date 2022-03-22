@@ -29,11 +29,10 @@ public class ScheduleTests extends Login {
 	 * "Radiology Information System")).click(); } catch (InterruptedException
 	 * e) { // TODO Auto-generated catch block e.printStackTrace(); } }
 	 */
-	@Test(priority = 0)
+	@Test(priority = 0,groups={"smoke","sanity","regression"})
 	public void openRis() throws IOException {
 
 		try {
-			// OpenBrowsers.main(null);// open Browser login
 			System.out.println("inside openRis");
 			Thread.sleep(5000);
 			driver.findElement(By.linkText("Radiology Information System")).click();
@@ -43,7 +42,7 @@ public class ScheduleTests extends Login {
 		}
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 1,groups="regression")
 	public void searchWithDateNegativeTest() {
 		try {
 			Thread.sleep(3000);
@@ -61,7 +60,7 @@ public class ScheduleTests extends Login {
 		}
 	}
 
-	@Test(priority = 2)
+	@Test(priority = 2,groups={"smoke","sanity","regression"})
 	public void searchWithServiceCategoryServiceDateTest() throws IOException {
 		try {
 			Thread.sleep(3000);
@@ -82,7 +81,7 @@ public class ScheduleTests extends Login {
 
 	}
 
-	@Test(priority = 3)
+	@Test(priority = 3,groups="regression")
 	public void searchResultsTest() throws IOException {
 		try {
 			Thread.sleep(3000);
@@ -98,7 +97,7 @@ public class ScheduleTests extends Login {
 		}
 	}
 
-	@Test(priority = 4)
+	@Test(priority = 4,groups="regression")
 	public void itemsPerPageTest() throws IOException {
 		try {
 			Thread.sleep(1000);
@@ -111,7 +110,7 @@ public class ScheduleTests extends Login {
 		}
 	}
 
-	@Test(priority = 5)
+	@Test(priority = 5,groups={"smoke","sanity","regression"})
 	public void searchOnTableTest() throws IOException {
 		String orderDate;
 		String patientName;
@@ -150,7 +149,7 @@ public class ScheduleTests extends Login {
 		}
 	}
 
-	@Test(priority = 6)
+	@Test(priority = 6,groups={"smoke","sanity","regression"})
 	public void inputRoomScheduledateTime() throws IOException {
 		String scheduledDate;
 		try {
@@ -239,7 +238,7 @@ public class ScheduleTests extends Login {
 		}
 	}
 
-	@Test(priority = 7)
+	@Test(priority = 7,groups={"smoke","sanity","regression"})
 	public void scheduleButtonTest() throws IOException {
 		try {
 			Thread.sleep(2000);

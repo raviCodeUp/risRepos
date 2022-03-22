@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="RIS Regression suite">
+<suite name="Smoke Suite">
 	<listeners>
 		<listener class-name="CommonPack.Listeners" />
 		<listener class-name="org.uncommons.reportng.HTMLReporter" />
 	</listeners>
-	<parameter name="browser" value="edge" />
-	<test name="RIS Application Tests">
+	<parameter name="browser" value="chrome" />
+	<test name="RIS Smoke Tests">
+	<groups>
+  <run>
+  <include name="smoke"/>
+  </run>
+  </groups>
 		<classes>
 			<class name="OpenBrowsers.Login" />
 			<class name="risTestScripts.ScheduleTests" />
@@ -19,5 +24,5 @@
 			<class name="risTestScripts.ServiceRoomMappingTests" />
 			<class name="risTestScripts.ManageTemplateTests" />
 		</classes>
-	</test> <!-- RIS Application Tests -->
-</suite> <!-- RIS Regression suite -->
+	</test> <!-- RIS Smoke Tests -->
+</suite> <!-- Smoke Suite -->

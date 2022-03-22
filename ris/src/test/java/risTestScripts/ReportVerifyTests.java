@@ -30,7 +30,7 @@ public class ReportVerifyTests extends Login {
 			e.printStackTrace();
 		}
 	}*/
-	@Test(priority = 32)
+	@Test(priority = 32,groups={"smoke","sanity","regression"})
 	public void openReportVerificationFromMenuTest() throws IOException {
 		try {
 			Thread.sleep(4000);
@@ -43,7 +43,7 @@ public class ReportVerifyTests extends Login {
 		}
 	}
 
-	@Test(priority = 33)
+	@Test(priority = 33,groups="regression")
 	public void defaultviewDateSearchTest() throws IOException {
 		try {
 			Thread.sleep(3000);
@@ -59,7 +59,7 @@ public class ReportVerifyTests extends Login {
 		}
 	}
 
-	@Test(priority = 34)
+	@Test(priority = 34,groups={"smoke","sanity","regression"})
 	public void searchWithServiceCategoryServiceStudyNumberRegIdTest() throws IOException {
 		try {
 			Properties properties = new Properties();
@@ -103,7 +103,7 @@ public class ReportVerifyTests extends Login {
 		}
 	}
 
-	@Test(priority = 34)
+	@Test(priority = 34,groups={"smoke","sanity","regression"})
 	public void searchOnVerifyReportTableTest() throws IOException {
 		try {
 			Properties properties = new Properties();
@@ -128,7 +128,7 @@ public class ReportVerifyTests extends Login {
 		}
 	}
 
-	@Test(priority = 35)
+	@Test(priority = 35,groups={"smoke","sanity","regression"})
 	public void verifyButtonTest() throws IOException {
 		try {
 			Properties properties = new Properties();
@@ -172,7 +172,7 @@ public class ReportVerifyTests extends Login {
 		}
 	}
 
-	@Test(priority = 36)
+	@Test(priority = 36,groups="regression")
 	public void reportVerificationPageDataTest() throws IOException {
 		try {
 			SoftAssert Assert = new SoftAssert();
@@ -229,7 +229,7 @@ public class ReportVerifyTests extends Login {
 		}
 	}
 
-	@Test(priority = 37)
+	@Test(priority = 37,groups={"smoke","sanity","regression"})
 	public void verifiedByTest() throws IOException {
 		try {
 			Thread.sleep(1000);
@@ -243,7 +243,7 @@ public class ReportVerifyTests extends Login {
 		}
 	}
 
-	@Test(priority = 38)
+	@Test(priority = 38,groups={"smoke","sanity","regression"})
 	public void verifyReportButtonTest() throws IOException {
 		try {
 			Thread.sleep(2000);

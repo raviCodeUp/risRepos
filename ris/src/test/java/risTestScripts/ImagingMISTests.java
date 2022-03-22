@@ -16,7 +16,7 @@ import OpenBrowsers.Login;
 @Test(priority = 5)
 public class ImagingMISTests extends Login {
 
-	@Test(priority = 46)
+	@Test(priority = 46,groups={"sanity","regression"})
 	public void openImagingMISTest() throws IOException {
 		try {
 			Thread.sleep(2000);
@@ -27,7 +27,7 @@ public class ImagingMISTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 47)
+	@Test(priority = 47,groups={"sanity","regression"})
 	public void defaultViewDateSearchTest() throws IOException {
 		try {
 			Thread.sleep(3000);
@@ -46,7 +46,7 @@ public class ImagingMISTests extends Login {
 		}
 	}
 
-	@Test(priority = 48)
+	@Test(priority = 48,groups={"sanity","regression"})
 	public void searchWithServiceCategoryServiceServiceStatusRoomDateTest() throws IOException {
 		try {
 			Thread.sleep(2000);
@@ -80,7 +80,7 @@ public class ImagingMISTests extends Login {
 		}
 	}
 
-	@Test(priority = 49)
+	@Test(priority = 49,groups={"sanity","regression"})
 	public void searchOnMISTableTest() throws IOException {
 		try {
 			Properties properties = new Properties();
@@ -104,7 +104,7 @@ public class ImagingMISTests extends Login {
 		}
 	}
 
-	@Test(priority = 50)
+	@Test(priority = 50,groups={"sanity","regression"})
 	public void validateMisReportDataTest() throws IOException {
 		try {
 			SoftAssert Assert = new SoftAssert();
@@ -192,7 +192,7 @@ public class ImagingMISTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 51)
+	@Test(priority = 51,groups={"sanity","regression"})
 	public void printMISReportButtonTest() throws IOException {
 		try {
 			Thread.sleep(1000);

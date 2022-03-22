@@ -18,7 +18,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Login {
 	public static WebDriver driver;
     @Parameters({"browser"})
-	@BeforeSuite
+	@BeforeSuite(groups={"smoke","sanity","regression"})
 	public void launchAndLoginRis(String browser) throws IOException {
 
 		try {

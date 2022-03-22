@@ -13,9 +13,10 @@ import org.testng.asserts.SoftAssert;
 
 import OpenBrowsers.Login;
 
+@Test(priority = 7)
 public class ManageTemplateTests extends Login {
 	
-	@Test(priority = 62)
+	@Test(priority = 62,groups="regression")
 	public void openManageTemplateTest() throws IOException {
 
 		try {
@@ -26,7 +27,7 @@ public class ManageTemplateTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 63)
+	@Test(priority = 63,groups="regression")
 	public void defaultViewDataTest() throws IOException {
 
 		try {
@@ -40,7 +41,7 @@ public class ManageTemplateTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 64)
+	@Test(priority = 64,groups="regression")
 	public void AddReportTemplateButtonTest() throws IOException {
 
 		try {
@@ -53,7 +54,7 @@ public class ManageTemplateTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 65)
+	@Test(priority = 65,groups="regression")
 	public void AddReportTemplateTest() throws IOException {
 
 		try {
@@ -86,7 +87,7 @@ public class ManageTemplateTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 66)
+	@Test(priority = 66,groups="regression")
 	public void searchTemplateTest() throws IOException {
 
 		try {
@@ -106,7 +107,7 @@ public class ManageTemplateTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 67)
+	@Test(priority = 67,groups="regression")
 	public void searchOnAvailableTemplateTableTest() throws IOException {
 
 		try {
@@ -129,7 +130,7 @@ public class ManageTemplateTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 68)
+	@Test(priority = 68,groups="regression")
 	public void uniqueTemplateNameTest() throws IOException {
 
 		try {
@@ -147,7 +148,7 @@ public class ManageTemplateTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 69)
+	@Test(priority = 69,groups="regression")
 	public void updateTemplateTest() throws IOException {
 
 		try {

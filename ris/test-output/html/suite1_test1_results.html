@@ -29,7 +29,7 @@
 	    		<span class="tooltiptextCustom">Copy Test name</span>
 			</div>
 	    </th>
-	    <th id="testNameId">RIS Application Tests</th> 
+	    <th id="testNameId">RIS Smoke Tests</th> 
 	  </tr>
 	  <tr>
 	    <th>Test Class : </th>
@@ -54,7 +54,7 @@
 	    		<span class="tooltiptextCustom">Copy Suite name</span>
 			</div>
 		</th>
-	    <th id="suiteNameId">RIS Regression suite</th>
+	    <th id="suiteNameId">Smoke Suite</th>
 	  </tr>
 	  <tr>
 	    <th>Suite XML : </th>
@@ -68,23 +68,23 @@
 	    		<span class="tooltiptextCustom">Copy Suite file name</span>
 			</div>
 	    </th> 
-	  	<th id="suiteXMLId">C:\Users\ravik\git\risRepository\ris\testng.xml</th>
-	  	<th id="suiteXMLNameId" hidden="true">testng.xml</th>
+	  	<th id="suiteXMLId">C:\Users\ravik\git\risRepository\ris\smokeSuite.xml</th>
+	  	<th id="suiteXMLNameId" hidden="true">smokeSuite.xml</th>
 	  </tr>
 	  	  <tr>
 	    <th>Total Time : </th>
 	    <th></th>
-	    <th>00:00:00</th> 
+	    <th>00:01:37</th> 
 	  </tr>
 	  <tr>
 	    <th>Total Steps : </th>
 	   	<th></th>
-	    <th>71</th> 
+	    <th>30</th> 
 	  </tr>
 	  <tr>
 	    <th>Status : </th>
 	    <th></th>
-	    <th><font color="yellow">SKIP</font></th> 
+	    <th><font color="red">FAIL</font></th> 
 	  </tr>
 	</table>
 </div>
@@ -106,1425 +106,792 @@
 		</thead>
 		<tbody>
 		
-									<tr>
-		<td class="time">1647327375748</td>
-		<td class="header failedConfig" colspan="4" onClick="toggleElement('2e8177cf-3f40-40ec-ad92-c2fac1fc2c7d','block');changeSingleIcon('span-2e8177cf-3f40-40ec-ad92-c2fac1fc2c7d');" title="Click to expand/collapse" style="cursor: pointer;">
-		<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>OpenBrowsers.Login</div>
-		<div style="float:right;">@BeforeSuite &nbsp;&nbsp;<span id='span-2e8177cf-3f40-40ec-ad92-c2fac1fc2c7d' class="glyphicon glyphicon-menu-down"></span></div>
-		</td>
-	</tr>
-			<tr>
-		<td class="time">1647327375748</td>
-		<td class="methodConfiguration">
-				<span class="description"><b>Class: </b>class OpenBrowsers.Login</span><br>
-		<span class="description"><b>Method: </b>launchApp</span><br>
-				<span class="duration"><b>Duration: </b>0.000s</span><br>
-		</td>
-		<td class="resultConfiguration">
-									<i>Method arguments: </i><span class="arguments">"edge"</span><br>
-						<div class="stackTrace" id="2e8177cf-3f40-40ec-ad92-c2fac1fc2c7d">
-								<a href="javascript:toggleElement('exception-2e8177cf-3f40-40ec-ad92-c2fac1fc2c7d','block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;content-wrap&apos;]/app-header/app-login/section/div/div/div[2]/form/div/button&quot;}<br/>
-&nbsp; (Session info: MicrosoftEdge=99.0.1150.30)<br/>
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
-System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;<br/>
-Driver info: org.openqa.selenium.edge.EdgeDriver<br/>
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.30, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52945}, msedge: {msedgedriverVersion: 99.0.1150.39 (83e7eb830583b..., userDataDir: C:\Users\ravik\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
-Session ID: fa6e04d9f5cb6641396ef763da30001a<br/>
-*** Element info: {Using=xpath, value=//*[@id=&apos;content-wrap&apos;]/app-header/app-login/section/div/div/div[2]/form/div/button}</b></a><br>
-		    <div class="stackTrace" id="exception-2e8177cf-3f40-40ec-ad92-c2fac1fc2c7d">
-							sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br>
-							sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br>
-							sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br>
-							java.lang.reflect.Constructor.newInstance(Unknown Source)<br>
-							org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br>
-							org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br>
-							org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br>
-							org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br>
-							org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br>
-							org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br>
-							org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br>
-							org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br>
-							org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br>
-							org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br>
-							OpenBrowsers.Login.launchApp(Login.java:55)<br>
-							sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>
-							sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br>
-							sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br>
-							java.lang.reflect.Method.invoke(Unknown Source)<br>
-							org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br>
-							org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)<br>
-							org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)<br>
-							org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)<br>
-							org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)<br>
-							org.testng.SuiteRunner.run(SuiteRunner.java:268)<br>
-							org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>
-							org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>
-							org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)<br>
-							org.testng.TestNG.runSuitesLocally(TestNG.java:1150)<br>
-							org.testng.TestNG.runSuites(TestNG.java:1075)<br>
-							org.testng.TestNG.run(TestNG.java:1047)<br>
-							org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)<br>
-							org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)<br>
-							org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)<br>
-									</div>
-				</div>
-		</td>
-	</tr>
-						
 				
 				
-				
+												
 											<tr>
-	<td class="time">1647327500015</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('b7037e79-07df-46f7-98ad-fc1d566c39a0','block');changeSingleIcon('span-b7037e79-07df-46f7-98ad-fc1d566c39a0');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ConfirmationTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-b7037e79-07df-46f7-98ad-fc1d566c39a0' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500015</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>searchWithDateTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>10</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="b7037e79-07df-46f7-98ad-fc1d566c39a0" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500034</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('4428cc97-bbd1-42b3-8a27-fa715d957a57','block');changeSingleIcon('span-4428cc97-bbd1-42b3-8a27-fa715d957a57');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ConfirmationTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-4428cc97-bbd1-42b3-8a27-fa715d957a57' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500034</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>inputStudyNumberTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>14</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="4428cc97-bbd1-42b3-8a27-fa715d957a57" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500040</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('e4388448-0868-4bca-a9ef-72cd61dc11e2','block');changeSingleIcon('span-e4388448-0868-4bca-a9ef-72cd61dc11e2');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ConfirmationTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-e4388448-0868-4bca-a9ef-72cd61dc11e2' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500040</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>confirmButtonTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>15</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="e4388448-0868-4bca-a9ef-72cd61dc11e2" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500007</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('e1674fe2-f8c0-4cc2-9cbf-563ae9d224a6','block');changeSingleIcon('span-e1674fe2-f8c0-4cc2-9cbf-563ae9d224a6');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ConfirmationTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-e1674fe2-f8c0-4cc2-9cbf-563ae9d224a6' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500007</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>openMainMenuTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>8</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="e1674fe2-f8c0-4cc2-9cbf-563ae9d224a6" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500030</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('6c95056d-1c5a-4c43-9e39-c8eacff7928f','block');changeSingleIcon('span-6c95056d-1c5a-4c43-9e39-c8eacff7928f');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ConfirmationTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-6c95056d-1c5a-4c43-9e39-c8eacff7928f' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500030</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>SearchOnTableAndConfirmationTableDataTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>13</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="6c95056d-1c5a-4c43-9e39-c8eacff7928f" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500010</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('e47ec26b-0cf7-4434-8149-8d973d4f96e1','block');changeSingleIcon('span-e47ec26b-0cf7-4434-8149-8d973d4f96e1');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ConfirmationTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-e47ec26b-0cf7-4434-8149-8d973d4f96e1' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500010</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>openImageCaptureAndConfirmationTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>9</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="e47ec26b-0cf7-4434-8149-8d973d4f96e1" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500024</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('700f2280-1f6e-4608-8fe8-05250c6c879b','block');changeSingleIcon('span-700f2280-1f6e-4608-8fe8-05250c6c879b');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ConfirmationTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-700f2280-1f6e-4608-8fe8-05250c6c879b' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500024</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>searchWithServiceCategoryServiceAndDateTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>11</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="700f2280-1f6e-4608-8fe8-05250c6c879b" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500028</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('7cf10ed3-2f57-411c-a964-91cf0d9ed9b9','block');changeSingleIcon('span-7cf10ed3-2f57-411c-a964-91cf0d9ed9b9');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ConfirmationTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-7cf10ed3-2f57-411c-a964-91cf0d9ed9b9' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500028</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>itemsPerPageTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>12</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="7cf10ed3-2f57-411c-a964-91cf0d9ed9b9" style="display: block;">
-					</td>
-	</div>
-</tr>
-									<tr>
-	<td class="time">1647327500188</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('7710446e-1740-41a4-b30f-1ed9663962a4','block');changeSingleIcon('span-7710446e-1740-41a4-b30f-1ed9663962a4');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ImagingMISTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-7710446e-1740-41a4-b30f-1ed9663962a4' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500188</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>validateMisReportDataTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>50</font></span><br>
-						<span class="duration"><b>Duration: </b>0.001s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="7710446e-1740-41a4-b30f-1ed9663962a4" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500179</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('1b35976f-e699-490f-a5d1-c8149d8dd09e','block');changeSingleIcon('span-1b35976f-e699-490f-a5d1-c8149d8dd09e');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ImagingMISTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-1b35976f-e699-490f-a5d1-c8149d8dd09e' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500179</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>openImagingMISTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>46</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="1b35976f-e699-490f-a5d1-c8149d8dd09e" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500180</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('87c51070-7e38-4d99-b404-0929cd7b1745','block');changeSingleIcon('span-87c51070-7e38-4d99-b404-0929cd7b1745');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ImagingMISTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-87c51070-7e38-4d99-b404-0929cd7b1745' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500180</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>defaultViewDateSearchTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>47</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="87c51070-7e38-4d99-b404-0929cd7b1745" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500186</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('e50c237b-c5ba-4bd0-8864-07f6e8270677','block');changeSingleIcon('span-e50c237b-c5ba-4bd0-8864-07f6e8270677');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ImagingMISTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-e50c237b-c5ba-4bd0-8864-07f6e8270677' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500186</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>searchOnMISTableTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>49</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="e50c237b-c5ba-4bd0-8864-07f6e8270677" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500190</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('8305deb1-5509-4f3e-a59b-c2f27e41acfd','block');changeSingleIcon('span-8305deb1-5509-4f3e-a59b-c2f27e41acfd');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ImagingMISTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-8305deb1-5509-4f3e-a59b-c2f27e41acfd' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500190</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>printMISReportButtonTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>51</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="8305deb1-5509-4f3e-a59b-c2f27e41acfd" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500185</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('cb7144c7-a7f4-4e76-9621-b74810ed9772','block');changeSingleIcon('span-cb7144c7-a7f4-4e76-9621-b74810ed9772');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ImagingMISTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-cb7144c7-a7f4-4e76-9621-b74810ed9772' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500185</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>searchWithServiceCategoryServiceServiceStatusRoomDateTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>48</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="cb7144c7-a7f4-4e76-9621-b74810ed9772" style="display: block;">
-					</td>
-	</div>
-</tr>
-									<tr>
-	<td class="time">1647327500235</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('cc388f2f-3cbe-482c-9e8c-3d42e4786e42','block');changeSingleIcon('span-cc388f2f-3cbe-482c-9e8c-3d42e4786e42');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ManageTemplateTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-cc388f2f-3cbe-482c-9e8c-3d42e4786e42' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500235</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>searchTemplateTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>66</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="cc388f2f-3cbe-482c-9e8c-3d42e4786e42" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500238</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('ae4c61a0-58bd-4034-9f60-a37ac3ffaa7e','block');changeSingleIcon('span-ae4c61a0-58bd-4034-9f60-a37ac3ffaa7e');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ManageTemplateTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-ae4c61a0-58bd-4034-9f60-a37ac3ffaa7e' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500238</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>uniqueTemplateNameTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>68</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="ae4c61a0-58bd-4034-9f60-a37ac3ffaa7e" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500224</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('abba2930-5294-4c30-bafb-eb4371002fdf','block');changeSingleIcon('span-abba2930-5294-4c30-bafb-eb4371002fdf');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ManageTemplateTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-abba2930-5294-4c30-bafb-eb4371002fdf' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500224</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>openManageTemplateTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>62</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="abba2930-5294-4c30-bafb-eb4371002fdf" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500234</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('aa10eb67-3bce-436f-9ef9-e5a1bf38a97d','block');changeSingleIcon('span-aa10eb67-3bce-436f-9ef9-e5a1bf38a97d');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ManageTemplateTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-aa10eb67-3bce-436f-9ef9-e5a1bf38a97d' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500234</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>AddReportTemplateTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>65</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="aa10eb67-3bce-436f-9ef9-e5a1bf38a97d" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500226</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('8b53ed03-c368-4c14-ac7c-43fa08475713','block');changeSingleIcon('span-8b53ed03-c368-4c14-ac7c-43fa08475713');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ManageTemplateTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-8b53ed03-c368-4c14-ac7c-43fa08475713' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500226</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>defaultViewDataTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>63</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="8b53ed03-c368-4c14-ac7c-43fa08475713" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500236</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('a97ed679-9794-471e-9218-5981e346fa9f','block');changeSingleIcon('span-a97ed679-9794-471e-9218-5981e346fa9f');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ManageTemplateTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-a97ed679-9794-471e-9218-5981e346fa9f' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500236</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>searchOnAvailableTemplateTableTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>67</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="a97ed679-9794-471e-9218-5981e346fa9f" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500232</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('8ad96278-e8d2-4924-a78f-f00edff70687','block');changeSingleIcon('span-8ad96278-e8d2-4924-a78f-f00edff70687');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ManageTemplateTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-8ad96278-e8d2-4924-a78f-f00edff70687' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500232</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>AddReportTemplateButtonTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>64</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="8ad96278-e8d2-4924-a78f-f00edff70687" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500240</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('31fc431e-a83d-4bfd-9bef-431ec42f92b4','block');changeSingleIcon('span-31fc431e-a83d-4bfd-9bef-431ec42f92b4');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ManageTemplateTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-31fc431e-a83d-4bfd-9bef-431ec42f92b4' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500240</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>updateTemplateTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>69</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="31fc431e-a83d-4bfd-9bef-431ec42f92b4" style="display: block;">
-					</td>
-	</div>
-</tr>
-									<tr>
-	<td class="time">1647327500077</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('0d1a967c-2f2a-4044-9fe7-258b294bc07f','block');changeSingleIcon('span-0d1a967c-2f2a-4044-9fe7-258b294bc07f');" title="Click to expand/collapse" style="cursor: pointer;">
+	<td class="time">1647413462975</td>
+	<td class="header failed" colspan="4" onClick="toggleElement('f8828306-e2b8-4a74-8cb3-fd528c21f74c','block');changeSingleIcon('span-f8828306-e2b8-4a74-8cb3-fd528c21f74c');" title="Click to expand/collapse" style="cursor: pointer;">
 	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportCreationTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-0d1a967c-2f2a-4044-9fe7-258b294bc07f' class="glyphicon glyphicon-menu-down"></span></div>
+	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-f8828306-e2b8-4a74-8cb3-fd528c21f74c' class="glyphicon glyphicon-menu-down"></span></div>
 	</td>
 	</tr>
 <tr>
-	<td class="time">1647327500077</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>reportCreationPageSelectTemplateTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>23</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="0d1a967c-2f2a-4044-9fe7-258b294bc07f" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500060</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('726511cf-0668-43d0-b6b8-6e227f9b7521','block');changeSingleIcon('span-726511cf-0668-43d0-b6b8-6e227f9b7521');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportCreationTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-726511cf-0668-43d0-b6b8-6e227f9b7521' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500060</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>createButtonTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>20</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="726511cf-0668-43d0-b6b8-6e227f9b7521" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500081</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('a1194cea-fca0-46dc-8d52-273411bec59c','block');changeSingleIcon('span-a1194cea-fca0-46dc-8d52-273411bec59c');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportCreationTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-a1194cea-fca0-46dc-8d52-273411bec59c' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500081</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>reportCreationPageSaveButtonTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>25</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="a1194cea-fca0-46dc-8d52-273411bec59c" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500069</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('a65ea2a9-2442-45d5-a483-c17bfa9b5534','block');changeSingleIcon('span-a65ea2a9-2442-45d5-a483-c17bfa9b5534');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportCreationTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-a65ea2a9-2442-45d5-a483-c17bfa9b5534' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500069</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>reportCreationPageDataTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>21</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="a65ea2a9-2442-45d5-a483-c17bfa9b5534" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500079</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('27019f85-c09b-4e89-acc4-7757a43ca05b','block');changeSingleIcon('span-27019f85-c09b-4e89-acc4-7757a43ca05b');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportCreationTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-27019f85-c09b-4e89-acc4-7757a43ca05b' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500079</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>reportCreationPageCreatedByTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>24</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="27019f85-c09b-4e89-acc4-7757a43ca05b" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500072</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('9cd1af88-d560-4738-b1d4-37d3dbcbdeae','block');changeSingleIcon('span-9cd1af88-d560-4738-b1d4-37d3dbcbdeae');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportCreationTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-9cd1af88-d560-4738-b1d4-37d3dbcbdeae' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500072</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>reportCreationPageNegativeTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>22</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="9cd1af88-d560-4738-b1d4-37d3dbcbdeae" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500052</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('98b7b650-3176-4924-9aa3-6f8fb2578d5d','block');changeSingleIcon('span-98b7b650-3176-4924-9aa3-6f8fb2578d5d');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportCreationTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-98b7b650-3176-4924-9aa3-6f8fb2578d5d' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500052</td>
+	<td class="time">1647413462975</td>
 	<td class="methodTest">
 		<span class="description"><b>Method: </b>searchWithServiceCategoryServiceStudyNumberRegIdDateTest</span><br>
 				<span class="description"><b>Priority: </b><font color='blue'>18</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>0.046s</span><br>
 	</td>
 	<td class="result">
-		 									<div class="stackTrace" id="98b7b650-3176-4924-9aa3-6f8fb2578d5d" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500045</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('f3accb20-d948-40eb-b4f8-97c9047b87f7','block');changeSingleIcon('span-f3accb20-d948-40eb-b4f8-97c9047b87f7');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportCreationTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-f3accb20-d948-40eb-b4f8-97c9047b87f7' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500045</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>openReportCreationTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>16</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="f3accb20-d948-40eb-b4f8-97c9047b87f7" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500058</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('a7d351a4-6ab8-45af-ab76-e9c0e0c3c7e9','block');changeSingleIcon('span-a7d351a4-6ab8-45af-ab76-e9c0e0c3c7e9');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportCreationTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-a7d351a4-6ab8-45af-ab76-e9c0e0c3c7e9' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500058</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>searchOnCreateReportTableAndDataTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>19</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="a7d351a4-6ab8-45af-ab76-e9c0e0c3c7e9" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500047</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('35e9f11b-6b1c-4d81-8ae8-9f3d2679a7df','block');changeSingleIcon('span-35e9f11b-6b1c-4d81-8ae8-9f3d2679a7df');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportCreationTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-35e9f11b-6b1c-4d81-8ae8-9f3d2679a7df' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500047</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>showLastThreeDaysDataDefaultDateSearchTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>17</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="35e9f11b-6b1c-4d81-8ae8-9f3d2679a7df" style="display: block;">
-					</td>
+						<div class="noCollapse" id="f8828306-e2b8-4a74-8cb3-fd528c21f74c" style="display: block;">
+												Failed: searchWithServiceCategoryServiceStudyNumberRegIdDateTest<br>
+									<a href="javascript:toggleElement('exception-f8828306-e2b8-4a74-8cb3-fd528c21f74c','block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;ProcedureCategoryCode&apos;]&quot;}<br/>
+&nbsp; (Session info: chrome=99.0.4844.51)<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: e84d1b0b97f706a3207e85b7f61a5410<br/>
+*** Element info: {Using=name, value=ProcedureCategoryCode}</b></a><br/>
+		<div class="stackTrace" id="exception-f8828306-e2b8-4a74-8cb3-fd528c21f74c">
+					sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br/>
+					sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br/>
+					sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br/>
+					java.lang.reflect.Constructor.newInstance(Unknown Source)<br/>
+					org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br/>
+					org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br/>
+					org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br/>
+					org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br/>
+					org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br/>
+					org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br/>
+					org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br/>
+					org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)<br/>
+					org.openqa.selenium.By$ByName.findElement(By.java:284)<br/>
+					org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br/>
+					risTestScripts.ReportCreationTests.searchWithServiceCategoryServiceStudyNumberRegIdDateTest(ReportCreationTests.java:78)<br/>
+					sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>
+					sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br/>
+					sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br/>
+					java.lang.reflect.Method.invoke(Unknown Source)<br/>
+					org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br/>
+					org.testng.internal.Invoker.invokeMethod(Invoker.java:646)<br/>
+					org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)<br/>
+					org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)<br/>
+					org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br/>
+					org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:778)<br/>
+					org.testng.TestRunner.run(TestRunner.java:632)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:268)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1150)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1075)<br/>
+					org.testng.TestNG.run(TestNG.java:1047)<br/>
+					org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)<br/>
+					org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)<br/>
+					org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)<br/>
+						</div>
+		</td>
 	</div>
 </tr>
 									<tr>
-	<td class="time">1647327500139</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('6bd43aaf-5789-4f5f-afa2-a710239c01f5','block');changeSingleIcon('span-6bd43aaf-5789-4f5f-afa2-a710239c01f5');" title="Click to expand/collapse" style="cursor: pointer;">
+	<td class="time">1647413500628</td>
+	<td class="header failed" colspan="4" onClick="toggleElement('5eba2370-45b8-4ca3-ace4-fc537aabe361','block');changeSingleIcon('span-5eba2370-45b8-4ca3-ace4-fc537aabe361');" title="Click to expand/collapse" style="cursor: pointer;">
 	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportPrintTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-6bd43aaf-5789-4f5f-afa2-a710239c01f5' class="glyphicon glyphicon-menu-down"></span></div>
+	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-5eba2370-45b8-4ca3-ace4-fc537aabe361' class="glyphicon glyphicon-menu-down"></span></div>
 	</td>
 	</tr>
 <tr>
-	<td class="time">1647327500139</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>openReportPrintTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>39</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="6bd43aaf-5789-4f5f-afa2-a710239c01f5" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500150</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('007cb7b7-782f-42e6-92eb-a429389446ea','block');changeSingleIcon('span-007cb7b7-782f-42e6-92eb-a429389446ea');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportPrintTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-007cb7b7-782f-42e6-92eb-a429389446ea' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500150</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>printReportPageDataValidationTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>44</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="007cb7b7-782f-42e6-92eb-a429389446ea" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500147</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('fd210dc0-2b34-4340-b162-9d511dab1643','block');changeSingleIcon('span-fd210dc0-2b34-4340-b162-9d511dab1643');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportPrintTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-fd210dc0-2b34-4340-b162-9d511dab1643' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500147</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>viewReportButtonTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>43</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="fd210dc0-2b34-4340-b162-9d511dab1643" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500141</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('95745ebc-c552-48a0-b97e-74e49b301a52','block');changeSingleIcon('span-95745ebc-c552-48a0-b97e-74e49b301a52');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportPrintTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-95745ebc-c552-48a0-b97e-74e49b301a52' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500141</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>defaultViewDateSearchTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>40</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="95745ebc-c552-48a0-b97e-74e49b301a52" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500168</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('4a981590-7154-4570-a1ba-121c3502b9ce','block');changeSingleIcon('span-4a981590-7154-4570-a1ba-121c3502b9ce');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportPrintTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-4a981590-7154-4570-a1ba-121c3502b9ce' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500168</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>printButtonTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>45</font></span><br>
-						<span class="duration"><b>Duration: </b>0.005s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="4a981590-7154-4570-a1ba-121c3502b9ce" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500145</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('715a3494-df27-4185-a00d-e3d471492ddf','block');changeSingleIcon('span-715a3494-df27-4185-a00d-e3d471492ddf');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportPrintTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-715a3494-df27-4185-a00d-e3d471492ddf' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500145</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>searchOnPrintReportTableTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>42</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="715a3494-df27-4185-a00d-e3d471492ddf" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500143</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('bcb888fa-f6d1-4820-8102-de72b1f58cdb','block');changeSingleIcon('span-bcb888fa-f6d1-4820-8102-de72b1f58cdb');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportPrintTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-bcb888fa-f6d1-4820-8102-de72b1f58cdb' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500143</td>
+	<td class="time">1647413500628</td>
 	<td class="methodTest">
 		<span class="description"><b>Method: </b>searchWithServiceCategoryServiceStudyNumberRegIdTest</span><br>
 				<span class="description"><b>Priority: </b><font color='blue'>41</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>0.130s</span><br>
 	</td>
 	<td class="result">
-		 									<div class="stackTrace" id="bcb888fa-f6d1-4820-8102-de72b1f58cdb" style="display: block;">
-					</td>
+						<div class="noCollapse" id="5eba2370-45b8-4ca3-ace4-fc537aabe361" style="display: block;">
+												Failed: searchWithServiceCategoryServiceStudyNumberRegIdTest<br>
+									<a href="javascript:toggleElement('exception-5eba2370-45b8-4ca3-ace4-fc537aabe361','block')" title="Click to expand/collapse"><b>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document<br/>
+&nbsp; (Session info: chrome=99.0.4844.51)<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: e84d1b0b97f706a3207e85b7f61a5410</b></a><br/>
+		<div class="stackTrace" id="exception-5eba2370-45b8-4ca3-ace4-fc537aabe361">
+					sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br/>
+					sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br/>
+					sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br/>
+					java.lang.reflect.Constructor.newInstance(Unknown Source)<br/>
+					org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br/>
+					org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br/>
+					org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br/>
+					org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br/>
+					org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br/>
+					org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br/>
+					org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)<br/>
+					org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)<br/>
+					org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:53)<br/>
+					risTestScripts.ReportPrintTests.searchWithServiceCategoryServiceStudyNumberRegIdTest(ReportPrintTests.java:71)<br/>
+					sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>
+					sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br/>
+					sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br/>
+					java.lang.reflect.Method.invoke(Unknown Source)<br/>
+					org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br/>
+					org.testng.internal.Invoker.invokeMethod(Invoker.java:646)<br/>
+					org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)<br/>
+					org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)<br/>
+					org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br/>
+					org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:778)<br/>
+					org.testng.TestRunner.run(TestRunner.java:632)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:268)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1150)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1075)<br/>
+					org.testng.TestNG.run(TestNG.java:1047)<br/>
+					org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)<br/>
+					org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)<br/>
+					org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)<br/>
+						</div>
+		</td>
 	</div>
 </tr>
 									<tr>
-	<td class="time">1647327500096</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('6ab5a4c3-8d85-4586-8d98-8dbf51303ccd','block');changeSingleIcon('span-6ab5a4c3-8d85-4586-8d98-8dbf51303ccd');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportUpdateTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-6ab5a4c3-8d85-4586-8d98-8dbf51303ccd' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500096</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>searchWithServiceCategoryServiceStudyNumberRegIdDateTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>29</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="6ab5a4c3-8d85-4586-8d98-8dbf51303ccd" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500103</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('db2874d0-5f97-4aba-96b8-722416d4eb66','block');changeSingleIcon('span-db2874d0-5f97-4aba-96b8-722416d4eb66');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportUpdateTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-db2874d0-5f97-4aba-96b8-722416d4eb66' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500103</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>updateReportAndUpdatebuttonTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>31</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="db2874d0-5f97-4aba-96b8-722416d4eb66" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500092</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('8d7192f7-eb31-467a-8c71-31631ea8d781','block');changeSingleIcon('span-8d7192f7-eb31-467a-8c71-31631ea8d781');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportUpdateTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-8d7192f7-eb31-467a-8c71-31631ea8d781' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500092</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>defaultViewTableDataTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>27</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="8d7192f7-eb31-467a-8c71-31631ea8d781" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500100</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('64f4036e-f9b7-42b5-9d2f-fac7aca383e3','block');changeSingleIcon('span-64f4036e-f9b7-42b5-9d2f-fac7aca383e3');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportUpdateTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-64f4036e-f9b7-42b5-9d2f-fac7aca383e3' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500100</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>updateButtonTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>30</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="64f4036e-f9b7-42b5-9d2f-fac7aca383e3" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500094</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('7e27d45e-f3a1-4685-a380-b8377f1c2de9','block');changeSingleIcon('span-7e27d45e-f3a1-4685-a380-b8377f1c2de9');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportUpdateTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-7e27d45e-f3a1-4685-a380-b8377f1c2de9' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500094</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>itemsPerPageTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>28</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="7e27d45e-f3a1-4685-a380-b8377f1c2de9" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500087</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('53b77b5c-097d-459f-834b-4a2142c82111','block');changeSingleIcon('span-53b77b5c-097d-459f-834b-4a2142c82111');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportUpdateTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-53b77b5c-097d-459f-834b-4a2142c82111' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500087</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>clickUpdateReportButtonTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>26</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="53b77b5c-097d-459f-834b-4a2142c82111" style="display: block;">
-					</td>
-	</div>
-</tr>
-									<tr>
-	<td class="time">1647327500119</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('f1a54fb5-45b3-415a-a97f-52f6052a6da1','block');changeSingleIcon('span-f1a54fb5-45b3-415a-a97f-52f6052a6da1');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportVerifyTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-f1a54fb5-45b3-415a-a97f-52f6052a6da1' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500119</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>searchOnVerifyReportTableTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>34</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="f1a54fb5-45b3-415a-a97f-52f6052a6da1" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500135</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('f2acf3e3-1b68-4bc6-beab-03d470409cf8','block');changeSingleIcon('span-f2acf3e3-1b68-4bc6-beab-03d470409cf8');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportVerifyTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-f2acf3e3-1b68-4bc6-beab-03d470409cf8' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500135</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>verifiedByTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>37</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="f2acf3e3-1b68-4bc6-beab-03d470409cf8" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500106</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('30a7e9d6-b441-4e2b-bdd8-d1daf9fd0a97','block');changeSingleIcon('span-30a7e9d6-b441-4e2b-bdd8-d1daf9fd0a97');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportVerifyTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-30a7e9d6-b441-4e2b-bdd8-d1daf9fd0a97' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500106</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>openReportVerificationFromMenuTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>32</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="30a7e9d6-b441-4e2b-bdd8-d1daf9fd0a97" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500133</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('6f67ba66-8e05-4374-9a99-3302a4b2d097','block');changeSingleIcon('span-6f67ba66-8e05-4374-9a99-3302a4b2d097');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportVerifyTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-6f67ba66-8e05-4374-9a99-3302a4b2d097' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500133</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>reportVerificationPageDataTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>36</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="6f67ba66-8e05-4374-9a99-3302a4b2d097" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500114</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('9ffbdb35-677b-4096-a351-551247d47bbf','block');changeSingleIcon('span-9ffbdb35-677b-4096-a351-551247d47bbf');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportVerifyTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-9ffbdb35-677b-4096-a351-551247d47bbf' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500114</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>defaultviewDateSearchTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>33</font></span><br>
-						<span class="duration"><b>Duration: </b>0.001s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="9ffbdb35-677b-4096-a351-551247d47bbf" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500136</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('656de19c-f465-4bf0-a380-b958bc38cf64','block');changeSingleIcon('span-656de19c-f465-4bf0-a380-b958bc38cf64');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportVerifyTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-656de19c-f465-4bf0-a380-b958bc38cf64' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500136</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>verifyReportButtonTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>38</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="656de19c-f465-4bf0-a380-b958bc38cf64" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500122</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('dd671f96-5904-4ac5-90b9-52f6fcb5a8c9','block');changeSingleIcon('span-dd671f96-5904-4ac5-90b9-52f6fcb5a8c9');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportVerifyTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-dd671f96-5904-4ac5-90b9-52f6fcb5a8c9' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500122</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>searchWithServiceCategoryServiceStudyNumberRegIdTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>34</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="dd671f96-5904-4ac5-90b9-52f6fcb5a8c9" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500125</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('7f3a6eb2-6c10-41e8-b51c-a0d29293c767','block');changeSingleIcon('span-7f3a6eb2-6c10-41e8-b51c-a0d29293c767');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportVerifyTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-7f3a6eb2-6c10-41e8-b51c-a0d29293c767' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500125</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>verifyButtonTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>35</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="7f3a6eb2-6c10-41e8-b51c-a0d29293c767" style="display: block;">
-					</td>
-	</div>
-</tr>
-									<tr>
-	<td class="time">1647327499986</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('19ec1ff9-ea8a-493a-a31f-c80570c2a20f','block');changeSingleIcon('span-19ec1ff9-ea8a-493a-a31f-c80570c2a20f');" title="Click to expand/collapse" style="cursor: pointer;">
+	<td class="time">1647413437339</td>
+	<td class="header failed" colspan="4" onClick="toggleElement('03ceb1d5-93e7-4c3c-a7a8-e4348c613a88','block');changeSingleIcon('span-03ceb1d5-93e7-4c3c-a7a8-e4348c613a88');" title="Click to expand/collapse" style="cursor: pointer;">
 	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ScheduleTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-19ec1ff9-ea8a-493a-a31f-c80570c2a20f' class="glyphicon glyphicon-menu-down"></span></div>
+	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-03ceb1d5-93e7-4c3c-a7a8-e4348c613a88' class="glyphicon glyphicon-menu-down"></span></div>
 	</td>
 	</tr>
 <tr>
-	<td class="time">1647327499986</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>searchWithServiceCategoryServiceDateTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>2</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="19ec1ff9-ea8a-493a-a31f-c80570c2a20f" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327499984</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('5438f921-bf41-4d6f-a67d-79ef3a78b81e','block');changeSingleIcon('span-5438f921-bf41-4d6f-a67d-79ef3a78b81e');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ScheduleTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-5438f921-bf41-4d6f-a67d-79ef3a78b81e' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327499984</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>searchWithDateNegativeTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>1</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="5438f921-bf41-4d6f-a67d-79ef3a78b81e" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327499989</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('dbf5f043-729e-4236-b840-5d71646af2fd','block');changeSingleIcon('span-dbf5f043-729e-4236-b840-5d71646af2fd');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ScheduleTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-dbf5f043-729e-4236-b840-5d71646af2fd' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327499989</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>searchResultsTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>3</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="dbf5f043-729e-4236-b840-5d71646af2fd" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500002</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('ac2a090a-642b-45ae-8e4a-1382c43aecf1','block');changeSingleIcon('span-ac2a090a-642b-45ae-8e4a-1382c43aecf1');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ScheduleTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-ac2a090a-642b-45ae-8e4a-1382c43aecf1' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500002</td>
+	<td class="time">1647413437339</td>
 	<td class="methodTest">
 		<span class="description"><b>Method: </b>scheduleButtonTest</span><br>
 				<span class="description"><b>Priority: </b><font color='blue'>7</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>2.242s</span><br>
 	</td>
 	<td class="result">
-		 									<div class="stackTrace" id="ac2a090a-642b-45ae-8e4a-1382c43aecf1" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327499998</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('5f7991da-e2f6-4947-b4b1-febaec8edf9d','block');changeSingleIcon('span-5f7991da-e2f6-4947-b4b1-febaec8edf9d');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ScheduleTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-5f7991da-e2f6-4947-b4b1-febaec8edf9d' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327499998</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>inputRoomScheduledateTime</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>6</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="5f7991da-e2f6-4947-b4b1-febaec8edf9d" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327499980</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('12585f74-31b5-4120-8b28-ff7568c3f2af','block');changeSingleIcon('span-12585f74-31b5-4120-8b28-ff7568c3f2af');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ScheduleTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-12585f74-31b5-4120-8b28-ff7568c3f2af' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327499980</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>openRis</span><br>
-							<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="12585f74-31b5-4120-8b28-ff7568c3f2af" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327499995</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('1ba8b7c7-11be-4544-8888-823ecf3aa171','block');changeSingleIcon('span-1ba8b7c7-11be-4544-8888-823ecf3aa171');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ScheduleTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-1ba8b7c7-11be-4544-8888-823ecf3aa171' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327499995</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>searchOnTableTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>5</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="1ba8b7c7-11be-4544-8888-823ecf3aa171" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327499992</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('4a71d53c-cdc2-47d2-805d-162305dd3e43','block');changeSingleIcon('span-4a71d53c-cdc2-47d2-805d-162305dd3e43');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ScheduleTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-4a71d53c-cdc2-47d2-805d-162305dd3e43' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327499992</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>itemsPerPageTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>4</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="4a71d53c-cdc2-47d2-805d-162305dd3e43" style="display: block;">
-					</td>
-	</div>
-</tr>
-									<tr>
-	<td class="time">1647327500208</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('e80e7123-fb1b-4b8f-b2d2-767eca37d134','block');changeSingleIcon('span-e80e7123-fb1b-4b8f-b2d2-767eca37d134');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ServiceRoomMappingTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-e80e7123-fb1b-4b8f-b2d2-767eca37d134' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500208</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>updateMappingTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>60</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="e80e7123-fb1b-4b8f-b2d2-767eca37d134" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500206</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('1dc97c59-1152-4273-b2b9-b8fa0a95bde4','block');changeSingleIcon('span-1dc97c59-1152-4273-b2b9-b8fa0a95bde4');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ServiceRoomMappingTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-1dc97c59-1152-4273-b2b9-b8fa0a95bde4' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500206</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>updateButtonTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>59</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="1dc97c59-1152-4273-b2b9-b8fa0a95bde4" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500203</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('ffbd83cb-f1ae-4162-b640-ee6dbe10071f','block');changeSingleIcon('span-ffbd83cb-f1ae-4162-b640-ee6dbe10071f');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ServiceRoomMappingTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-ffbd83cb-f1ae-4162-b640-ee6dbe10071f' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500203</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>validateMappingTableDataTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>58</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="ffbd83cb-f1ae-4162-b640-ee6dbe10071f" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500202</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('46d07c55-384d-4ffd-a4c3-bd7801a05f97','block');changeSingleIcon('span-46d07c55-384d-4ffd-a4c3-bd7801a05f97');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ServiceRoomMappingTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-46d07c55-384d-4ffd-a4c3-bd7801a05f97' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500202</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>searchOnServiceRoomMappingTableTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>57</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="46d07c55-384d-4ffd-a4c3-bd7801a05f97" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500197</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('5a4aed30-d244-4834-ba7e-e264c24f8eab','block');changeSingleIcon('span-5a4aed30-d244-4834-ba7e-e264c24f8eab');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ServiceRoomMappingTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-5a4aed30-d244-4834-ba7e-e264c24f8eab' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500197</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>addNewRoomTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>55</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="5a4aed30-d244-4834-ba7e-e264c24f8eab" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500191</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('d69bf813-9d9b-4f0b-b954-5368ac0eb1d6','block');changeSingleIcon('span-d69bf813-9d9b-4f0b-b954-5368ac0eb1d6');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ServiceRoomMappingTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-d69bf813-9d9b-4f0b-b954-5368ac0eb1d6' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500191</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>openServiceRoomMappingTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>52</font></span><br>
-						<span class="duration"><b>Duration: </b>0.001s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="d69bf813-9d9b-4f0b-b954-5368ac0eb1d6" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500196</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('db40cb0e-67a5-4a68-b15a-36f2914425f3','block');changeSingleIcon('span-db40cb0e-67a5-4a68-b15a-36f2914425f3');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ServiceRoomMappingTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-db40cb0e-67a5-4a68-b15a-36f2914425f3' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500196</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>addNewRoomButtonTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>54</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="db40cb0e-67a5-4a68-b15a-36f2914425f3" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500199</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('633e6a74-abe6-4a8e-8fd2-5f810bae77de','block');changeSingleIcon('span-633e6a74-abe6-4a8e-8fd2-5f810bae77de');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ServiceRoomMappingTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-633e6a74-abe6-4a8e-8fd2-5f810bae77de' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500199</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>searchRoomMappingTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>56</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="633e6a74-abe6-4a8e-8fd2-5f810bae77de" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500211</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('b95e9f9a-ed21-4752-b84b-faf50713af3a','block');changeSingleIcon('span-b95e9f9a-ed21-4752-b84b-faf50713af3a');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ServiceRoomMappingTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-b95e9f9a-ed21-4752-b84b-faf50713af3a' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500211</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>validateUpdatedMappingTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>61</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="b95e9f9a-ed21-4752-b84b-faf50713af3a" style="display: block;">
-					</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1647327500194</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('a1e0bf6b-5cdf-4a09-b9b9-bed46fde30d7','block');changeSingleIcon('span-a1e0bf6b-5cdf-4a09-b9b9-bed46fde30d7');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ServiceRoomMappingTests</div>
-	<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-a1e0bf6b-5cdf-4a09-b9b9-bed46fde30d7' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1647327500194</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>defaultViewTest</span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>53</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 									<div class="stackTrace" id="a1e0bf6b-5cdf-4a09-b9b9-bed46fde30d7" style="display: block;">
-					</td>
+						<div class="noCollapse" id="03ceb1d5-93e7-4c3c-a7a8-e4348c613a88" style="display: block;">
+												Failed: scheduleButtonTest<br>
+									<a href="javascript:toggleElement('exception-03ceb1d5-93e7-4c3c-a7a8-e4348c613a88','block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.smallBtn&quot;}<br/>
+&nbsp; (Session info: chrome=99.0.4844.51)<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;DESKTOP-MM5QJ97&apos;, ip: &apos;10.23.252.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ravik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: e84d1b0b97f706a3207e85b7f61a5410<br/>
+*** Element info: {Using=class name, value=smallBtn}</b></a><br/>
+		<div class="stackTrace" id="exception-03ceb1d5-93e7-4c3c-a7a8-e4348c613a88">
+					sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br/>
+					sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br/>
+					sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br/>
+					java.lang.reflect.Constructor.newInstance(Unknown Source)<br/>
+					org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br/>
+					org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br/>
+					org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br/>
+					org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br/>
+					org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br/>
+					org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br/>
+					org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br/>
+					org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)<br/>
+					org.openqa.selenium.By$ByClassName.findElement(By.java:389)<br/>
+					org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br/>
+					risTestScripts.ScheduleTests.scheduleButtonTest(ScheduleTests.java:245)<br/>
+					sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>
+					sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br/>
+					sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br/>
+					java.lang.reflect.Method.invoke(Unknown Source)<br/>
+					org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br/>
+					org.testng.internal.Invoker.invokeMethod(Invoker.java:646)<br/>
+					org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)<br/>
+					org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)<br/>
+					org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br/>
+					org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:778)<br/>
+					org.testng.TestRunner.run(TestRunner.java:632)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:268)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1150)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1075)<br/>
+					org.testng.TestNG.run(TestNG.java:1047)<br/>
+					org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)<br/>
+					org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)<br/>
+					org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)<br/>
+						</div>
+		</td>
 	</div>
 </tr>
 						
-			  
+				
+												<tr>
+			<td class="time">1647413443858</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('305fd8d2-8c59-41f1-8cab-07dc07393877','block');changeSingleIcon('span-305fd8d2-8c59-41f1-8cab-07dc07393877');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ConfirmationTests</div>
+			<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-305fd8d2-8c59-41f1-8cab-07dc07393877' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1647413443858</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>openImageCaptureAndConfirmationTest</span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>9</font></span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>2.260s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="305fd8d2-8c59-41f1-8cab-07dc07393877" style="display: block;">
+												Passed: openImageCaptureAndConfirmationTest<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1647413454393</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('30b8ec62-489d-45ba-a3d4-2fdcd2ffb8d6','block');changeSingleIcon('span-30b8ec62-489d-45ba-a3d4-2fdcd2ffb8d6');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ConfirmationTests</div>
+			<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-30b8ec62-489d-45ba-a3d4-2fdcd2ffb8d6' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1647413454393</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>SearchOnTableAndConfirmationTableDataTest</span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>13</font></span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>4.713s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="30b8ec62-489d-45ba-a3d4-2fdcd2ffb8d6" style="display: block;">
+												Passed: SearchOnTableAndConfirmationTableDataTest<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1647413459109</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('353e55db-7a0c-4d2e-afd0-098d4551f7e3','block');changeSingleIcon('span-353e55db-7a0c-4d2e-afd0-098d4551f7e3');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ConfirmationTests</div>
+			<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-353e55db-7a0c-4d2e-afd0-098d4551f7e3' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1647413459109</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>inputStudyNumberTest</span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>14</font></span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>1.304s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="353e55db-7a0c-4d2e-afd0-098d4551f7e3" style="display: block;">
+												Passed: inputStudyNumberTest<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1647413460414</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('da991609-af8a-46d8-bbdc-17eba72d814d','block');changeSingleIcon('span-da991609-af8a-46d8-bbdc-17eba72d814d');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ConfirmationTests</div>
+			<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-da991609-af8a-46d8-bbdc-17eba72d814d' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1647413460414</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>confirmButtonTest</span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>15</font></span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>1.224s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="da991609-af8a-46d8-bbdc-17eba72d814d" style="display: block;">
+												Passed: confirmButtonTest<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1647413439620</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('f5065f32-8c82-4ba2-a7f7-963872b6126d','block');changeSingleIcon('span-f5065f32-8c82-4ba2-a7f7-963872b6126d');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ConfirmationTests</div>
+			<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-f5065f32-8c82-4ba2-a7f7-963872b6126d' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1647413439620</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>openMainMenuTest</span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>8</font></span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>4.232s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="f5065f32-8c82-4ba2-a7f7-963872b6126d" style="display: block;">
+												Passed: openMainMenuTest<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1647413446121</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('3aadaa78-6969-460d-ad31-214d02099f2d','block');changeSingleIcon('span-3aadaa78-6969-460d-ad31-214d02099f2d');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ConfirmationTests</div>
+			<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-3aadaa78-6969-460d-ad31-214d02099f2d' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1647413446121</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>searchWithServiceCategoryServiceAndDateTest</span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>11</font></span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>8.265s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="3aadaa78-6969-460d-ad31-214d02099f2d" style="display: block;">
+												Passed: searchWithServiceCategoryServiceAndDateTest<br>
+								</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1647413463023</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('a1a4ba14-5c23-4879-9027-a56eda370410','block');changeSingleIcon('span-a1a4ba14-5c23-4879-9027-a56eda370410');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportCreationTests</div>
+			<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-a1a4ba14-5c23-4879-9027-a56eda370410' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1647413463023</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>searchOnCreateReportTableAndDataTest</span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>19</font></span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>6.357s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="a1a4ba14-5c23-4879-9027-a56eda370410" style="display: block;">
+												Passed: searchOnCreateReportTableAndDataTest<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1647413470713</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('3af00edf-ed0f-42dd-a027-58355ac87e3c','block');changeSingleIcon('span-3af00edf-ed0f-42dd-a027-58355ac87e3c');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportCreationTests</div>
+			<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-3af00edf-ed0f-42dd-a027-58355ac87e3c' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1647413470713</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>reportCreationPageDataTest</span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>21</font></span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>3.330s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="3af00edf-ed0f-42dd-a027-58355ac87e3c" style="display: block;">
+												Passed: reportCreationPageDataTest<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1647413469383</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('1a465533-83bb-4b3e-9310-2888aeaaa47d','block');changeSingleIcon('span-1a465533-83bb-4b3e-9310-2888aeaaa47d');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportCreationTests</div>
+			<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-1a465533-83bb-4b3e-9310-2888aeaaa47d' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1647413469383</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>createButtonTest</span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>20</font></span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>1.330s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="1a465533-83bb-4b3e-9310-2888aeaaa47d" style="display: block;">
+												Passed: createButtonTest<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1647413476734</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('7b77df79-dd50-4691-a2a9-af7cdf38442f','block');changeSingleIcon('span-7b77df79-dd50-4691-a2a9-af7cdf38442f');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportCreationTests</div>
+			<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-7b77df79-dd50-4691-a2a9-af7cdf38442f' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1647413476734</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>reportCreationPageSaveButtonTest</span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>25</font></span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>2.251s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="7b77df79-dd50-4691-a2a9-af7cdf38442f" style="display: block;">
+												Passed: reportCreationPageSaveButtonTest<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1647413474044</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('941eb1e7-7852-4fe9-b88b-8d3fefbd94df','block');changeSingleIcon('span-941eb1e7-7852-4fe9-b88b-8d3fefbd94df');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportCreationTests</div>
+			<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-941eb1e7-7852-4fe9-b88b-8d3fefbd94df' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1647413474044</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>reportCreationPageSelectTemplateTest</span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>23</font></span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>1.372s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="941eb1e7-7852-4fe9-b88b-8d3fefbd94df" style="display: block;">
+												Passed: reportCreationPageSelectTemplateTest<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1647413461811</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('cbfa2c8c-875d-4e97-bb1e-e33358a306c3','block');changeSingleIcon('span-cbfa2c8c-875d-4e97-bb1e-e33358a306c3');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportCreationTests</div>
+			<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-cbfa2c8c-875d-4e97-bb1e-e33358a306c3' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1647413461811</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>openReportCreationTest</span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>16</font></span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>1.162s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="cbfa2c8c-875d-4e97-bb1e-e33358a306c3" style="display: block;">
+												Passed: openReportCreationTest<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1647413475419</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('d6da8e21-1d63-4e16-ba76-af4ac16afdba','block');changeSingleIcon('span-d6da8e21-1d63-4e16-ba76-af4ac16afdba');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportCreationTests</div>
+			<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-d6da8e21-1d63-4e16-ba76-af4ac16afdba' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1647413475419</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>reportCreationPageCreatedByTest</span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>24</font></span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>1.313s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="d6da8e21-1d63-4e16-ba76-af4ac16afdba" style="display: block;">
+												Passed: reportCreationPageCreatedByTest<br>
+								</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1647413507473</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('8725e5e2-cba7-4f39-9f6a-bc284cfbfd87','block');changeSingleIcon('span-8725e5e2-cba7-4f39-9f6a-bc284cfbfd87');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportPrintTests</div>
+			<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-8725e5e2-cba7-4f39-9f6a-bc284cfbfd87' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1647413507473</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>printButtonTest</span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>45</font></span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>2.218s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="8725e5e2-cba7-4f39-9f6a-bc284cfbfd87" style="display: block;">
+												Passed: printButtonTest<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1647413498456</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('8e39ac7c-81ce-4f1b-b001-eb38b2d2e277','block');changeSingleIcon('span-8e39ac7c-81ce-4f1b-b001-eb38b2d2e277');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportPrintTests</div>
+			<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-8e39ac7c-81ce-4f1b-b001-eb38b2d2e277' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1647413498456</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>openReportPrintTest</span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>39</font></span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>2.168s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="8e39ac7c-81ce-4f1b-b001-eb38b2d2e277" style="display: block;">
+												Passed: openReportPrintTest<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1647413506226</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('ad6c0b0f-f385-47d1-97c9-1764f98c3973','block');changeSingleIcon('span-ad6c0b0f-f385-47d1-97c9-1764f98c3973');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportPrintTests</div>
+			<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-ad6c0b0f-f385-47d1-97c9-1764f98c3973' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1647413506226</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>viewReportButtonTest</span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>43</font></span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>1.245s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="ad6c0b0f-f385-47d1-97c9-1764f98c3973" style="display: block;">
+												Passed: viewReportButtonTest<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1647413500762</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('4d89d42b-6399-4f5a-bb7b-0e8e11797bab','block');changeSingleIcon('span-4d89d42b-6399-4f5a-bb7b-0e8e11797bab');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportPrintTests</div>
+			<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-4d89d42b-6399-4f5a-bb7b-0e8e11797bab' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1647413500762</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>searchOnPrintReportTableTest</span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>42</font></span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>5.462s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="4d89d42b-6399-4f5a-bb7b-0e8e11797bab" style="display: block;">
+												Passed: searchOnPrintReportTableTest<br>
+								</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1647413478989</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('914b13c3-ef2f-4db1-ae38-9bebf8354074','block');changeSingleIcon('span-914b13c3-ef2f-4db1-ae38-9bebf8354074');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportVerifyTests</div>
+			<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-914b13c3-ef2f-4db1-ae38-9bebf8354074' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1647413478989</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>openReportVerificationFromMenuTest</span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>32</font></span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>4.178s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="914b13c3-ef2f-4db1-ae38-9bebf8354074" style="display: block;">
+												Passed: openReportVerificationFromMenuTest<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1647413492646</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('2bcd295a-1d3b-4060-8e23-33335c05ba38','block');changeSingleIcon('span-2bcd295a-1d3b-4060-8e23-33335c05ba38');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportVerifyTests</div>
+			<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-2bcd295a-1d3b-4060-8e23-33335c05ba38' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1647413492646</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>verifyButtonTest</span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>35</font></span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>2.330s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="2bcd295a-1d3b-4060-8e23-33335c05ba38" style="display: block;">
+												Passed: verifyButtonTest<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1647413483170</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('c0f4c939-e046-4995-abe8-7f0db2ab64be','block');changeSingleIcon('span-c0f4c939-e046-4995-abe8-7f0db2ab64be');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportVerifyTests</div>
+			<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-c0f4c939-e046-4995-abe8-7f0db2ab64be' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1647413483170</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>searchOnVerifyReportTableTest</span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>34</font></span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>4.306s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="c0f4c939-e046-4995-abe8-7f0db2ab64be" style="display: block;">
+												Passed: searchOnVerifyReportTableTest<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1647413487477</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('b321fdda-7a1e-4c20-8826-e71a0df11a07','block');changeSingleIcon('span-b321fdda-7a1e-4c20-8826-e71a0df11a07');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportVerifyTests</div>
+			<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-b321fdda-7a1e-4c20-8826-e71a0df11a07' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1647413487477</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>searchWithServiceCategoryServiceStudyNumberRegIdTest</span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>34</font></span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>5.167s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="b321fdda-7a1e-4c20-8826-e71a0df11a07" style="display: block;">
+												Passed: searchWithServiceCategoryServiceStudyNumberRegIdTest<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1647413496273</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('b19ab00e-a873-4f49-ba3c-df92916a5e74','block');changeSingleIcon('span-b19ab00e-a873-4f49-ba3c-df92916a5e74');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportVerifyTests</div>
+			<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-b19ab00e-a873-4f49-ba3c-df92916a5e74' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1647413496273</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>verifyReportButtonTest</span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>38</font></span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>2.181s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="b19ab00e-a873-4f49-ba3c-df92916a5e74" style="display: block;">
+												Passed: verifyReportButtonTest<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1647413494979</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('127131b5-7eca-48d9-8c26-b7bae037498f','block');changeSingleIcon('span-127131b5-7eca-48d9-8c26-b7bae037498f');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ReportVerifyTests</div>
+			<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-127131b5-7eca-48d9-8c26-b7bae037498f' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1647413494979</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>verifiedByTest</span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>37</font></span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>1.292s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="127131b5-7eca-48d9-8c26-b7bae037498f" style="display: block;">
+												Passed: verifiedByTest<br>
+								</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1647413412559</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('c4ab2a83-da7e-4435-bed8-d9dc6423b1f7','block');changeSingleIcon('span-c4ab2a83-da7e-4435-bed8-d9dc6423b1f7');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ScheduleTests</div>
+			<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-c4ab2a83-da7e-4435-bed8-d9dc6423b1f7' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1647413412559</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>openRis</span><br>
+						<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>7.783s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="c4ab2a83-da7e-4435-bed8-d9dc6423b1f7" style="display: block;">
+												Passed: openRis<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1647413426061</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('a067ff0b-56c2-4f93-b720-80eeecd5de1c','block');changeSingleIcon('span-a067ff0b-56c2-4f93-b720-80eeecd5de1c');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ScheduleTests</div>
+			<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-a067ff0b-56c2-4f93-b720-80eeecd5de1c' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1647413426061</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>searchOnTableTest</span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>5</font></span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>4.653s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="a067ff0b-56c2-4f93-b720-80eeecd5de1c" style="display: block;">
+												Passed: searchOnTableTest<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1647413430719</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('15f319c5-b717-403c-b235-feb561deba15','block');changeSingleIcon('span-15f319c5-b717-403c-b235-feb561deba15');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ScheduleTests</div>
+			<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-15f319c5-b717-403c-b235-feb561deba15' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1647413430719</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>inputRoomScheduledateTime</span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>6</font></span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>6.610s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="15f319c5-b717-403c-b235-feb561deba15" style="display: block;">
+												Passed: inputRoomScheduledateTime<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1647413420354</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('d191d36f-84e3-4b5d-884a-0d3a6f1217d1','block');changeSingleIcon('span-d191d36f-84e3-4b5d-884a-0d3a6f1217d1');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>risTestScripts.ScheduleTests</div>
+			<div style="float:right;">@Test &nbsp;&nbsp;<span id='span-d191d36f-84e3-4b5d-884a-0d3a6f1217d1' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1647413420354</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>searchWithServiceCategoryServiceDateTest</span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>2</font></span><br>
+					<span class="description"><b>Groups: </b><font color='green'>regression,smoke,sanity</font></span><br>
+				<span class="duration"><b>Duration: </b>5.702s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="d191d36f-84e3-4b5d-884a-0d3a6f1217d1" style="display: block;">
+												Passed: searchWithServiceCategoryServiceDateTest<br>
+								</td>
+	</div>
+</tr>
+					  
 	</tbody>
 	</table>
 </div>

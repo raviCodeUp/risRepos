@@ -15,7 +15,7 @@ import OpenBrowsers.Login;
 @Test(priority = 3)
 public class ReportUpdateTests extends Login {
 	
-	@Test(priority = 26)
+	@Test(priority = 26,groups="regression")
 	public void clickUpdateReportButtonTest() throws IOException {
 
 		try {
@@ -29,7 +29,7 @@ public class ReportUpdateTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 27)
+	@Test(priority = 27,groups="regression")
 	public void defaultViewTableDataTest() throws IOException {
 
 		try {
@@ -44,7 +44,7 @@ public class ReportUpdateTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 28)
+	@Test(priority = 28,groups="regression")
 	public void itemsPerPageTest() throws IOException {
 
 		try {
@@ -57,7 +57,7 @@ public class ReportUpdateTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 29)
+	@Test(priority = 29,groups="regression")
 	public void searchWithServiceCategoryServiceStudyNumberRegIdDateTest() throws IOException {
 
 		try {
@@ -92,7 +92,7 @@ public class ReportUpdateTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 30)
+	@Test(priority = 30,groups="regression")
 	public void updateButtonTest() throws IOException {
 		try {
 			Thread.sleep(2000);
@@ -111,7 +111,7 @@ public class ReportUpdateTests extends Login {
 
 	}
 
-	@Test(priority = 31)
+	@Test(priority = 31,groups="regression")
 	public void updateReportAndUpdatebuttonTest() throws IOException {
 		try {
 			Thread.sleep(3000);

@@ -31,7 +31,7 @@ public class ReportCreationTests extends Login {
 		}
 	}*/
 
-	@Test(priority = 16)
+	@Test(priority = 16,groups={"smoke","sanity","regression"})
 	public void openReportCreationTest() throws IOException {
 
 		try {
@@ -46,7 +46,7 @@ public class ReportCreationTests extends Login {
 
 	}
 
-	@Test(priority = 17)
+	@Test(priority = 17,groups="regression")
 	public void showLastThreeDaysDataDefaultDateSearchTest() throws IOException {
 
 		try {
@@ -65,7 +65,7 @@ public class ReportCreationTests extends Login {
 
 	}
 
-	@Test(priority = 18)
+	@Test(priority = 18,groups={"smoke","sanity","regression"})
 	public void searchWithServiceCategoryServiceStudyNumberRegIdDateTest() throws IOException {
 
 		try {
@@ -105,7 +105,7 @@ public class ReportCreationTests extends Login {
 
 	}
 
-	@Test(priority = 19)
+	@Test(priority = 19,groups={"smoke","sanity","regression"})
 	public void searchOnCreateReportTableAndDataTest() throws IOException {
 
 		try {
@@ -151,7 +151,7 @@ public class ReportCreationTests extends Login {
 
 	}
 
-	@Test(priority = 20)
+	@Test(priority = 20,groups={"smoke","sanity","regression"})
 	public void createButtonTest() throws IOException {
 
 		try {
@@ -171,7 +171,7 @@ public class ReportCreationTests extends Login {
 
 	}
 
-	@Test(priority = 21)
+	@Test(priority = 21,groups={"smoke","sanity","regression"})
 	public void reportCreationPageDataTest() throws IOException {
 
 		try {
@@ -228,7 +228,7 @@ public class ReportCreationTests extends Login {
 		}
 
 	}
-	@Test(priority = 22)
+	@Test(priority = 22,groups="regression")
 	public void reportCreationPageNegativeTest() throws IOException {
 
 		try {
@@ -245,7 +245,7 @@ public class ReportCreationTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 23)
+	@Test(priority = 23,groups={"smoke","sanity","regression"})
 	public void reportCreationPageSelectTemplateTest() throws IOException {
 
 		try {
@@ -260,7 +260,7 @@ public class ReportCreationTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 24)
+	@Test(priority = 24,groups={"smoke","sanity","regression"})
 	public void reportCreationPageCreatedByTest() throws IOException {
 
 		try {
@@ -274,7 +274,7 @@ public class ReportCreationTests extends Login {
 			e.printStackTrace();
 		}
 	}
-	@Test(priority = 25)
+	@Test(priority = 25,groups={"smoke","sanity","regression"})
 	public void reportCreationPageSaveButtonTest() throws IOException {
 
 		try {

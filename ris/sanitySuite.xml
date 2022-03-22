@@ -14,15 +14,15 @@
 		</groups>
 		<classes>
 			<class name="OpenBrowsers.Login" />
-			<class name="risTestScripts.ReportUpdateTests" />
-			<class name="risTestScripts.ManageTemplateTests" />
-			<class name="risTestScripts.ReportVerifyTests" />
-			<class name="risTestScripts.ServiceRoomMappingTests" />
-			<class name="risTestScripts.ReportPrintTests" />
+			<class name="risTestScripts.ScheduleTests" />
 			<class name="risTestScripts.ConfirmationTests" />
 			<class name="risTestScripts.ReportCreationTests" />
+			<class name="risTestScripts.ReportUpdateTests" />
+			<class name="risTestScripts.ReportVerifyTests" />
+			<class name="risTestScripts.ReportPrintTests" />
 			<class name="risTestScripts.ImagingMISTests" />
-			<class name="risTestScripts.ScheduleTests" />
+			<class name="risTestScripts.ServiceRoomMappingTests" />
+			<class name="risTestScripts.ManageTemplateTests" />
 		</classes>
 	</test> <!-- RIS Sanity Tests -->
 </suite> <!-- Sanity Suite -->
